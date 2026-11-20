@@ -1,0 +1,1834 @@
+{
+ "method": "headless Chrome (puppeteer-core), 1440x900, scrolled through, 3s+ settle, tabs clicked, sliders stepped; see scripts/live_audit.mjs",
+ "generatedBy": "scripts/live_audit_report.py",
+ "summary": {
+  "after": {
+   "pagesCovered": 37,
+   "pagesWithMissing": 0,
+   "missingTotal": 0
+  },
+  "before": {
+   "pagesCovered": 37,
+   "pagesWithMissing": 25,
+   "missingTotal": 100
+  }
+ },
+ "pages": [
+  {
+   "id": "01",
+   "oldUrl": "https://personamodel.ru/areas/inzhenernyj-klub-megavolt/",
+   "newPath": "/napravleniya/megavolt/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/girls-doing-science-experiments-with-female-teacher-3-1-e1772486924517-1024x459.png.webp",
+    "/wp-content/uploads/2026/01/transparent-photoroom-23.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-24.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-26.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-27-scaled.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-53.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-55.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-mega-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p804-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p804-d63.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/girls-doing-science-experiments-with-female-teacher-3-1-e1772486924517-1024x459.png.webp",
+    "/wp-content/uploads/2026/01/transparent-photoroom-23.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-24.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-26.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-27-scaled.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-53.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-55.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-mega-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p804-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p804-d63.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "02",
+   "oldUrl": "https://personamodel.ru/areas/bachata/",
+   "newPath": "/napravleniya/bachata/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/02/img_9818.jpg",
+    "/wp-content/uploads/2026/02/img_9819.jpg",
+    "/wp-content/uploads/2026/02/img_9820.jpg",
+    "/wp-content/uploads/2026/02/img_9822.jpg",
+    "/wp-content/uploads/2026/02/img_9823.jpg",
+    "/wp-content/uploads/2026/02/img_9824.jpg",
+    "/wp-content/uploads/2026/02/young-couple-dancing-bachata-2-1-1024x497.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/02/img_9818.jpg",
+    "/wp-content/uploads/2026/02/img_9819.jpg",
+    "/wp-content/uploads/2026/02/img_9820.jpg",
+    "/wp-content/uploads/2026/02/img_9822.jpg",
+    "/wp-content/uploads/2026/02/img_9823.jpg",
+    "/wp-content/uploads/2026/02/img_9824.jpg",
+    "/wp-content/uploads/2026/02/young-couple-dancing-bachata-2-1-1024x497.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "03",
+   "oldUrl": "https://personamodel.ru/areas/barre-fitnes/",
+   "newPath": "/napravleniya/barre-fitnes/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/img_9802-2.jpg",
+    "/wp-content/uploads/2026/01/img_9813-2-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/img_9814.jpg",
+    "/wp-content/uploads/2026/01/img_9815.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9816.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9817.jpg",
+    "/wp-content/uploads/2026/01/women-holding-yoga-mats-medium-shot-2-1-1024x539.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-barre-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p813-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p813-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/img_9802-2.jpg",
+    "/wp-content/uploads/2026/01/img_9813-2-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/img_9814.jpg",
+    "/wp-content/uploads/2026/01/img_9815.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9816.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9817.jpg",
+    "/wp-content/uploads/2026/01/women-holding-yoga-mats-medium-shot-2-1-1024x539.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-barre-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p813-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p813-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "04",
+   "oldUrl": "https://personamodel.ru/areas/pilates/",
+   "newPath": "/napravleniya/pilates/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/02/full-shot-senior-women-training-2-1-1024x422.png.webp",
+    "/wp-content/uploads/2026/02/img_9793.jpg",
+    "/wp-content/uploads/2026/02/img_9794.jpg",
+    "/wp-content/uploads/2026/02/img_9795.jpg",
+    "/wp-content/uploads/2026/02/img_9796.jpg",
+    "/wp-content/uploads/2026/02/img_9797.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1899-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1899-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-pilates-01.jpg",
+    "/wp-content/uploads/2026/08/persona-pilates-kontrol.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/02/full-shot-senior-women-training-2-1-1024x422.png.webp",
+    "/wp-content/uploads/2026/02/img_9793.jpg",
+    "/wp-content/uploads/2026/02/img_9794.jpg",
+    "/wp-content/uploads/2026/02/img_9795.jpg",
+    "/wp-content/uploads/2026/02/img_9796.jpg",
+    "/wp-content/uploads/2026/02/img_9797.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1899-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1899-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-pilates-01.jpg",
+    "/wp-content/uploads/2026/08/persona-pilates-kontrol.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "05",
+   "oldUrl": "https://personamodel.ru/areas/art-masterskaya/",
+   "newPath": "/napravleniya/art-masterskaya/",
+   "shownLiveCount": 11,
+   "presentInRebuildCount": 11,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/a6ab51c484bf928146f730d384aa67195288894c-1024x374.png.webp",
+    "/wp-content/uploads/2026/01/img_9806.jpg",
+    "/wp-content/uploads/2026/01/img_9808-2.jpg",
+    "/wp-content/uploads/2026/01/img_9809-2.jpg",
+    "/wp-content/uploads/2026/01/img_9810-2.jpg",
+    "/wp-content/uploads/2026/01/img_9811-2.jpg",
+    "/wp-content/uploads/2026/01/img_9812-2.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-art-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-art-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-art-03.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p805-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/a6ab51c484bf928146f730d384aa67195288894c-1024x374.png.webp",
+    "/wp-content/uploads/2026/01/img_9806.jpg",
+    "/wp-content/uploads/2026/01/img_9808-2.jpg",
+    "/wp-content/uploads/2026/01/img_9809-2.jpg",
+    "/wp-content/uploads/2026/01/img_9810-2.jpg",
+    "/wp-content/uploads/2026/01/img_9811-2.jpg",
+    "/wp-content/uploads/2026/01/img_9812-2.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-art-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-art-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-art-03.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p805-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "06",
+   "oldUrl": "https://personamodel.ru/areas/igra-na-muzykalnyh-instrumentah/",
+   "newPath": "/napravleniya/muzykalnye-instrumenty/",
+   "shownLiveCount": 11,
+   "presentInRebuildCount": 11,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/gemini_generated_image_72t8dj72t8dj72t8-1-e1772060172330-1024x324.png.webp",
+    "/wp-content/uploads/2026/01/img_9785-1024x1536.jpg",
+    "/wp-content/uploads/2026/01/img_9786.jpg",
+    "/wp-content/uploads/2026/01/img_9787.jpg",
+    "/wp-content/uploads/2026/01/img_9788-1024x1536.jpg",
+    "/wp-content/uploads/2026/01/img_9792.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-music-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-music-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p808-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p808-d63.jpg",
+    "/wp-content/uploads/2026/08/persona-music-perform.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/gemini_generated_image_72t8dj72t8dj72t8-1-e1772060172330-1024x324.png.webp",
+    "/wp-content/uploads/2026/01/img_9785-1024x1536.jpg",
+    "/wp-content/uploads/2026/01/img_9786.jpg",
+    "/wp-content/uploads/2026/01/img_9787.jpg",
+    "/wp-content/uploads/2026/01/img_9788-1024x1536.jpg",
+    "/wp-content/uploads/2026/01/img_9792.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-music-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-music-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p808-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p808-d63.jpg",
+    "/wp-content/uploads/2026/08/persona-music-perform.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "07",
+   "oldUrl": "https://personamodel.ru/areas/logoped/",
+   "newPath": "/napravleniya/logoped/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/img_9778.jpg",
+    "/wp-content/uploads/2026/01/img_9779.jpg",
+    "/wp-content/uploads/2026/01/img_9780-1024x653.jpg",
+    "/wp-content/uploads/2026/01/img_9781.jpg",
+    "/wp-content/uploads/2026/01/img_9782.jpg",
+    "/wp-content/uploads/2026/01/img_9783.jpg",
+    "/wp-content/uploads/2026/01/woman-doing-speech-therapy-with-little-boy-her-clinic-2-1-1024x514.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-logoped-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p801-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p801-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/img_9778.jpg",
+    "/wp-content/uploads/2026/01/img_9779.jpg",
+    "/wp-content/uploads/2026/01/img_9780-1024x653.jpg",
+    "/wp-content/uploads/2026/01/img_9781.jpg",
+    "/wp-content/uploads/2026/01/img_9782.jpg",
+    "/wp-content/uploads/2026/01/img_9783.jpg",
+    "/wp-content/uploads/2026/01/woman-doing-speech-therapy-with-little-boy-her-clinic-2-1-1024x514.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-logoped-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p801-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p801-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "08",
+   "oldUrl": "https://personamodel.ru/studios/yazykovaya-shkola/",
+   "newPath": "/napravleniya/yazykovaya-shkola/",
+   "shownLiveCount": 11,
+   "presentInRebuildCount": 11,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/img_9769.jpg",
+    "/wp-content/uploads/2026/01/img_9770.jpg",
+    "/wp-content/uploads/2026/01/img_9773.jpg",
+    "/wp-content/uploads/2026/01/img_9775.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9776.jpg",
+    "/wp-content/uploads/2026/01/img_9776-2.jpg",
+    "/wp-content/uploads/2026/01/side-view-teacher-watching-kids-3-1-1024x414.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-lang-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-lang-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-lang-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-lang-d63.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/img_9769.jpg",
+    "/wp-content/uploads/2026/01/img_9770.jpg",
+    "/wp-content/uploads/2026/01/img_9773.jpg",
+    "/wp-content/uploads/2026/01/img_9775.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9776.jpg",
+    "/wp-content/uploads/2026/01/img_9776-2.jpg",
+    "/wp-content/uploads/2026/01/side-view-teacher-watching-kids-3-1-1024x414.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-lang-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-lang-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-lang-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-lang-d63.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "09",
+   "oldUrl": "https://personamodel.ru/areas/joga/",
+   "newPath": "/napravleniya/joga/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/img_9799.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9800-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/img_9801.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9802.jpg",
+    "/wp-content/uploads/2026/01/img_9803.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9804.jpg.webp",
+    "/wp-content/uploads/2026/01/trainer-assisting-group-people-meditation-2-1-1024x515.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-p800-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-yoga-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-yoga-02.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/img_9799.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9800-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/img_9801.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9802.jpg",
+    "/wp-content/uploads/2026/01/img_9803.jpg.webp",
+    "/wp-content/uploads/2026/01/img_9804.jpg.webp",
+    "/wp-content/uploads/2026/01/trainer-assisting-group-people-meditation-2-1-1024x515.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-p800-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-yoga-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-yoga-02.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "10",
+   "oldUrl": "https://personamodel.ru/areas/podgotovka-k-shkole/",
+   "newPath": "/napravleniya/podgotovka-k-shkole/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/02/boy-doing-some-mathematical-exercises-1-1024x684.jpg",
+    "/wp-content/uploads/2026/02/cheerful-classmates-chatting-1-2.png.webp",
+    "/wp-content/uploads/2026/02/primary-students-reading-yellow-book-with-blackboard-background-1024x683.jpg",
+    "/wp-content/uploads/2026/02/schoolboy-looking-girls-him-2-1-1024x525.png.webp",
+    "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.40.12-1-1024x683.jpg",
+    "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.41.09.png.webp",
+    "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.42.04.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-p1652-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1652-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-prep-01.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/02/boy-doing-some-mathematical-exercises-1-1024x684.jpg",
+    "/wp-content/uploads/2026/02/cheerful-classmates-chatting-1-2.png.webp",
+    "/wp-content/uploads/2026/02/primary-students-reading-yellow-book-with-blackboard-background-1024x683.jpg",
+    "/wp-content/uploads/2026/02/schoolboy-looking-girls-him-2-1-1024x525.png.webp",
+    "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.40.12-1-1024x683.jpg",
+    "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.41.09.png.webp",
+    "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.42.04.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-p1652-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1652-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-prep-01.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "11",
+   "oldUrl": "https://personamodel.ru/areas/robototehnika/",
+   "newPath": "/napravleniya/robototehnika/",
+   "shownLiveCount": 11,
+   "presentInRebuildCount": 11,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/02/1627977035_ayti-1-1024x683.jpg",
+    "/wp-content/uploads/2026/02/girls-female-teacher-doing-science-experiments-together-with-robotic-car-2-1-1024x457.png.webp",
+    "/wp-content/uploads/2026/02/image_2023-08-11_170-1024x576.jpg",
+    "/wp-content/uploads/2026/02/kursy-programmirovaniya-dlya-detej-python-foto-1024x472.jpg",
+    "/wp-content/uploads/2026/02/robot-1-1024x576.jpg",
+    "/wp-content/uploads/2026/02/robotech.jpg",
+    "/wp-content/uploads/2026/02/robototekhnika-dlya-doshkolnikov.jpg.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-robot-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-robot-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-robot-03.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-robot-04.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/02/1627977035_ayti-1-1024x683.jpg",
+    "/wp-content/uploads/2026/02/girls-female-teacher-doing-science-experiments-together-with-robotic-car-2-1-1024x457.png.webp",
+    "/wp-content/uploads/2026/02/image_2023-08-11_170-1024x576.jpg",
+    "/wp-content/uploads/2026/02/kursy-programmirovaniya-dlya-detej-python-foto-1024x472.jpg",
+    "/wp-content/uploads/2026/02/robot-1-1024x576.jpg",
+    "/wp-content/uploads/2026/02/robotech.jpg",
+    "/wp-content/uploads/2026/02/robototekhnika-dlya-doshkolnikov.jpg.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-robot-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-robot-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-robot-03.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-robot-04.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "12",
+   "oldUrl": "https://personamodel.ru/areas/shahmaty/",
+   "newPath": "/napravleniya/shahmaty/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/02/0c265a322bf87295c4379e07fab39f5251995ffc-1024x369.png.webp",
+    "/wp-content/uploads/2026/02/img_9764.jpg",
+    "/wp-content/uploads/2026/02/img_9765.jpg",
+    "/wp-content/uploads/2026/02/img_9767.jpg",
+    "/wp-content/uploads/2026/02/img_9768.jpg",
+    "/wp-content/uploads/2026/02/young-kids-playing-chess-together-1024x683.jpg",
+    "/wp-content/uploads/2026/02/young-kids-playing-chess-together-2-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-chess-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1642-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1642-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/02/0c265a322bf87295c4379e07fab39f5251995ffc-1024x369.png.webp",
+    "/wp-content/uploads/2026/02/img_9764.jpg",
+    "/wp-content/uploads/2026/02/img_9765.jpg",
+    "/wp-content/uploads/2026/02/img_9767.jpg",
+    "/wp-content/uploads/2026/02/img_9768.jpg",
+    "/wp-content/uploads/2026/02/young-kids-playing-chess-together-1024x683.jpg",
+    "/wp-content/uploads/2026/02/young-kids-playing-chess-together-2-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-chess-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1642-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1642-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "13",
+   "oldUrl": "https://personamodel.ru/studios/teatralynaya_studiya/",
+   "newPath": "/napravleniya/teatr/",
+   "shownLiveCount": 11,
+   "presentInRebuildCount": 11,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/b6acece6-3ffc-4e55-83ff-d856fb98423d-1-1024x514.png.webp",
+    "/wp-content/uploads/2026/01/children-love-face-painting-games-1024x683.jpg",
+    "/wp-content/uploads/2026/01/kids-performing-play-stage-word-theatre-day-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-2-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-3-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/young-kids-rehearsing-play-perform-theatre-stage-1024x1024.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-teatr-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-teatr-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-teatr-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-teatr-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/b6acece6-3ffc-4e55-83ff-d856fb98423d-1-1024x514.png.webp",
+    "/wp-content/uploads/2026/01/children-love-face-painting-games-1024x683.jpg",
+    "/wp-content/uploads/2026/01/kids-performing-play-stage-word-theatre-day-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-2-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-3-1024x1024.jpg",
+    "/wp-content/uploads/2026/01/young-kids-rehearsing-play-perform-theatre-stage-1024x1024.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-teatr-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-teatr-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-teatr-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-teatr-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "14",
+   "oldUrl": "https://personamodel.ru/areas/risovanie/",
+   "newPath": "/napravleniya/risovanie/",
+   "shownLiveCount": 13,
+   "presentInRebuildCount": 13,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/art-composition-with-paint-brush-1.png.webp",
+    "/wp-content/uploads/2026/01/close-up-little-girl-with-apron-painting-1.png.webp",
+    "/wp-content/uploads/2026/01/close-up-portrait-little-white-skinned-girl-with-blonde-hair-freckles-focused-painting-picture-1.png.webp",
+    "/wp-content/uploads/2026/01/happy-kid-home-diy-pot-painting-hobby-1.png.webp",
+    "/wp-content/uploads/2026/01/high-angle-artist-painting-using-brush-watercolor-1024x768.jpg",
+    "/wp-content/uploads/2026/01/high-angle-little-girl-painting-1024x683.jpg",
+    "/wp-content/uploads/2026/01/little-girl-mixing-gouache-palette-table-2-1-1024x392.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-03.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-d63.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/art-composition-with-paint-brush-1.png.webp",
+    "/wp-content/uploads/2026/01/close-up-little-girl-with-apron-painting-1.png.webp",
+    "/wp-content/uploads/2026/01/close-up-portrait-little-white-skinned-girl-with-blonde-hair-freckles-focused-painting-picture-1.png.webp",
+    "/wp-content/uploads/2026/01/happy-kid-home-diy-pot-painting-hobby-1.png.webp",
+    "/wp-content/uploads/2026/01/high-angle-artist-painting-using-brush-watercolor-1024x768.jpg",
+    "/wp-content/uploads/2026/01/high-angle-little-girl-painting-1024x683.jpg",
+    "/wp-content/uploads/2026/01/little-girl-mixing-gouache-palette-table-2-1-1024x392.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-02.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-03.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-draw-d63.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "15",
+   "oldUrl": "https://personamodel.ru/studios/vokalynaya_studiya/",
+   "newPath": "/napravleniya/vokal/",
+   "shownLiveCount": 12,
+   "presentInRebuildCount": 12,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/poyem_i_vodim_khorovody-e1722865665673-2-1-1024x538.png.webp",
+    "/wp-content/uploads/2026/01/transparent-photoroom-17.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-18.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-19.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-20.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-49-1.jpg",
+    "/wp-content/uploads/2026/01/transparent6789-photoroom.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-vokal-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-vokal-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-vokal-d63.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-vokal-01-poster.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/poyem_i_vodim_khorovody-e1722865665673-2-1-1024x538.png.webp",
+    "/wp-content/uploads/2026/01/transparent-photoroom-17.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-18.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-19.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-20.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-49-1.jpg",
+    "/wp-content/uploads/2026/01/transparent6789-photoroom.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-vokal-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-vokal-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-vokal-d63.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-vokal-01-poster.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "16",
+   "oldUrl": "https://personamodel.ru/studios/teatr_tanca/",
+   "newPath": "/napravleniya/tancy/",
+   "shownLiveCount": 15,
+   "presentInRebuildCount": 15,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/brejk.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-10-2-1-1024x571.png.webp",
+    "/wp-content/uploads/2026/01/transparent-photoroom-11.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-13.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-14.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-15.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-16.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-break.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-choreo.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-class.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-contemp.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-kpop.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-stretch.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/brejk.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-10-2-1-1024x571.png.webp",
+    "/wp-content/uploads/2026/01/transparent-photoroom-11.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-13.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-14.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-15.jpg",
+    "/wp-content/uploads/2026/01/transparent-photoroom-16.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-break.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-choreo.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-class.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-contemp.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-kpop.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-dance-stretch.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "17",
+   "oldUrl": "https://personamodel.ru/studios/shkola_modeley/",
+   "newPath": "/napravleniya/shkola-modeley/",
+   "shownLiveCount": 13,
+   "presentInRebuildCount": 13,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/830cae7864f5f60196498e0ca4a53bc937154c98-e1772059970939-1024x319.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-10.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-11.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-12.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-7.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-9.png.webp",
+    "/wp-content/uploads/2026/01/gemini_generated_image_i4h96li4h96li4h9-1-1.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-school-camera.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-defile.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-etiket.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-objects.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-pose.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-rehearse.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/830cae7864f5f60196498e0ca4a53bc937154c98-e1772059970939-1024x319.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-10.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-11.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-12.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-7.png.webp",
+    "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-9.png.webp",
+    "/wp-content/uploads/2026/01/gemini_generated_image_i4h96li4h96li4h9-1-1.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-school-camera.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-defile.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-etiket.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-objects.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-pose.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-school-rehearse.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "18",
+   "oldUrl": "https://personamodel.ru/areas/prodlenka/",
+   "newPath": "/napravleniya/prodlenka/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-0-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-1-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-2-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-3-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-4-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-5-1.png.webp",
+    "/wp-content/uploads/2026/01/prodlenka-1.jpg.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-p811-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p811-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-0-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-1-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-2-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-3-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-4-1.png.webp",
+    "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-5-1.png.webp",
+    "/wp-content/uploads/2026/01/prodlenka-1.jpg.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-p811-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p811-bb6.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "19",
+   "oldUrl": "https://personamodel.ru/%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%8B/%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/",
+   "newPath": "/napravleniya/semejnaya-shkola/",
+   "shownLiveCount": 10,
+   "presentInRebuildCount": 10,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-1.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-2.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-3.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-4.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-5.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-6.png.webp",
+    "/wp-content/uploads/2026/01/little-girls-doing-online-school-together-2-1-1024x530.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-family-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p812-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p812-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-1.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-2.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-3.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-4.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-5.png.webp",
+    "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-6.png.webp",
+    "/wp-content/uploads/2026/01/little-girls-doing-online-school-together-2-1-1024x530.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-family-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p812-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p812-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "20",
+   "oldUrl": "https://personamodel.ru/areas/individualnye-zanyati-dlya-vzroslyh/",
+   "newPath": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "shownLiveCount": 7,
+   "presentInRebuildCount": 7,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/02/yoga-group-classes-inside-gym-2-1-1-e1772487413525-1024x486.png.webp",
+    "/wp-content/uploads/2026/08/persona-adult-art.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-dance.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-lang.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-speech.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-strength.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-vocal-mid.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/02/yoga-group-classes-inside-gym-2-1-1-e1772487413525-1024x486.png.webp",
+    "/wp-content/uploads/2026/08/persona-adult-art.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-dance.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-lang.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-speech.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-strength.jpg",
+    "/wp-content/uploads/2026/08/persona-adult-vocal-mid.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "21",
+   "oldUrl": "https://personamodel.ru/areas/dlya-vzroslyh/",
+   "newPath": "/napravleniya/dlya-vzroslyh/",
+   "shownLiveCount": 8,
+   "presentInRebuildCount": 8,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/02/gemini_generated_image_7akrx27akrx27akr-1-1024x395.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-1.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-2.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-3.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-5.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-6.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-7.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-p1865-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/02/gemini_generated_image_7akrx27akrx27akr-1-1024x395.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-1.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-2.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-3.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-5.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-6.png.webp",
+    "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-7.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-p1865-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "22",
+   "oldUrl": "https://personamodel.ru/areas/salsa-i-bachata/",
+   "newPath": "/napravleniya/bachata/",
+   "shownLiveCount": 4,
+   "presentInRebuildCount": 4,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/02/young-couple-dancing-bachata-2-1-1024x497.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/02/young-couple-dancing-bachata-2-1-1024x497.png.webp",
+    "/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg",
+    "/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "23",
+   "oldUrl": "https://personamodel.ru/",
+   "newPath": "/",
+   "shownLiveCount": 79,
+   "presentInRebuildCount": 78,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/advant-1.webp",
+    "/wp-content/uploads/2026/01/advant-2.webp",
+    "/wp-content/uploads/2026/01/advant-3.webp",
+    "/wp-content/uploads/2026/01/advant-4.webp",
+    "/wp-content/uploads/2026/01/advant-5.webp",
+    "/wp-content/uploads/2026/01/advant-6.webp",
+    "/wp-content/uploads/2026/01/art.webp",
+    "/wp-content/uploads/2026/01/chess.webp",
+    "/wp-content/uploads/2026/01/fitness.webp",
+    "/wp-content/uploads/2026/01/form_bg.webp",
+    "/wp-content/uploads/2026/01/joga.webp",
+    "/wp-content/uploads/2026/01/logoped.webp",
+    "/wp-content/uploads/2026/01/megavolt.webp",
+    "/wp-content/uploads/2026/01/musica.webp",
+    "/wp-content/uploads/2026/01/podgotovka.webp",
+    "/wp-content/uploads/2026/01/prodlenka.webp",
+    "/wp-content/uploads/2026/01/risovanie.webp",
+    "/wp-content/uploads/2026/01/salsa.webp",
+    "/wp-content/uploads/2026/01/shkola.webp",
+    "/wp-content/uploads/2026/01/shkola-modeley.webp",
+    "/wp-content/uploads/2026/01/tanzi.webp",
+    "/wp-content/uploads/2026/01/teatr.webp",
+    "/wp-content/uploads/2026/01/vokal.webp",
+    "/wp-content/uploads/2026/01/yaziki.webp",
+    "/wp-content/uploads/2026/02/2026-02-19-09-44-27.webp",
+    "/wp-content/uploads/2026/02/img_0646.webp",
+    "/wp-content/uploads/2026/02/img_1552.webp",
+    "/wp-content/uploads/2026/02/img_1553.webp",
+    "/wp-content/uploads/2026/02/img_3617-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_4062-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_5364-1024x684.webp",
+    "/wp-content/uploads/2026/02/img_5379.webp",
+    "/wp-content/uploads/2026/02/img_5500-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_5516-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_5517-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_5572-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5573-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5574-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5575-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5576-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5577-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5578-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5579-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_8909-1024x684.webp",
+    "/wp-content/uploads/2026/02/img_9561.webp",
+    "/wp-content/uploads/2026/02/img_9565.webp",
+    "/wp-content/uploads/2026/02/img_9570.webp",
+    "/wp-content/uploads/2026/02/img_9571-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_9631.webp",
+    "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp",
+    "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-1-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-49-01-1024x800.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-55-32-1024x766.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sma-5868-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sma-6164-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sok-1569-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-5j3b9247-1024x650.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-foto-7-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-img-1059-1024x688.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-img-2456-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-img-5877-1024x748.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-img-8925-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-ls4b4830-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-ls4b4853-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-a1345-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-a1437-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-a1442-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-a1603-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-img-4296-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-learn.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-56c053b.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-b73727f.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-bffc365.jpg",
+    "/wp-content/uploads/2026/03/img_6233-1-1024x516.jpg.webp"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/advant-1.webp",
+    "/wp-content/uploads/2026/01/advant-2.webp",
+    "/wp-content/uploads/2026/01/advant-3.webp",
+    "/wp-content/uploads/2026/01/advant-4.webp",
+    "/wp-content/uploads/2026/01/advant-5.webp",
+    "/wp-content/uploads/2026/01/advant-6.webp",
+    "/wp-content/uploads/2026/01/art.webp",
+    "/wp-content/uploads/2026/01/chess.webp",
+    "/wp-content/uploads/2026/01/fitness.webp",
+    "/wp-content/uploads/2026/01/form_bg.webp",
+    "/wp-content/uploads/2026/01/joga.webp",
+    "/wp-content/uploads/2026/01/logoped.webp",
+    "/wp-content/uploads/2026/01/megavolt.webp",
+    "/wp-content/uploads/2026/01/musica.webp",
+    "/wp-content/uploads/2026/01/podgotovka.webp",
+    "/wp-content/uploads/2026/01/prodlenka.webp",
+    "/wp-content/uploads/2026/01/risovanie.webp",
+    "/wp-content/uploads/2026/01/salsa.webp",
+    "/wp-content/uploads/2026/01/shkola.webp",
+    "/wp-content/uploads/2026/01/shkola-modeley.webp",
+    "/wp-content/uploads/2026/01/tanzi.webp",
+    "/wp-content/uploads/2026/01/teatr.webp",
+    "/wp-content/uploads/2026/01/vokal.webp",
+    "/wp-content/uploads/2026/01/yaziki.webp",
+    "/wp-content/uploads/2026/02/2026-02-19-09-44-27.webp",
+    "/wp-content/uploads/2026/02/img_0646.webp",
+    "/wp-content/uploads/2026/02/img_1552.webp",
+    "/wp-content/uploads/2026/02/img_1553.webp",
+    "/wp-content/uploads/2026/02/img_3617-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_4062-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_5364-1024x684.webp",
+    "/wp-content/uploads/2026/02/img_5379.webp",
+    "/wp-content/uploads/2026/02/img_5500-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_5516-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_5517-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_5572-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5573-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5574-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5575-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5576-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5577-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5578-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_5579-1.jpg.webp",
+    "/wp-content/uploads/2026/02/img_8909-1024x684.webp",
+    "/wp-content/uploads/2026/02/img_9561.webp",
+    "/wp-content/uploads/2026/02/img_9565.webp",
+    "/wp-content/uploads/2026/02/img_9570.webp",
+    "/wp-content/uploads/2026/02/img_9571-1024x683.webp",
+    "/wp-content/uploads/2026/02/img_9631.webp",
+    "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp",
+    "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-1-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-49-01-1024x800.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-55-32-1024x766.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sma-5868-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sma-6164-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sok-1569-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-5j3b9247-1024x650.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-foto-7-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-img-1059-1024x688.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-img-2456-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-img-5877-1024x748.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-img-8925-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-ls4b4830-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-moda-ls4b4853-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-a1345-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-a1437-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-a1442-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-a1603-1024x682.jpg",
+    "/wp-content/uploads/2026/08/persona-gal-tancy-img-4296-1024x683.jpg",
+    "/wp-content/uploads/2026/08/persona-learn.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-56c053b.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-b73727f.jpg",
+    "/wp-content/uploads/2026/08/persona-vist-bffc365.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [
+    {
+     "image": "/wp-content/uploads/2026/03/img_6233-1-1024x516.jpg.webp",
+     "reason": "Old home hero: the logo is baked into the photo; the rebuild uses a gallery photo (accepted)."
+    }
+   ],
+   "inDomButHiddenLive": [
+    {
+     "image": "/wp-content/uploads/2026/02/img_4032-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_4038-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_4040-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_4049-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_4050-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_4291-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_4769-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_5482.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_5484.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_5493.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_5495-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_5503-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_5504-1024x683.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_9564.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_9570-1.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_9573.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_9575.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_9576.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_9577.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/02/img_9579.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-gal-teatr-a1674-1024x682.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1490-1024x682.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1567-1024x682.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1601-1024x682.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg",
+     "labels": [
+      "Жизнь нашего творческого центра в кадрах"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    }
+   ]
+  },
+  {
+   "id": "24",
+   "oldUrl": "https://personamodel.ru/privacy-policy/",
+   "newPath": "/politika-konfidencialnosti/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "25",
+   "oldUrl": "https://personamodel.ru/content/organizaciya-prazdnikov/",
+   "newPath": "/sobytiya/",
+   "shownLiveCount": 14,
+   "presentInRebuildCount": 14,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/a_mne_nuzhno_eto_izobra-1.png.webp",
+    "/wp-content/uploads/2026/08/persona-evt-dr-01.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-dr-02.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-any.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-birthday.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-corp.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-fest.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-show.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-workshop.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/a_mne_nuzhno_eto_izobra-1.png.webp",
+    "/wp-content/uploads/2026/08/persona-evt-dr-01.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-dr-02.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-any.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-birthday.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-corp.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-fest.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-show.jpg",
+    "/wp-content/uploads/2026/08/persona-evt-tile-workshop.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": [
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-2.png.webp",
+     "labels": [
+      "Праздник под ключ"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-3.png.webp",
+     "labels": [
+      "Профессиональные аниматоры"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-4.png.webp",
+     "labels": [
+      "Яркие эмоции"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-5.png.webp",
+     "labels": [
+      "Безопасность детей"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-6.png.webp",
+     "labels": [
+      "Индивидуальный сценарий"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-7.png.webp",
+     "labels": [
+      "Комфорт родителей"
+     ],
+     "inRebuild": true,
+     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
+    }
+   ]
+  },
+  {
+   "id": "26",
+   "oldUrl": "https://personamodel.ru/content/festivalnoe-dvizhenie/",
+   "newPath": "/festivali/",
+   "shownLiveCount": 12,
+   "presentInRebuildCount": 12,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/b_nuzhna_kartinka_bez_t-1.png.webp",
+    "/wp-content/uploads/2026/08/persona-fest-01.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-02.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-03.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-04.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-05.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-abroad.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-brics.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-couture.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-kitchen.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-miss.jpg.webp",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-stars.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/b_nuzhna_kartinka_bez_t-1.png.webp",
+    "/wp-content/uploads/2026/08/persona-fest-01.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-02.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-03.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-04.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-05.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-abroad.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-brics.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-couture.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-kitchen.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-miss.jpg.webp",
+    "/wp-content/uploads/2026/08/persona-fest-afisha-stars.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": [
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-2.png",
+     "labels": [
+      "Вокальное мастерство"
+     ],
+     "inRebuild": true,
+     "reason": "Flip-box card backgrounds (chatgpt-image ...00_54_43-2..-7): the 6 flip-box widgets are display:none !important on the live page (rule `body.page-id-1053 .elementor-element-0e8d907 > .elementor-element:not(.persona-fest-tiles)`), replaced by the 6 afisha tiles. Added to the rebuild cards anyway, as requested by the task."
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-3.png",
+     "labels": [
+      "Танцевальное искусство"
+     ],
+     "inRebuild": true,
+     "reason": "Flip-box card backgrounds (chatgpt-image ...00_54_43-2..-7): the 6 flip-box widgets are display:none !important on the live page (rule `body.page-id-1053 .elementor-element-0e8d907 > .elementor-element:not(.persona-fest-tiles)`), replaced by the 6 afisha tiles. Added to the rebuild cards anyway, as requested by the task."
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-4.png",
+     "labels": [
+      "Сценический опыт"
+     ],
+     "inRebuild": true,
+     "reason": "Flip-box card backgrounds (chatgpt-image ...00_54_43-2..-7): the 6 flip-box widgets are display:none !important on the live page (rule `body.page-id-1053 .elementor-element-0e8d907 > .elementor-element:not(.persona-fest-tiles)`), replaced by the 6 afisha tiles. Added to the rebuild cards anyway, as requested by the task."
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-5.png",
+     "labels": [
+      "Постановка номеров"
+     ],
+     "inRebuild": true,
+     "reason": "Flip-box card backgrounds (chatgpt-image ...00_54_43-2..-7): the 6 flip-box widgets are display:none !important on the live page (rule `body.page-id-1053 .elementor-element-0e8d907 > .elementor-element:not(.persona-fest-tiles)`), replaced by the 6 afisha tiles. Added to the rebuild cards anyway, as requested by the task."
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-6.png",
+     "labels": [
+      "Сценическая речь"
+     ],
+     "inRebuild": true,
+     "reason": "Flip-box card backgrounds (chatgpt-image ...00_54_43-2..-7): the 6 flip-box widgets are display:none !important on the live page (rule `body.page-id-1053 .elementor-element-0e8d907 > .elementor-element:not(.persona-fest-tiles)`), replaced by the 6 afisha tiles. Added to the rebuild cards anyway, as requested by the task."
+    },
+    {
+     "image": "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-7.png",
+     "labels": [
+      "Командная работа"
+     ],
+     "inRebuild": true,
+     "reason": "Flip-box card backgrounds (chatgpt-image ...00_54_43-2..-7): the 6 flip-box widgets are display:none !important on the live page (rule `body.page-id-1053 .elementor-element-0e8d907 > .elementor-element:not(.persona-fest-tiles)`), replaced by the 6 afisha tiles. Added to the rebuild cards anyway, as requested by the task."
+    }
+   ]
+  },
+  {
+   "id": "27",
+   "oldUrl": "https://personamodel.ru/o-nas/",
+   "newPath": "/o-nas/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "28",
+   "oldUrl": "https://personamodel.ru/content/studiya-profsoyuznaya/",
+   "newPath": "/studii/profsoyuznaya/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "29",
+   "oldUrl": "https://personamodel.ru/content/nashi-pedagogi/",
+   "newPath": "/komanda/",
+   "shownLiveCount": 19,
+   "presentInRebuildCount": 19,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/4-3-1.png.webp",
+    "/wp-content/uploads/2026/01/4-3-3.png.webp",
+    "/wp-content/uploads/2026/01/5-3-1.png.webp",
+    "/wp-content/uploads/2026/01/5-3-2.png.webp",
+    "/wp-content/uploads/2026/01/5-3-3.png.webp",
+    "/wp-content/uploads/2026/01/6-2-1.png.webp",
+    "/wp-content/uploads/2026/01/7-4-1.png.webp",
+    "/wp-content/uploads/2026/01/8-2-1.png.webp",
+    "/wp-content/uploads/2026/01/9-3-1.png.webp",
+    "/wp-content/uploads/2026/02/5192755335523929960.jpg",
+    "/wp-content/uploads/2026/02/ahmedova-asiyat.jpg.webp",
+    "/wp-content/uploads/2026/02/amiroslanova-kristina.jpg.webp",
+    "/wp-content/uploads/2026/02/armenakyan-mihail.jpg.webp",
+    "/wp-content/uploads/2026/02/brusnika-ekaterina.jpg.webp",
+    "/wp-content/uploads/2026/02/markovichev_aleksandr.jpg",
+    "/wp-content/uploads/2026/02/merkulov-anatolij-1.jpg.webp",
+    "/wp-content/uploads/2026/02/rosnovskaya_nataliya.jpg.webp",
+    "/wp-content/uploads/2026/02/vazmgatova-azaliya.jpg.webp",
+    "/wp-content/uploads/2026/02/vohmyanin-nikita.jpg.webp"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/4-3-1.png.webp",
+    "/wp-content/uploads/2026/01/4-3-3.png.webp",
+    "/wp-content/uploads/2026/01/5-3-1.png.webp",
+    "/wp-content/uploads/2026/01/5-3-2.png.webp",
+    "/wp-content/uploads/2026/01/5-3-3.png.webp",
+    "/wp-content/uploads/2026/01/6-2-1.png.webp",
+    "/wp-content/uploads/2026/01/7-4-1.png.webp",
+    "/wp-content/uploads/2026/01/8-2-1.png.webp",
+    "/wp-content/uploads/2026/01/9-3-1.png.webp",
+    "/wp-content/uploads/2026/02/5192755335523929960.jpg",
+    "/wp-content/uploads/2026/02/ahmedova-asiyat.jpg.webp",
+    "/wp-content/uploads/2026/02/amiroslanova-kristina.jpg.webp",
+    "/wp-content/uploads/2026/02/armenakyan-mihail.jpg.webp",
+    "/wp-content/uploads/2026/02/brusnika-ekaterina.jpg.webp",
+    "/wp-content/uploads/2026/02/markovichev_aleksandr.jpg",
+    "/wp-content/uploads/2026/02/merkulov-anatolij-1.jpg.webp",
+    "/wp-content/uploads/2026/02/rosnovskaya_nataliya.jpg.webp",
+    "/wp-content/uploads/2026/02/vazmgatova-azaliya.jpg.webp",
+    "/wp-content/uploads/2026/02/vohmyanin-nikita.jpg.webp"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "30",
+   "oldUrl": "https://personamodel.ru/news/",
+   "newPath": "/novosti/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "31",
+   "oldUrl": "https://personamodel.ru/otzyvy/",
+   "newPath": "/otzyvy/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "32",
+   "oldUrl": "https://personamodel.ru/tarify/",
+   "newPath": "/tarify/",
+   "shownLiveCount": 1,
+   "presentInRebuildCount": 1,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/08/prejskurant-26-27.jpg"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/08/prejskurant-26-27.jpg"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "33",
+   "oldUrl": "https://personamodel.ru/brunches/",
+   "newPath": "/napravleniya/",
+   "shownLiveCount": 16,
+   "presentInRebuildCount": 16,
+   "missingCount": 0,
+   "shownLive": [
+    "/wp-content/uploads/2026/01/art.webp",
+    "/wp-content/uploads/2026/01/chess.webp",
+    "/wp-content/uploads/2026/01/fitness.webp",
+    "/wp-content/uploads/2026/01/joga.webp",
+    "/wp-content/uploads/2026/01/megavolt.webp",
+    "/wp-content/uploads/2026/01/musica.webp",
+    "/wp-content/uploads/2026/01/podgotovka.webp",
+    "/wp-content/uploads/2026/01/prodlenka.webp",
+    "/wp-content/uploads/2026/01/risovanie.webp",
+    "/wp-content/uploads/2026/01/salsa.webp",
+    "/wp-content/uploads/2026/01/shkola.webp",
+    "/wp-content/uploads/2026/01/shkola-modeley.webp",
+    "/wp-content/uploads/2026/01/tanzi.webp",
+    "/wp-content/uploads/2026/01/teatr.webp",
+    "/wp-content/uploads/2026/01/vokal.webp",
+    "/wp-content/uploads/2026/01/yaziki.webp"
+   ],
+   "presentInRebuild": [
+    "/wp-content/uploads/2026/01/art.webp",
+    "/wp-content/uploads/2026/01/chess.webp",
+    "/wp-content/uploads/2026/01/fitness.webp",
+    "/wp-content/uploads/2026/01/joga.webp",
+    "/wp-content/uploads/2026/01/megavolt.webp",
+    "/wp-content/uploads/2026/01/musica.webp",
+    "/wp-content/uploads/2026/01/podgotovka.webp",
+    "/wp-content/uploads/2026/01/prodlenka.webp",
+    "/wp-content/uploads/2026/01/risovanie.webp",
+    "/wp-content/uploads/2026/01/salsa.webp",
+    "/wp-content/uploads/2026/01/shkola.webp",
+    "/wp-content/uploads/2026/01/shkola-modeley.webp",
+    "/wp-content/uploads/2026/01/tanzi.webp",
+    "/wp-content/uploads/2026/01/teatr.webp",
+    "/wp-content/uploads/2026/01/vokal.webp",
+    "/wp-content/uploads/2026/01/yaziki.webp"
+   ],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "34",
+   "oldUrl": "https://personamodel.ru/content/raspisanie/",
+   "newPath": "/raspisanie/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "35",
+   "oldUrl": "https://personamodel.ru/content/studiya-solntsevo/",
+   "newPath": "/studii/solntsevo/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "36",
+   "oldUrl": "https://personamodel.ru/content/studiya-michurinskiy/",
+   "newPath": "/studii/michurinskiy-prospekt/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  },
+  {
+   "id": "37",
+   "oldUrl": "https://personamodel.ru/content/studiya-slavyan/",
+   "newPath": "/studii/slavyanskiy-bulvar/",
+   "shownLiveCount": 0,
+   "presentInRebuildCount": 0,
+   "missingCount": 0,
+   "shownLive": [],
+   "presentInRebuild": [],
+   "missing": [],
+   "notMigratedDeliberately": [],
+   "inDomButHiddenLive": []
+  }
+ ],
+ "summaryBefore": {
+  "pagesCovered": 37,
+  "pagesWithMissing": 25,
+  "missingTotal": 100
+ },
+ "pagesBefore": [
+  {
+   "id": "01",
+   "newPath": "/napravleniya/megavolt/",
+   "missingCount": 3
+  },
+  {
+   "id": "02",
+   "newPath": "/napravleniya/bachata/",
+   "missingCount": 3
+  },
+  {
+   "id": "03",
+   "newPath": "/napravleniya/barre-fitnes/",
+   "missingCount": 3
+  },
+  {
+   "id": "04",
+   "newPath": "/napravleniya/pilates/",
+   "missingCount": 3
+  },
+  {
+   "id": "05",
+   "newPath": "/napravleniya/art-masterskaya/",
+   "missingCount": 4
+  },
+  {
+   "id": "06",
+   "newPath": "/napravleniya/muzykalnye-instrumenty/",
+   "missingCount": 4
+  },
+  {
+   "id": "07",
+   "newPath": "/napravleniya/logoped/",
+   "missingCount": 3
+  },
+  {
+   "id": "08",
+   "newPath": "/napravleniya/yazykovaya-shkola/",
+   "missingCount": 4
+  },
+  {
+   "id": "09",
+   "newPath": "/napravleniya/joga/",
+   "missingCount": 3
+  },
+  {
+   "id": "10",
+   "newPath": "/napravleniya/podgotovka-k-shkole/",
+   "missingCount": 3
+  },
+  {
+   "id": "11",
+   "newPath": "/napravleniya/robototehnika/",
+   "missingCount": 4
+  },
+  {
+   "id": "12",
+   "newPath": "/napravleniya/shahmaty/",
+   "missingCount": 3
+  },
+  {
+   "id": "13",
+   "newPath": "/napravleniya/teatr/",
+   "missingCount": 4
+  },
+  {
+   "id": "14",
+   "newPath": "/napravleniya/risovanie/",
+   "missingCount": 6
+  },
+  {
+   "id": "15",
+   "newPath": "/napravleniya/vokal/",
+   "missingCount": 5
+  },
+  {
+   "id": "16",
+   "newPath": "/napravleniya/tancy/",
+   "missingCount": 8
+  },
+  {
+   "id": "17",
+   "newPath": "/napravleniya/shkola-modeley/",
+   "missingCount": 6
+  },
+  {
+   "id": "18",
+   "newPath": "/napravleniya/prodlenka/",
+   "missingCount": 3
+  },
+  {
+   "id": "19",
+   "newPath": "/napravleniya/semejnaya-shkola/",
+   "missingCount": 3
+  },
+  {
+   "id": "20",
+   "newPath": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "missingCount": 0
+  },
+  {
+   "id": "21",
+   "newPath": "/napravleniya/dlya-vzroslyh/",
+   "missingCount": 1
+  },
+  {
+   "id": "22",
+   "newPath": "/napravleniya/bachata/",
+   "missingCount": 3
+  },
+  {
+   "id": "23",
+   "newPath": "/",
+   "missingCount": 8
+  },
+  {
+   "id": "24",
+   "newPath": "/politika-konfidencialnosti/",
+   "missingCount": 0
+  },
+  {
+   "id": "25",
+   "newPath": "/sobytiya/",
+   "missingCount": 7
+  },
+  {
+   "id": "26",
+   "newPath": "/festivali/",
+   "missingCount": 5
+  },
+  {
+   "id": "27",
+   "newPath": "/o-nas/",
+   "missingCount": 0
+  },
+  {
+   "id": "28",
+   "newPath": "/studii/profsoyuznaya/",
+   "missingCount": 0
+  },
+  {
+   "id": "29",
+   "newPath": "/komanda/",
+   "missingCount": 0
+  },
+  {
+   "id": "30",
+   "newPath": "/novosti/",
+   "missingCount": 0
+  },
+  {
+   "id": "31",
+   "newPath": "/otzyvy/",
+   "missingCount": 0
+  },
+  {
+   "id": "32",
+   "newPath": "/tarify/",
+   "missingCount": 0
+  },
+  {
+   "id": "33",
+   "newPath": "/napravleniya/",
+   "missingCount": 1
+  },
+  {
+   "id": "34",
+   "newPath": "/raspisanie/",
+   "missingCount": 0
+  },
+  {
+   "id": "35",
+   "newPath": "/studii/solntsevo/",
+   "missingCount": 0
+  },
+  {
+   "id": "36",
+   "newPath": "/studii/michurinskiy-prospekt/",
+   "missingCount": 0
+  },
+  {
+   "id": "37",
+   "newPath": "/studii/slavyanskiy-bulvar/",
+   "missingCount": 0
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+[
+ {
+  "oldPath": "/",
+  "image": "/wp-content/uploads/2026/03/img_6233-1",
+  "reason": "Old home hero background: a stock key visual with the Persona logo baked into the picture. The rebuild deliberately uses a gallery photo behind the hero card (see the TODO(content) in src/content/home.ts); the file is kept as /media/brand/og-default.jpg and is the default share image. Owner to confirm."
+ }
+]

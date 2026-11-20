@@ -1,0 +1,10 @@
+{
+	"useTabs": true,
+	"tabWidth": 4,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"bracketSpacing": false,
+	"printWidth": 120,
+	"plugins": ["prettier-plugin-tailwindcss"],
+	"tailwindStylesheet": "./src/app/globals.css"
+}

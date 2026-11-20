@@ -1,0 +1,9 @@
+docs/
+.next
+node_modules
+bun.lock
+public
+file.tsx
+next-env.d.ts
+tsconfig.tsbuildinfo
+scripts/data/

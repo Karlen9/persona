@@ -1,0 +1,124 @@
+@import 'tailwindcss';
+
+@theme inline {
+	--font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+
+	/* Brand: teal scale around #5DBAA8 (400). Never put white text on 300-500. */
+	--color-brand-50: #effaf7;
+	--color-brand-100: #d6f3ec;
+	--color-brand-200: #b0e6da;
+	--color-brand-300: #86d5c5;
+	--color-brand-400: #5dbaa8;
+	--color-brand-500: #3fa08d;
+	--color-brand-600: #2b8274;
+	--color-brand-700: #1d6a5f;
+	--color-brand-800: #0b4f47;
+	--color-brand-900: #063f3a;
+	--color-brand: var(--color-brand-400);
+	--color-brand-ink: var(--color-brand-900);
+
+	/* Accent: soft pastel pink, used sparingly. */
+	--color-accent-50: #fff5f8;
+	--color-accent-100: #fde5ec;
+	--color-accent-300: #f7b2c4;
+	--color-accent-700: #9a2a4d;
+	--color-accent: var(--color-accent-300);
+
+	/* Neutrals */
+	--color-ink: #101828;
+	--color-body: #475569;
+	--color-muted: #667085;
+	--color-line: #e5e7eb;
+	--color-surface: #f8fafc;
+
+	--radius-card: 24px;
+	--radius-btn: 14px;
+	--radius-pill: 999px;
+
+	--shadow-card: 0 10px 24px rgb(2 6 23 / 0.07);
+	--shadow-pop: 0 24px 60px rgb(2 6 23 / 0.16);
+
+	--container-site: 75rem;
+
+	--spacing-section: 3.5rem;
+	--spacing-section-lg: 5.5rem;
+	--spacing-header: 4rem;
+	--spacing-header-lg: 4.5rem;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 5.5rem;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #fff;
+	background-image:
+		radial-gradient(48rem 30rem at 0% -8%, rgb(93 186 168 / 0.12), transparent 70%),
+		radial-gradient(44rem 28rem at 100% -6%, rgb(247 178 196 / 0.14), transparent 70%);
+	background-repeat: no-repeat;
+	background-size: 100% 60rem;
+	color: var(--color-body);
+	font-family: var(--font-sans);
+	font-size: 1rem;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+	outline: 3px solid var(--color-brand-700);
+	outline-offset: 2px;
+	border-radius: 6px;
+}
+
+::selection {
+	background: var(--color-brand-200);
+	color: var(--color-brand-ink);
+}
+
+dialog::backdrop {
+	background: rgb(16 24 40 / 0.6);
+	backdrop-filter: blur(2px);
+}
+
+details > summary {
+	list-style: none;
+}
+details > summary::-webkit-details-marker {
+	display: none;
+}
+
+.no-scrollbar {
+	scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+@keyframes persona-pulse {
+	50% {
+		opacity: 0.5;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* Collision-safe replacement for Tailwind's bare `hidden` (the Moyklass widget CSS defines `.hidden` globally with !important). */
+@utility is-hidden {
+	display: none;
+}

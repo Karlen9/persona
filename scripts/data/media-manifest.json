@@ -1,0 +1,4555 @@
+{
+ "images": {
+  "/wp-content/uploads/2026/01/logo.png": {
+   "src": "/media/brand/logo.png",
+   "width": 552,
+   "height": 275,
+   "bytes": 59515,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/fav.png": {
+   "src": "/media/brand/favicon.png",
+   "width": 54,
+   "height": 40,
+   "bytes": 2014,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/img_6233-1-1024x516.jpg": {
+   "src": "/media/brand/og-default.jpg",
+   "width": 1536,
+   "height": 774,
+   "bytes": 156285,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/gis.jpg": {
+   "src": "/media/brand/2gis-reviews.jpg",
+   "width": 145,
+   "height": 45,
+   "bytes": 9825,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/shkola-modeley.webp": {
+   "src": "/media/directions/shkola-modeley-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 108426,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/830cae7864f5f60196498e0ca4a53bc937154c98-e1772059970939-1024x319.png.webp": {
+   "src": "/media/directions/shkola-modeley-hero.webp",
+   "width": 1536,
+   "height": 479,
+   "bytes": 32394,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/shkola-modelej-1.png.webp": {
+   "src": "/media/posters/shkola-modeley-video-1.webp",
+   "width": 291,
+   "height": 542,
+   "bytes": 41208,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/group-246-1.png.webp": {
+   "src": "/media/posters/shkola-modeley-video-2.webp",
+   "width": 259,
+   "height": 537,
+   "bytes": 35774,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/group-247.png.webp": {
+   "src": "/media/posters/shkola-modeley-video-3.webp",
+   "width": 255,
+   "height": 537,
+   "bytes": 32676,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/tanzi.webp": {
+   "src": "/media/directions/tancy-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 58364,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-10-2-1-1024x571.png.webp": {
+   "src": "/media/directions/tancy-hero.webp",
+   "width": 1267,
+   "height": 707,
+   "bytes": 211056,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-9.jpg": {
+   "src": "/media/posters/tancy-video-1.jpg",
+   "width": 486,
+   "height": 764,
+   "bytes": 239170,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-10.jpg": {
+   "src": "/media/posters/tancy-video-2.jpg",
+   "width": 432,
+   "height": 756,
+   "bytes": 294879,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-11.jpg": {
+   "src": "/media/posters/tancy-video-3.jpg",
+   "width": 432,
+   "height": 742,
+   "bytes": 236713,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/vokal.webp": {
+   "src": "/media/directions/vokal-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 71310,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/poyem_i_vodim_khorovody-e1722865665673-2-1-1024x538.png.webp": {
+   "src": "/media/directions/vokal-hero.webp",
+   "width": 1920,
+   "height": 1009,
+   "bytes": 155706,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-13-6.jpg.webp": {
+   "src": "/media/posters/vokal-video-1.webp",
+   "width": 556,
+   "height": 807,
+   "bytes": 55156,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-14-2.jpg.webp": {
+   "src": "/media/posters/vokal-video-2.webp",
+   "width": 504,
+   "height": 804,
+   "bytes": 88394,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-15.jpg.webp": {
+   "src": "/media/posters/vokal-video-3.webp",
+   "width": 436,
+   "height": 777,
+   "bytes": 61712,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/teatr.webp": {
+   "src": "/media/directions/teatr-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 55612,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/b6acece6-3ffc-4e55-83ff-d856fb98423d-1-1024x514.png.webp": {
+   "src": "/media/directions/teatr-hero.webp",
+   "width": 1230,
+   "height": 617,
+   "bytes": 238038,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-18.jpg": {
+   "src": "/media/posters/teatr-video-1.jpg",
+   "width": 440,
+   "height": 795,
+   "bytes": 178383,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-17.jpg": {
+   "src": "/media/posters/teatr-video-2.jpg",
+   "width": 441,
+   "height": 804,
+   "bytes": 226865,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/risovanie.webp": {
+   "src": "/media/directions/risovanie-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 115314,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/little-girl-mixing-gouache-palette-table-2-1-1024x392.png.webp": {
+   "src": "/media/directions/risovanie-hero.webp",
+   "width": 1203,
+   "height": 461,
+   "bytes": 95130,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-19.png.webp": {
+   "src": "/media/posters/risovanie-video-1.webp",
+   "width": 451,
+   "height": 756,
+   "bytes": 36522,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-20-2-1.png.webp": {
+   "src": "/media/posters/risovanie-video-2.webp",
+   "width": 435,
+   "height": 756,
+   "bytes": 53160,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-21-5.png.webp": {
+   "src": "/media/posters/risovanie-video-3.webp",
+   "width": 443,
+   "height": 765,
+   "bytes": 23214,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/art.webp": {
+   "src": "/media/directions/art-masterskaya-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 55544,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/a6ab51c484bf928146f730d384aa67195288894c-1024x374.png.webp": {
+   "src": "/media/directions/art-masterskaya-hero.webp",
+   "width": 1536,
+   "height": 561,
+   "bytes": 76606,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-23.jpg": {
+   "src": "/media/posters/art-masterskaya-video-1.jpg",
+   "width": 446,
+   "height": 765,
+   "bytes": 189327,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-22.jpg": {
+   "src": "/media/posters/art-masterskaya-video-2.jpg",
+   "width": 442,
+   "height": 765,
+   "bytes": 280785,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-24.jpg": {
+   "src": "/media/posters/art-masterskaya-video-3.jpg",
+   "width": 439,
+   "height": 773,
+   "bytes": 344515,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/chess.webp": {
+   "src": "/media/directions/shahmaty-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 50282,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/0c265a322bf87295c4379e07fab39f5251995ffc-1024x369.png.webp": {
+   "src": "/media/directions/shahmaty-hero.webp",
+   "width": 1536,
+   "height": 554,
+   "bytes": 45966,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/frame-25-3.png.webp": {
+   "src": "/media/posters/shahmaty-video-1.webp",
+   "width": 442,
+   "height": 768,
+   "bytes": 39410,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/frame-26.jpg": {
+   "src": "/media/posters/shahmaty-video-2.jpg",
+   "width": 469,
+   "height": 771,
+   "bytes": 234233,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/megavolt.webp": {
+   "src": "/media/directions/megavolt-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 57314,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/girls-doing-science-experiments-with-female-teacher-3-1-e1772486924517-1024x459.png.webp": {
+   "src": "/media/directions/megavolt-hero.webp",
+   "width": 1249,
+   "height": 560,
+   "bytes": 127660,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-27-2.jpg": {
+   "src": "/media/posters/megavolt-video-1.jpg",
+   "width": 420,
+   "height": 752,
+   "bytes": 200068,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-28.jpg": {
+   "src": "/media/posters/megavolt-video-2.jpg",
+   "width": 417,
+   "height": 752,
+   "bytes": 259415,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-29.jpg": {
+   "src": "/media/posters/megavolt-video-3.jpg",
+   "width": 443,
+   "height": 752,
+   "bytes": 323204,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/girls-female-teacher-doing-science-experiments-together-with-robotic-car-2-1.png": {
+   "src": "/media/directions/robototehnika-card.png",
+   "width": 1201,
+   "height": 536,
+   "bytes": 237013,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/frame-31.jpg": {
+   "src": "/media/posters/robototehnika-video-1.jpg",
+   "width": 441,
+   "height": 759,
+   "bytes": 194333,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/frame-32.jpg": {
+   "src": "/media/posters/robototehnika-video-2.jpg",
+   "width": 436,
+   "height": 754,
+   "bytes": 319853,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/frame-33.jpg": {
+   "src": "/media/posters/robototehnika-video-3.jpg",
+   "width": 414,
+   "height": 763,
+   "bytes": 312074,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/podgotovka.webp": {
+   "src": "/media/directions/podgotovka-k-shkole-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 76396,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/schoolboy-looking-girls-him-2-1-1024x525.png.webp": {
+   "src": "/media/directions/podgotovka-k-shkole-hero.webp",
+   "width": 1200,
+   "height": 615,
+   "bytes": 164254,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/frame-34.jpg": {
+   "src": "/media/posters/podgotovka-k-shkole-video-1.jpg",
+   "width": 449,
+   "height": 763,
+   "bytes": 228449,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/frame-35.jpg": {
+   "src": "/media/posters/podgotovka-k-shkole-video-2.jpg",
+   "width": 458,
+   "height": 769,
+   "bytes": 213581,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/yaziki.webp": {
+   "src": "/media/directions/yazykovaya-shkola-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 75336,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/side-view-teacher-watching-kids-3-1-1024x414.png.webp": {
+   "src": "/media/directions/yazykovaya-shkola-hero.webp",
+   "width": 1202,
+   "height": 486,
+   "bytes": 159348,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.59.32.png.webp": {
+   "src": "/media/posters/yazykovaya-shkola-video-1.webp",
+   "width": 859,
+   "height": 1536,
+   "bytes": 70188,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.59.57.png.webp": {
+   "src": "/media/posters/yazykovaya-shkola-video-2.webp",
+   "width": 841,
+   "height": 1536,
+   "bytes": 73624,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.00.21-1024x667.png.webp": {
+   "src": "/media/posters/yazykovaya-shkola-video-3.webp",
+   "width": 1536,
+   "height": 1001,
+   "bytes": 54446,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/logoped.webp": {
+   "src": "/media/directions/logoped-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 59988,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/woman-doing-speech-therapy-with-little-boy-her-clinic-2-1-1024x514.png.webp": {
+   "src": "/media/directions/logoped-hero.webp",
+   "width": 1200,
+   "height": 602,
+   "bytes": 167572,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.03.29.png.webp": {
+   "src": "/media/posters/logoped-video-1.webp",
+   "width": 884,
+   "height": 1592,
+   "bytes": 89346,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.05.04.png.webp": {
+   "src": "/media/posters/logoped-video-2.webp",
+   "width": 820,
+   "height": 1458,
+   "bytes": 48540,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/musica.webp": {
+   "src": "/media/directions/muzykalnye-instrumenty-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 70970,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/gemini_generated_image_72t8dj72t8dj72t8-1-e1772060172330-1024x324.png.webp": {
+   "src": "/media/directions/muzykalnye-instrumenty-hero.webp",
+   "width": 1200,
+   "height": 380,
+   "bytes": 64192,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.07.05.png.webp": {
+   "src": "/media/posters/muzykalnye-instrumenty-video-1.webp",
+   "width": 862,
+   "height": 1536,
+   "bytes": 50192,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.08.04.png.webp": {
+   "src": "/media/posters/muzykalnye-instrumenty-video-2.webp",
+   "width": 866,
+   "height": 1466,
+   "bytes": 103662,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.08.48.png.webp": {
+   "src": "/media/posters/muzykalnye-instrumenty-video-3.webp",
+   "width": 768,
+   "height": 1246,
+   "bytes": 91268,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/gemini_generated_image_7akrx27akrx27akr-1.png": {
+   "src": "/media/directions/dlya-vzroslyh-card.webp",
+   "width": 1199,
+   "height": 463,
+   "bytes": 23992,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/group-228.png.webp": {
+   "src": "/media/posters/dlya-vzroslyh-video-1.webp",
+   "width": 279,
+   "height": 593,
+   "bytes": 27698,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/full-shot-senior-women-training-2-1.png": {
+   "src": "/media/directions/pilates-card.png",
+   "width": 1355,
+   "height": 559,
+   "bytes": 172209,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-06.53.35.png.webp": {
+   "src": "/media/posters/pilates-video-1.webp",
+   "width": 872,
+   "height": 1474,
+   "bytes": 32604,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-06.54.06.png.webp": {
+   "src": "/media/posters/pilates-video-2.webp",
+   "width": 870,
+   "height": 1534,
+   "bytes": 45688,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/joga.webp": {
+   "src": "/media/directions/joga-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 56698,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/trainer-assisting-group-people-meditation-2-1-1024x515.png.webp": {
+   "src": "/media/directions/joga-hero.webp",
+   "width": 1228,
+   "height": 618,
+   "bytes": 169038,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.50.53.png.webp": {
+   "src": "/media/posters/joga-video-1.webp",
+   "width": 894,
+   "height": 1512,
+   "bytes": 62508,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/fitness.webp": {
+   "src": "/media/directions/barre-fitnes-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 35170,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/women-holding-yoga-mats-medium-shot-2-1-1024x539.png.webp": {
+   "src": "/media/directions/barre-fitnes-hero.webp",
+   "width": 1200,
+   "height": 632,
+   "bytes": 231916,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.18.05.png.webp": {
+   "src": "/media/posters/barre-fitnes-video-1.webp",
+   "width": 824,
+   "height": 1480,
+   "bytes": 39198,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.18.33.png.webp": {
+   "src": "/media/posters/barre-fitnes-video-2.webp",
+   "width": 872,
+   "height": 1512,
+   "bytes": 42122,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/young-couple-dancing-bachata-2-1.png": {
+   "src": "/media/directions/bachata-card.png",
+   "width": 1224,
+   "height": 594,
+   "bytes": 188407,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-07.32.20.png.webp": {
+   "src": "/media/posters/bachata-video-1.webp",
+   "width": 874,
+   "height": 1606,
+   "bytes": 74406,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-07.32.55.png.webp": {
+   "src": "/media/posters/bachata-video-2.webp",
+   "width": 870,
+   "height": 1476,
+   "bytes": 87288,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/yoga-group-classes-inside-gym-2-1-1-e1772487413525.png": {
+   "src": "/media/directions/individualnye-zanyatiya-dlya-vzroslyh-card.png",
+   "width": 1190,
+   "height": 565,
+   "bytes": 295881,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/shkola.webp": {
+   "src": "/media/directions/semejnaya-shkola-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 69592,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/little-girls-doing-online-school-together-2-1-1024x530.png.webp": {
+   "src": "/media/directions/semejnaya-shkola-hero.webp",
+   "width": 1218,
+   "height": 631,
+   "bytes": 166298,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-6-2.jpg.webp": {
+   "src": "/media/posters/semejnaya-shkola-video-1.webp",
+   "width": 441,
+   "height": 758,
+   "bytes": 53250,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-7.jpg.webp": {
+   "src": "/media/posters/semejnaya-shkola-video-2.webp",
+   "width": 422,
+   "height": 783,
+   "bytes": 77702,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/prodlenka.webp": {
+   "src": "/media/directions/prodlenka-card.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 49014,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/prodlenka-1.jpg.webp": {
+   "src": "/media/directions/prodlenka-hero.webp",
+   "width": 1024,
+   "height": 619,
+   "bytes": 125472,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-6-2-1.jpg": {
+   "src": "/media/posters/prodlenka-video-1.jpg",
+   "width": 441,
+   "height": 758,
+   "bytes": 220219,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/frame-8.jpg": {
+   "src": "/media/posters/prodlenka-video-2.jpg",
+   "width": 428,
+   "height": 808,
+   "bytes": 261341,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/grid-1.webp": {
+   "src": "/media/studios/michurinskiy-prospekt-1.webp",
+   "width": 487,
+   "height": 657,
+   "bytes": 41358,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/grid-2.webp": {
+   "src": "/media/studios/michurinskiy-prospekt-2.webp",
+   "width": 498,
+   "height": 663,
+   "bytes": 40552,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/grid-3.webp": {
+   "src": "/media/studios/michurinskiy-prospekt-3.webp",
+   "width": 492,
+   "height": 645,
+   "bytes": 33044,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/2-768x1024.webp": {
+   "src": "/media/studios/solntsevo-1.webp",
+   "width": 960,
+   "height": 1280,
+   "bytes": 130290,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/1-768x1024.webp": {
+   "src": "/media/studios/solntsevo-2.webp",
+   "width": 960,
+   "height": 1280,
+   "bytes": 93282,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/photo_2026-03-04_09-28-05-1024x682.jpg": {
+   "src": "/media/studios/solntsevo-3.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 100761,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/4-1024x625.webp": {
+   "src": "/media/studios/slavyanskiy-bulvar-1.webp",
+   "width": 1280,
+   "height": 781,
+   "bytes": 69464,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/photo_2026-03-04_09-28-41-1024x768.jpg": {
+   "src": "/media/studios/slavyanskiy-bulvar-2.jpg",
+   "width": 1280,
+   "height": 960,
+   "bytes": 154276,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/3-709x1024.webp": {
+   "src": "/media/studios/slavyanskiy-bulvar-3.webp",
+   "width": 886,
+   "height": 1280,
+   "bytes": 54180,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-profsoyuznaya-fasad.jpg": {
+   "src": "/media/studios/profsoyuznaya-1.jpg",
+   "width": 1024,
+   "height": 684,
+   "bytes": 222879,
+   "apiAlt": "Профсоюзная 61 — фасад"
+  },
+  "/wp-content/uploads/2026/08/persona-profsoyuznaya-holl.jpg": {
+   "src": "/media/studios/profsoyuznaya-2.jpg",
+   "width": 750,
+   "height": 457,
+   "bytes": 76857,
+   "apiAlt": "Профсоюзная 61 — холл"
+  },
+  "/wp-content/uploads/2026/08/persona-profsoyuznaya-zal.jpg": {
+   "src": "/media/studios/profsoyuznaya-3.jpg",
+   "width": 1024,
+   "height": 696,
+   "bytes": 163226,
+   "apiAlt": "Профсоюзная 61 — зал"
+  },
+  "/wp-content/uploads/2026/02/5192755335523929960.jpg": {
+   "src": "/media/seo/5192755335523929960.jpg",
+   "width": 810,
+   "height": 1428,
+   "bytes": 56057,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-komarova.jpg": {
+   "src": "/media/team/nataliya-yurevna-komarova.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 90209,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-rosnovskaya.jpg": {
+   "src": "/media/team/rosnovskaya-natalya.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 118799,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/rosnovskaya_nataliya.jpg.webp": {
+   "src": "/media/team/rosnovskaya-natalya-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 110724,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-markovichev.jpg": {
+   "src": "/media/team/markovichev-aleksandr.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 125383,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/markovichev_aleksandr.jpg": {
+   "src": "/media/team/markovichev-aleksandr-card.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 184527,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-ionova.jpg": {
+   "src": "/media/team/ionova-darya.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 134072,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/9-3-1.png.webp": {
+   "src": "/media/team/ionova-darya-card.webp",
+   "width": 287,
+   "height": 510,
+   "bytes": 27418,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/hramova_evgeniya_s-1-1024x1024.jpg": {
+   "src": "/media/team/khramova-evgeniya.jpg",
+   "width": 1459,
+   "height": 1459,
+   "bytes": 104060,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/8-2-1.png.webp": {
+   "src": "/media/team/khramova-evgeniya-card.webp",
+   "width": 286,
+   "height": 509,
+   "bytes": 27008,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/grudinina_svetlana_yazykovaya_shkola_angliyskiy_italyanskiy_yazyki-1-1024x1024.jpg": {
+   "src": "/media/team/grudinina-svetlana.jpg",
+   "width": 1480,
+   "height": 1480,
+   "bytes": 94186,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/7-4-1.png.webp": {
+   "src": "/media/team/grudinina-svetlana-card.webp",
+   "width": 286,
+   "height": 510,
+   "bytes": 25590,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/krymskaya_marina_s-1.jpg": {
+   "src": "/media/team/krymskaya-marina.jpg",
+   "width": 800,
+   "height": 800,
+   "bytes": 35948,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/4-3-1.png.webp": {
+   "src": "/media/team/krymskaya-marina-card.webp",
+   "width": 287,
+   "height": 510,
+   "bytes": 23922,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/surina_anastasiya_s-1.jpg": {
+   "src": "/media/team/surina-anastasiya.jpg",
+   "width": 1014,
+   "height": 1014,
+   "bytes": 44168,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/5-3-1.png.webp": {
+   "src": "/media/team/surina-anastasiya-card.webp",
+   "width": 286,
+   "height": 510,
+   "bytes": 12572,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/litvinova_irina_s-1.jpg": {
+   "src": "/media/team/litvinova-irina.jpg",
+   "width": 573,
+   "height": 573,
+   "bytes": 28283,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/6-2-1.png.webp": {
+   "src": "/media/team/litvinova-irina-card.webp",
+   "width": 287,
+   "height": 510,
+   "bytes": 26038,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/sevostyanova_svetlana_logopediya_podgotovka_k_k_shkole-1-1024x1024.jpg": {
+   "src": "/media/team/savostyanova-svetlana.jpg",
+   "width": 1132,
+   "height": 1132,
+   "bytes": 86720,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/5-3-2.png.webp": {
+   "src": "/media/team/savostyanova-svetlana-card.webp",
+   "width": 286,
+   "height": 510,
+   "bytes": 26046,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/ahmedova_nargiz_s-1.jpg": {
+   "src": "/media/team/akhmedova-nargiz.jpg",
+   "width": 994,
+   "height": 994,
+   "bytes": 44075,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/5-3-3.png.webp": {
+   "src": "/media/team/akhmedova-nargiz-card.webp",
+   "width": 286,
+   "height": 510,
+   "bytes": 26062,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-dedikina.jpg": {
+   "src": "/media/team/dedikina-valeriya.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 114521,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/4-3-3.png.webp": {
+   "src": "/media/team/dedikina-valeriya-card.webp",
+   "width": 287,
+   "height": 510,
+   "bytes": 24022,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-amiroslanova.jpg": {
+   "src": "/media/team/amiroslanova-kristina.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 122467,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/amiroslanova-kristina.jpg.webp": {
+   "src": "/media/team/amiroslanova-kristina-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 119260,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-armenakyan-1024x1024.jpg": {
+   "src": "/media/team/armenakyan-mikhail.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 193627,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/armenakyan-mihail.jpg.webp": {
+   "src": "/media/team/armenakyan-mikhail-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 159654,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/image-5-1.png.webp": {
+   "src": "/media/team/akhmedova-asiyat.webp",
+   "width": 662,
+   "height": 657,
+   "bytes": 60350,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/ahmedova-asiyat.jpg.webp": {
+   "src": "/media/team/akhmedova-asiyat-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 128374,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-brusnika.jpg": {
+   "src": "/media/team/brusnika-ekaterina.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 170467,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/brusnika-ekaterina.jpg.webp": {
+   "src": "/media/team/brusnika-ekaterina-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 131406,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-vazmgatova.jpg": {
+   "src": "/media/team/vazigatova-azaliya.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 187482,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/vazmgatova-azaliya.jpg.webp": {
+   "src": "/media/team/vazigatova-azaliya-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 145432,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/image-4-3.png.webp": {
+   "src": "/media/team/vokhmyanin-nikita.webp",
+   "width": 656,
+   "height": 661,
+   "bytes": 57672,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/vohmyanin-nikita.jpg.webp": {
+   "src": "/media/team/vokhmyanin-nikita-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 130496,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/image-4.png.webp": {
+   "src": "/media/team/koteneva-anastasiya.webp",
+   "width": 665,
+   "height": 657,
+   "bytes": 35162,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/koteneva-anastasiya.jpg.webp": {
+   "src": "/media/team/koteneva-anastasiya-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 111742,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/kulakova-elizaveta-2.jpg.webp": {
+   "src": "/media/team/kulakova-elizaveta.webp",
+   "width": 1326,
+   "height": 1333,
+   "bytes": 83196,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/kulakova-elizaveta.jpg.webp": {
+   "src": "/media/team/kulakova-elizaveta-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 107526,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-melkumova.jpg": {
+   "src": "/media/team/melkumova-marina.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 164257,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/melkumova-marina.jpg.webp": {
+   "src": "/media/team/melkumova-marina-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 136060,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/merkulov-anatolij-1-2.jpg.webp": {
+   "src": "/media/team/merkulov-anatoliy.webp",
+   "width": 1538,
+   "height": 1565,
+   "bytes": 94894,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/merkulov-anatolij-1.jpg.webp": {
+   "src": "/media/team/merkulov-anatoliy-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 104338,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/polyakova-kristina-2-1024x1013.jpg": {
+   "src": "/media/team/polyakova-kristina.jpg",
+   "width": 1381,
+   "height": 1366,
+   "bytes": 393768,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/polyakova-kristina.jpg.webp": {
+   "src": "/media/team/polyakova-kristina-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 107118,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/suslova-evgeniya-2-1024x1024.jpg": {
+   "src": "/media/team/suslova-evgeniya.webp",
+   "width": 1579,
+   "height": 1578,
+   "bytes": 46480,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/suslova-evgeniya.jpg.webp": {
+   "src": "/media/team/suslova-evgeniya-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 125532,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-tkacheva.jpg": {
+   "src": "/media/team/tkacheva-viktoriya.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 162143,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/tkacheva-viktoriya.jpg.webp": {
+   "src": "/media/team/tkacheva-viktoriya-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 128114,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-face-tyurina.jpg": {
+   "src": "/media/team/tyurina-irina.jpg",
+   "width": 1400,
+   "height": 1400,
+   "bytes": 155568,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/tyurina-irina.jpg.webp": {
+   "src": "/media/team/tyurina-irina-card.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 125618,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-learn.jpg": {
+   "src": "/media/home/learn.jpg",
+   "width": 549,
+   "height": 525,
+   "bytes": 132357,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/video-1.webp": {
+   "src": "/media/posters/home-performance-1.png",
+   "width": 768,
+   "height": 1365,
+   "bytes": 1256805,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/videoframe_0.png.webp": {
+   "src": "/media/posters/home-performance-2.webp",
+   "width": 720,
+   "height": 1280,
+   "bytes": 127166,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/video-3.webp": {
+   "src": "/media/posters/home-performance-3.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 31908,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/videoframe_0-5.png.webp": {
+   "src": "/media/posters/home-performance-6.png",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 1003377,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5572-1.jpg.webp": {
+   "src": "/media/home/img-5572-1.webp",
+   "width": 424,
+   "height": 566,
+   "bytes": 66416,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5574-1.jpg.webp": {
+   "src": "/media/home/img-5574-1.webp",
+   "width": 425,
+   "height": 567,
+   "bytes": 68050,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5578-1.jpg.webp": {
+   "src": "/media/home/img-5578-1.webp",
+   "width": 425,
+   "height": 567,
+   "bytes": 62562,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5579-1.jpg.webp": {
+   "src": "/media/home/img-5579-1.webp",
+   "width": 425,
+   "height": 566,
+   "bytes": 42422,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5573-1.jpg.webp": {
+   "src": "/media/home/img-5573-1.webp",
+   "width": 424,
+   "height": 566,
+   "bytes": 64736,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5575-1.jpg.webp": {
+   "src": "/media/home/img-5575-1.webp",
+   "width": 425,
+   "height": 567,
+   "bytes": 56722,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5577-1.jpg.webp": {
+   "src": "/media/home/img-5577-1.webp",
+   "width": 425,
+   "height": 567,
+   "bytes": 46006,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5576-1.jpg.webp": {
+   "src": "/media/home/img-5576-1.webp",
+   "width": 425,
+   "height": 566,
+   "bytes": 35974,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_3617-1024x683.webp": {
+   "src": "/media/gallery/img-3617.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 189144,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_4062-1024x683.webp": {
+   "src": "/media/gallery/img-4062.webp",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 369298,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5500-1024x683.webp": {
+   "src": "/media/gallery/img-5500.webp",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 114956,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5516-1024x683.webp": {
+   "src": "/media/gallery/img-5516.webp",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 87618,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5517-1024x683.webp": {
+   "src": "/media/gallery/img-5517.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 111002,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9561.webp": {
+   "src": "/media/gallery/img-9561.webp",
+   "width": 563,
+   "height": 389,
+   "bytes": 21918,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9565.webp": {
+   "src": "/media/gallery/img-9565.webp",
+   "width": 563,
+   "height": 381,
+   "bytes": 27650,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-gal-tancy-a1345-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-tancy-a1345.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 125496,
+   "apiAlt": "Галерея Persona — танцы — A1345"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-tancy-a1437-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-tancy-a1437.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 219826,
+   "apiAlt": "Галерея Persona — танцы — A1437"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-tancy-a1442-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-tancy-a1442.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 149554,
+   "apiAlt": "Галерея Persona — танцы — A1442"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-tancy-a1603-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-tancy-a1603.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 169019,
+   "apiAlt": "Галерея Persona — танцы — A1603"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-tancy-img-4296-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-tancy-img-4296.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 229076,
+   "apiAlt": "Галерея Persona — танцы — IMG_4296"
+  },
+  "/wp-content/uploads/2026/02/img_5482.webp": {
+   "src": "/media/gallery/img-5482.webp",
+   "width": 660,
+   "height": 450,
+   "bytes": 45028,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5484.webp": {
+   "src": "/media/gallery/img-5484.webp",
+   "width": 660,
+   "height": 469,
+   "bytes": 30024,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5493.webp": {
+   "src": "/media/gallery/img-5493.webp",
+   "width": 640,
+   "height": 427,
+   "bytes": 44956,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5495-1024x683.webp": {
+   "src": "/media/gallery/img-5495.webp",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 164244,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5503-1024x683.webp": {
+   "src": "/media/gallery/img-5503.webp",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 75676,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5504-1024x683.webp": {
+   "src": "/media/gallery/img-5504.webp",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 50916,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9564.webp": {
+   "src": "/media/gallery/img-9564.webp",
+   "width": 563,
+   "height": 422,
+   "bytes": 20716,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9570-1.webp": {
+   "src": "/media/gallery/img-9570-1.webp",
+   "width": 563,
+   "height": 381,
+   "bytes": 23686,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9573.webp": {
+   "src": "/media/gallery/img-9573.webp",
+   "width": 563,
+   "height": 377,
+   "bytes": 24106,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-gal-vokal-a1490-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-vokal-a1490.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 104027,
+   "apiAlt": "Галерея Persona — вокал — A1490"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-vokal-a1567-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-vokal-a1567.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 96838,
+   "apiAlt": "Галерея Persona — вокал — A1567"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-vokal-a1601-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-vokal-a1601.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 84085,
+   "apiAlt": "Галерея Persona — вокал — A1601"
+  },
+  "/wp-content/uploads/2026/02/img_4032-1024x683.webp": {
+   "src": "/media/gallery/img-4032.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 90042,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_4038-1024x683.webp": {
+   "src": "/media/gallery/img-4038.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 146238,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_4040-1024x683.webp": {
+   "src": "/media/gallery/img-4040.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 72550,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_4049-1024x683.webp": {
+   "src": "/media/gallery/img-4049.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 66776,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_4050-1024x683.webp": {
+   "src": "/media/gallery/img-4050.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 128376,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_4291-1024x683.webp": {
+   "src": "/media/gallery/img-4291.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 111920,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_4769-1024x683.webp": {
+   "src": "/media/gallery/img-4769.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 109442,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9575.webp": {
+   "src": "/media/gallery/img-9575.webp",
+   "width": 563,
+   "height": 394,
+   "bytes": 38448,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9576.webp": {
+   "src": "/media/gallery/img-9576.webp",
+   "width": 563,
+   "height": 401,
+   "bytes": 28888,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9577.webp": {
+   "src": "/media/gallery/img-9577.webp",
+   "width": 563,
+   "height": 383,
+   "bytes": 21106,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9579.webp": {
+   "src": "/media/gallery/img-9579.webp",
+   "width": 563,
+   "height": 377,
+   "bytes": 40638,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-gal-teatr-a1674-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-teatr-a1674.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 126780,
+   "apiAlt": "Галерея Persona — театр — A1674"
+  },
+  "/wp-content/uploads/2026/02/img_0646.webp": {
+   "src": "/media/gallery/img-0646.webp",
+   "width": 365,
+   "height": 230,
+   "bytes": 22622,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5364-1024x684.webp": {
+   "src": "/media/gallery/img-5364.webp",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 117250,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_5379.webp": {
+   "src": "/media/gallery/img-5379.webp",
+   "width": 563,
+   "height": 392,
+   "bytes": 35426,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_8909-1024x684.webp": {
+   "src": "/media/gallery/img-8909.webp",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 115868,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-gal-moda-5j3b9247-1024x650.jpg": {
+   "src": "/media/gallery/persona-gal-moda-5j3b9247.jpg",
+   "width": 1536,
+   "height": 974,
+   "bytes": 278553,
+   "apiAlt": "Галерея Persona — мода — 5J3B9247"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-moda-img-1059-1024x688.jpg": {
+   "src": "/media/gallery/persona-gal-moda-img-1059.jpg",
+   "width": 1125,
+   "height": 756,
+   "bytes": 120530,
+   "apiAlt": "Галерея Persona — мода — IMG_1059"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-moda-img-2456-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-moda-img-2456.jpg",
+   "width": 1125,
+   "height": 749,
+   "bytes": 149832,
+   "apiAlt": "Галерея Persona — мода — IMG_2456"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-moda-img-5877-1024x748.jpg": {
+   "src": "/media/gallery/persona-gal-moda-img-5877.jpg",
+   "width": 1125,
+   "height": 822,
+   "bytes": 124586,
+   "apiAlt": "Галерея Persona — мода — IMG_5877"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-moda-img-8925-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-moda-img-8925.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 341259,
+   "apiAlt": "Галерея Persona — мода — IMG_8925"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-moda-ls4b4830-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-moda-ls4b4830.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 160227,
+   "apiAlt": "Галерея Persona — мода — LS4B4830"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-moda-ls4b4853-1024x682.jpg": {
+   "src": "/media/gallery/persona-gal-moda-ls4b4853.jpg",
+   "width": 1280,
+   "height": 853,
+   "bytes": 115353,
+   "apiAlt": "Галерея Persona — мода — LS4B4853"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-moda-foto-7-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-moda-foto-7.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 365391,
+   "apiAlt": "Галерея Persona — мода — фото (7)"
+  },
+  "/wp-content/uploads/2026/02/img_9570.webp": {
+   "src": "/media/gallery/img-9570.webp",
+   "width": 563,
+   "height": 376,
+   "bytes": 77008,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9571-1024x683.webp": {
+   "src": "/media/gallery/img-9571.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 115602,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_9631.webp": {
+   "src": "/media/gallery/img-9631.webp",
+   "width": 563,
+   "height": 557,
+   "bytes": 108608,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/2026-02-19-09-44-27.webp": {
+   "src": "/media/gallery/2026-02-19-09-44-27.webp",
+   "width": 563,
+   "height": 376,
+   "bytes": 76986,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_1552.webp": {
+   "src": "/media/gallery/img-1552.webp",
+   "width": 563,
+   "height": 389,
+   "bytes": 72370,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/img_1553.webp": {
+   "src": "/media/gallery/img-1553.webp",
+   "width": 563,
+   "height": 373,
+   "bytes": 56580,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-gal-dostizheniya-1-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-dostizheniya-1.jpg",
+   "width": 1280,
+   "height": 854,
+   "bytes": 202464,
+   "apiAlt": "Галерея Persona — достижения — 1"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-49-01-1024x800.jpg": {
+   "src": "/media/gallery/persona-gal-dostizheniya-2026-08-23-14-49-01.jpg",
+   "width": 1170,
+   "height": 914,
+   "bytes": 116890,
+   "apiAlt": "Галерея Persona — достижения — 2026-08-23 14-49-01"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-55-32-1024x766.jpg": {
+   "src": "/media/gallery/persona-gal-dostizheniya-2026-08-23-14-55-32.jpg",
+   "width": 1280,
+   "height": 958,
+   "bytes": 254594,
+   "apiAlt": "Галерея Persona — достижения — 2026-08-23 14-55-32"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sma-5868-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-dostizheniya-sma-5868.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 131869,
+   "apiAlt": "Галерея Persona — достижения — SMA_5868"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sma-6164-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-dostizheniya-sma-6164.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 169587,
+   "apiAlt": "Галерея Persona — достижения — SMA_6164"
+  },
+  "/wp-content/uploads/2026/08/persona-gal-dostizheniya-sok-1569-1024x683.jpg": {
+   "src": "/media/gallery/persona-gal-dostizheniya-sok-1569.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 298135,
+   "apiAlt": "Галерея Persona — достижения — SOK_1569"
+  },
+  "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp": {
+   "src": "/media/posters/gallery-photoprojects-video-1.webp",
+   "width": 864,
+   "height": 1536,
+   "bytes": 242286,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp": {
+   "src": "/media/posters/gallery-photoprojects-video-2.webp",
+   "width": 864,
+   "height": 1536,
+   "bytes": 150244,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp": {
+   "src": "/media/posters/gallery-photoprojects-video-3.webp",
+   "width": 864,
+   "height": 1536,
+   "bytes": 230932,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg": {
+   "src": "/media/posters/gallery-photoprojects-video-4.jpg",
+   "width": 704,
+   "height": 1280,
+   "bytes": 107185,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg": {
+   "src": "/media/posters/gallery-photoprojects-video-5.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 118319,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg": {
+   "src": "/media/posters/gallery-photoprojects-video-6.jpg",
+   "width": 480,
+   "height": 848,
+   "bytes": 111170,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg": {
+   "src": "/media/posters/gallery-photoprojects-video-7.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 156857,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg": {
+   "src": "/media/posters/gallery-photoprojects-video-8.jpg",
+   "width": 848,
+   "height": 1280,
+   "bytes": 93330,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg": {
+   "src": "/media/posters/gallery-photoprojects-video-9.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 77299,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg": {
+   "src": "/media/posters/gallery-holidays-video-1.jpg",
+   "width": 480,
+   "height": 848,
+   "bytes": 36497,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg": {
+   "src": "/media/posters/gallery-holidays-video-2.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 118973,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg": {
+   "src": "/media/posters/gallery-holidays-video-3.jpg",
+   "width": 1072,
+   "height": 1920,
+   "bytes": 179113,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg": {
+   "src": "/media/posters/gallery-holidays-video-4.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 30651,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg": {
+   "src": "/media/posters/gallery-holidays-video-5.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 91333,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg": {
+   "src": "/media/posters/gallery-holidays-video-6.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 138904,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-evt-tile-birthday.jpg": {
+   "src": "/media/events/persona-evt-tile-birthday.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 196458,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-evt-tile-corp.jpg": {
+   "src": "/media/events/persona-evt-tile-corp.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 193593,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-evt-tile-any.jpg": {
+   "src": "/media/events/persona-evt-tile-any.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 212211,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-evt-tile-workshop.jpg": {
+   "src": "/media/events/persona-evt-tile-workshop.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 209638,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-evt-tile-show.jpg": {
+   "src": "/media/events/persona-evt-tile-show.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 155376,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-evt-tile-fest.jpg": {
+   "src": "/media/events/persona-evt-tile-fest.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 194347,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/group-60-1024x470.png.webp": {
+   "src": "/media/events/events-video.webp",
+   "width": 1117,
+   "height": 513,
+   "bytes": 102686,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-fest-afisha-miss.jpg.webp": {
+   "src": "/media/festivals/persona-fest-afisha-miss.webp",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 100482,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-fest-afisha-stars.jpg": {
+   "src": "/media/festivals/persona-fest-afisha-stars.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 271762,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-fest-afisha-kitchen.jpg": {
+   "src": "/media/festivals/persona-fest-afisha-kitchen.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 170646,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-fest-afisha-couture.jpg": {
+   "src": "/media/festivals/persona-fest-afisha-couture.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 184437,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-fest-afisha-abroad.jpg": {
+   "src": "/media/festivals/persona-fest-afisha-abroad.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 207418,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/persona-fest-afisha-brics.jpg": {
+   "src": "/media/festivals/persona-fest-afisha-brics.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 266842,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/08/prejskurant-26-27.jpg": {
+   "src": "/media/pricing/prejskurant-2026-2027.jpg",
+   "width": 1815,
+   "height": 2560,
+   "bytes": 482507,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/830cae7864f5f60196498e0ca4a53bc937154c98-e1772059970939-1024x319.png": {
+   "src": "/media/directions/shkola-modeley-hero.webp",
+   "width": 1536,
+   "height": 479,
+   "bytes": 32394,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-10-2-1.png": {
+   "src": "/media/directions/tancy-hero.webp",
+   "width": 1267,
+   "height": 707,
+   "bytes": 211056,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/poyem_i_vodim_khorovody-e1722865665673-2-1.png": {
+   "src": "/media/directions/vokal-hero.webp",
+   "width": 1920,
+   "height": 1009,
+   "bytes": 155706,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/b6acece6-3ffc-4e55-83ff-d856fb98423d-1.png": {
+   "src": "/media/directions/teatr-hero.webp",
+   "width": 1230,
+   "height": 617,
+   "bytes": 238038,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/little-girl-mixing-gouache-palette-table-2-1.png": {
+   "src": "/media/directions/risovanie-hero.webp",
+   "width": 1203,
+   "height": 461,
+   "bytes": 95130,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/a6ab51c484bf928146f730d384aa67195288894c-1024x374.png": {
+   "src": "/media/directions/art-masterskaya-hero.webp",
+   "width": 1536,
+   "height": 561,
+   "bytes": 76606,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/0c265a322bf87295c4379e07fab39f5251995ffc-1024x369.png": {
+   "src": "/media/directions/shahmaty-hero.webp",
+   "width": 1536,
+   "height": 554,
+   "bytes": 45966,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/girls-doing-science-experiments-with-female-teacher-3-1-e1772486924517.png": {
+   "src": "/media/directions/megavolt-hero.webp",
+   "width": 1249,
+   "height": 560,
+   "bytes": 127660,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/girls-female-teacher-doing-science-experiments-together-with-robotic-car-2-1-1024x457.png.webp": {
+   "src": "/media/directions/robototehnika-card.png",
+   "width": 1201,
+   "height": 536,
+   "bytes": 237013,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/schoolboy-looking-girls-him-2-1.png": {
+   "src": "/media/directions/podgotovka-k-shkole-hero.webp",
+   "width": 1200,
+   "height": 615,
+   "bytes": 164254,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/side-view-teacher-watching-kids-3-1.png": {
+   "src": "/media/directions/yazykovaya-shkola-hero.webp",
+   "width": 1202,
+   "height": 486,
+   "bytes": 159348,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/woman-doing-speech-therapy-with-little-boy-her-clinic-2-1.png": {
+   "src": "/media/directions/logoped-hero.webp",
+   "width": 1200,
+   "height": 602,
+   "bytes": 167572,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/gemini_generated_image_72t8dj72t8dj72t8-1-e1772060172330.png": {
+   "src": "/media/directions/muzykalnye-instrumenty-hero.webp",
+   "width": 1200,
+   "height": 380,
+   "bytes": 64192,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/gemini_generated_image_7akrx27akrx27akr-1-1024x395.png.webp": {
+   "src": "/media/directions/dlya-vzroslyh-card.webp",
+   "width": 1199,
+   "height": 463,
+   "bytes": 23992,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/full-shot-senior-women-training-2-1-1024x422.png.webp": {
+   "src": "/media/directions/pilates-card.png",
+   "width": 1355,
+   "height": 559,
+   "bytes": 172209,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/trainer-assisting-group-people-meditation-2-1.png": {
+   "src": "/media/directions/joga-hero.webp",
+   "width": 1228,
+   "height": 618,
+   "bytes": 169038,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/women-holding-yoga-mats-medium-shot-2-1.png": {
+   "src": "/media/directions/barre-fitnes-hero.webp",
+   "width": 1200,
+   "height": 632,
+   "bytes": 231916,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/young-couple-dancing-bachata-2-1-1024x497.png.webp": {
+   "src": "/media/directions/bachata-card.png",
+   "width": 1224,
+   "height": 594,
+   "bytes": 188407,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/02/yoga-group-classes-inside-gym-2-1-1-e1772487413525-1024x486.png.webp": {
+   "src": "/media/directions/individualnye-zanyatiya-dlya-vzroslyh-card.png",
+   "width": 1190,
+   "height": 565,
+   "bytes": 295881,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/little-girls-doing-online-school-together-2-1.png": {
+   "src": "/media/directions/semejnaya-shkola-hero.webp",
+   "width": 1218,
+   "height": 631,
+   "bytes": 166298,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/prodlenka-1.jpg": {
+   "src": "/media/directions/prodlenka-hero.webp",
+   "width": 1024,
+   "height": 619,
+   "bytes": 125472,
+   "apiAlt": ""
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-23.jpg": {
+   "src": "/media/directions/megavolt-photo-1.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 142540,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "card",
+   "label": "Электрическая цепь"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-24.jpg": {
+   "src": "/media/directions/megavolt-photo-2.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 155609,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "card",
+   "label": "Пайка"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-26.jpg": {
+   "src": "/media/directions/megavolt-photo-3.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 139908,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "card",
+   "label": "Микросхема"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-27-1024x1536.jpg": {
+   "src": "/media/directions/megavolt-photo-4.jpg",
+   "width": 1365,
+   "height": 2048,
+   "bytes": 217325,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "card",
+   "label": "Проекты"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-53.jpg": {
+   "src": "/media/directions/megavolt-photo-5.webp",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 60630,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "card",
+   "label": "Практика"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-55.jpg": {
+   "src": "/media/directions/megavolt-photo-6.webp",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 64434,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "card",
+   "label": "Электроника"
+  },
+  "/wp-content/uploads/2026/02/img_9818.jpg": {
+   "src": "/media/directions/bachata-photo-1.jpg",
+   "width": 832,
+   "height": 1248,
+   "bytes": 126165,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "card",
+   "label": "Социальный кодекс и уважение — Философия танцпола"
+  },
+  "/wp-content/uploads/2026/02/img_9819.jpg": {
+   "src": "/media/directions/bachata-photo-2.jpg",
+   "width": 832,
+   "height": 1248,
+   "bytes": 135631,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "card",
+   "label": "Ведение и следование"
+  },
+  "/wp-content/uploads/2026/02/img_9820.jpg": {
+   "src": "/media/directions/bachata-photo-3.jpg",
+   "width": 832,
+   "height": 1248,
+   "bytes": 139619,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "card",
+   "label": "Музыкальность и ритм"
+  },
+  "/wp-content/uploads/2026/02/img_9822.jpg": {
+   "src": "/media/directions/bachata-photo-4.jpg",
+   "width": 832,
+   "height": 1248,
+   "bytes": 132691,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "card",
+   "label": "Работа тела"
+  },
+  "/wp-content/uploads/2026/02/img_9823.jpg": {
+   "src": "/media/directions/bachata-photo-5.jpg",
+   "width": 832,
+   "height": 1248,
+   "bytes": 141073,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "card",
+   "label": "Контакт и рамка"
+  },
+  "/wp-content/uploads/2026/02/img_9824.jpg": {
+   "src": "/media/directions/bachata-photo-6.jpg",
+   "width": 832,
+   "height": 1248,
+   "bytes": 147350,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "card",
+   "label": "Базовая техника шага"
+  },
+  "/wp-content/uploads/2026/01/img_9802-2.jpg": {
+   "src": "/media/directions/barre-fitnes-photo-1.jpg",
+   "width": 1224,
+   "height": 1557,
+   "bytes": 244760,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "card",
+   "label": "Пилатес"
+  },
+  "/wp-content/uploads/2026/01/img_9813-2-1024x1024.jpg": {
+   "src": "/media/directions/barre-fitnes-photo-2.jpg",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 165798,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "card",
+   "label": "Изометрическая нагрузка"
+  },
+  "/wp-content/uploads/2026/01/img_9814.jpg": {
+   "src": "/media/directions/barre-fitnes-photo-3.jpg",
+   "width": 625,
+   "height": 625,
+   "bytes": 75198,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "card",
+   "label": "Йога"
+  },
+  "/wp-content/uploads/2026/01/img_9815.jpg.webp": {
+   "src": "/media/directions/barre-fitnes-photo-4.webp",
+   "width": 1230,
+   "height": 1551,
+   "bytes": 178468,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "card",
+   "label": "Функциональный тренинг"
+  },
+  "/wp-content/uploads/2026/01/img_9816.jpg.webp": {
+   "src": "/media/directions/barre-fitnes-photo-5.webp",
+   "width": 1246,
+   "height": 1880,
+   "bytes": 104378,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "card",
+   "label": "Стрейтчинг"
+  },
+  "/wp-content/uploads/2026/01/img_9817.jpg": {
+   "src": "/media/directions/barre-fitnes-photo-6.jpg",
+   "width": 633,
+   "height": 1125,
+   "bytes": 63216,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "card",
+   "label": "Балет"
+  },
+  "/wp-content/uploads/2026/02/img_9793.jpg": {
+   "src": "/media/directions/pilates-photo-1.jpg",
+   "width": 1200,
+   "height": 1800,
+   "bytes": 125794,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "card",
+   "label": "Плавность"
+  },
+  "/wp-content/uploads/2026/02/img_9794.jpg": {
+   "src": "/media/directions/pilates-photo-2.jpg",
+   "width": 1241,
+   "height": 1658,
+   "bytes": 116356,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "card",
+   "label": "Концентрация"
+  },
+  "/wp-content/uploads/2026/02/img_9795.jpg": {
+   "src": "/media/directions/pilates-photo-3.jpg",
+   "width": 736,
+   "height": 1104,
+   "bytes": 48887,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "card",
+   "label": "Точность"
+  },
+  "/wp-content/uploads/2026/02/img_9796.jpg": {
+   "src": "/media/directions/pilates-photo-4.jpg",
+   "width": 1255,
+   "height": 1821,
+   "bytes": 103664,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "card",
+   "label": "Центрирование"
+  },
+  "/wp-content/uploads/2026/02/img_9797.jpg": {
+   "src": "/media/directions/pilates-photo-5.webp",
+   "width": 1251,
+   "height": 1649,
+   "bytes": 84208,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "card",
+   "label": "Дыхание"
+  },
+  "/wp-content/uploads/2026/08/persona-pilates-kontrol.jpg": {
+   "src": "/media/directions/pilates-photo-6.jpg",
+   "width": 1000,
+   "height": 1250,
+   "bytes": 277543,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "card",
+   "label": "Контроль"
+  },
+  "/wp-content/uploads/2026/01/img_9806.jpg": {
+   "src": "/media/directions/art-masterskaya-photo-1.jpg",
+   "width": 1200,
+   "height": 1799,
+   "bytes": 368399,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "card",
+   "label": "Дизайн и декор"
+  },
+  "/wp-content/uploads/2026/01/img_9808-2.jpg": {
+   "src": "/media/directions/art-masterskaya-photo-2.jpg",
+   "width": 900,
+   "height": 1200,
+   "bytes": 177456,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "card",
+   "label": "Работа с различными  материалами"
+  },
+  "/wp-content/uploads/2026/01/img_9809-2.jpg": {
+   "src": "/media/directions/art-masterskaya-photo-3.jpg",
+   "width": 853,
+   "height": 1280,
+   "bytes": 179065,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "card",
+   "label": "Бумагопластика"
+  },
+  "/wp-content/uploads/2026/01/img_9810-2.jpg": {
+   "src": "/media/directions/art-masterskaya-photo-4.jpg",
+   "width": 1200,
+   "height": 1714,
+   "bytes": 246800,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "card",
+   "label": "Скульптура и керамика"
+  },
+  "/wp-content/uploads/2026/01/img_9811-2.jpg": {
+   "src": "/media/directions/art-masterskaya-photo-5.jpg",
+   "width": 236,
+   "height": 420,
+   "bytes": 40280,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "card",
+   "label": "Выставки"
+  },
+  "/wp-content/uploads/2026/01/img_9812-2.jpg": {
+   "src": "/media/directions/art-masterskaya-photo-6.jpg",
+   "width": 810,
+   "height": 1440,
+   "bytes": 174730,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "card",
+   "label": "От простого к сложному"
+  },
+  "/wp-content/uploads/2026/01/img_9785-1024x1536.jpg": {
+   "src": "/media/directions/muzykalnye-instrumenty-photo-1.jpg",
+   "width": 1168,
+   "height": 1752,
+   "bytes": 176315,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "card",
+   "label": "Гитара"
+  },
+  "/wp-content/uploads/2026/01/img_9786.jpg": {
+   "src": "/media/directions/muzykalnye-instrumenty-photo-2.jpg",
+   "width": 1001,
+   "height": 1001,
+   "bytes": 151387,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "card",
+   "label": "Укулеле"
+  },
+  "/wp-content/uploads/2026/01/img_9787.jpg": {
+   "src": "/media/directions/muzykalnye-instrumenty-photo-3.jpg",
+   "width": 768,
+   "height": 1024,
+   "bytes": 152130,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "card",
+   "label": "Скрипка"
+  },
+  "/wp-content/uploads/2026/01/img_9788-1024x1536.jpg": {
+   "src": "/media/directions/muzykalnye-instrumenty-photo-4.jpg",
+   "width": 1199,
+   "height": 1799,
+   "bytes": 177189,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "card",
+   "label": "Синтезатор"
+  },
+  "/wp-content/uploads/2026/01/img_9792.jpg": {
+   "src": "/media/directions/muzykalnye-instrumenty-photo-5.jpg",
+   "width": 1000,
+   "height": 667,
+   "bytes": 82660,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "card",
+   "label": "Студийная запись"
+  },
+  "/wp-content/uploads/2026/08/persona-music-perform.jpg": {
+   "src": "/media/directions/muzykalnye-instrumenty-photo-6.jpg",
+   "width": 752,
+   "height": 806,
+   "bytes": 148590,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "card",
+   "label": "Выступления"
+  },
+  "/wp-content/uploads/2026/01/img_9778.jpg": {
+   "src": "/media/directions/logoped-photo-1.jpg",
+   "width": 832,
+   "height": 1248,
+   "bytes": 119846,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "card",
+   "label": "Постановка и автоматизация звуков"
+  },
+  "/wp-content/uploads/2026/01/img_9779.jpg": {
+   "src": "/media/directions/logoped-photo-2.jpg",
+   "width": 736,
+   "height": 1104,
+   "bytes": 190125,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "card",
+   "label": "Коррекция темпо-ритмических нарушений"
+  },
+  "/wp-content/uploads/2026/01/img_9780-1024x653.jpg": {
+   "src": "/media/directions/logoped-photo-3.jpg",
+   "width": 1199,
+   "height": 765,
+   "bytes": 202168,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "card",
+   "label": "Преодоление задержки речевого развития"
+  },
+  "/wp-content/uploads/2026/01/img_9781.jpg": {
+   "src": "/media/directions/logoped-photo-4.jpg",
+   "width": 600,
+   "height": 400,
+   "bytes": 55865,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "card",
+   "label": "Коррекция голоса и просодики"
+  },
+  "/wp-content/uploads/2026/01/img_9782.jpg": {
+   "src": "/media/directions/logoped-photo-5.jpg",
+   "width": 800,
+   "height": 1200,
+   "bytes": 113096,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "card",
+   "label": "Развитие связной речи"
+  },
+  "/wp-content/uploads/2026/01/img_9783.jpg": {
+   "src": "/media/directions/logoped-photo-6.jpg",
+   "width": 736,
+   "height": 736,
+   "bytes": 111353,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "card",
+   "label": "Развитие фонематического слуха и профилактика дисграфии"
+  },
+  "/wp-content/uploads/2026/01/img_9769.jpg": {
+   "src": "/media/directions/yazykovaya-shkola-photo-1.jpg",
+   "width": 896,
+   "height": 1280,
+   "bytes": 164504,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "card",
+   "label": "Арабский"
+  },
+  "/wp-content/uploads/2026/01/img_9770.jpg": {
+   "src": "/media/directions/yazykovaya-shkola-photo-2.jpg",
+   "width": 896,
+   "height": 1280,
+   "bytes": 177182,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "card",
+   "label": "Французский"
+  },
+  "/wp-content/uploads/2026/01/img_9773.jpg": {
+   "src": "/media/directions/yazykovaya-shkola-photo-3.jpg",
+   "width": 600,
+   "height": 740,
+   "bytes": 60271,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "card",
+   "label": "Английский"
+  },
+  "/wp-content/uploads/2026/01/img_9775.jpg.webp": {
+   "src": "/media/directions/yazykovaya-shkola-photo-4.webp",
+   "width": 800,
+   "height": 1120,
+   "bytes": 110510,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "card",
+   "label": "Итальянский"
+  },
+  "/wp-content/uploads/2026/01/img_9776-2.jpg": {
+   "src": "/media/directions/yazykovaya-shkola-photo-5.jpg",
+   "width": 880,
+   "height": 1184,
+   "bytes": 170664,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "card",
+   "label": "Китайский"
+  },
+  "/wp-content/uploads/2026/01/img_9776.jpg": {
+   "src": "/media/directions/yazykovaya-shkola-photo-6.jpg",
+   "width": 880,
+   "height": 1184,
+   "bytes": 170664,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "card",
+   "label": "Испанский"
+  },
+  "/wp-content/uploads/2026/01/img_9799.jpg.webp": {
+   "src": "/media/directions/joga-photo-1.webp",
+   "width": 1214,
+   "height": 1855,
+   "bytes": 87694,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "card",
+   "label": "Дхьяна"
+  },
+  "/wp-content/uploads/2026/01/img_9800-1024x1024.jpg": {
+   "src": "/media/directions/joga-photo-2.jpg",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 140612,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "card",
+   "label": "Дхарана"
+  },
+  "/wp-content/uploads/2026/01/img_9801.jpg.webp": {
+   "src": "/media/directions/joga-photo-3.webp",
+   "width": 1234,
+   "height": 1825,
+   "bytes": 86110,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "card",
+   "label": "Пратьяхара"
+  },
+  "/wp-content/uploads/2026/01/img_9802.jpg": {
+   "src": "/media/directions/joga-photo-4.jpg",
+   "width": 1224,
+   "height": 1557,
+   "bytes": 244760,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "card",
+   "label": "Пранаяма"
+  },
+  "/wp-content/uploads/2026/01/img_9803.jpg.webp": {
+   "src": "/media/directions/joga-photo-5.webp",
+   "width": 1253,
+   "height": 1567,
+   "bytes": 118896,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "card",
+   "label": "Асаны"
+  },
+  "/wp-content/uploads/2026/01/img_9804.jpg.webp": {
+   "src": "/media/directions/joga-photo-6.webp",
+   "width": 1224,
+   "height": 1895,
+   "bytes": 129456,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "card",
+   "label": "Самадхи"
+  },
+  "/wp-content/uploads/2026/02/boy-doing-some-mathematical-exercises-1-1024x684.jpg": {
+   "src": "/media/directions/podgotovka-k-shkole-photo-1.jpg",
+   "width": 1536,
+   "height": 1027,
+   "bytes": 126677,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "card",
+   "label": "Математика"
+  },
+  "/wp-content/uploads/2026/02/cheerful-classmates-chatting-1-2.png.webp": {
+   "src": "/media/directions/podgotovka-k-shkole-photo-2.webp",
+   "width": 1024,
+   "height": 682,
+   "bytes": 49882,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "card",
+   "label": "Письмо"
+  },
+  "/wp-content/uploads/2026/02/primary-students-reading-yellow-book-with-blackboard-background-1024x683.jpg": {
+   "src": "/media/directions/podgotovka-k-shkole-photo-3.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 220797,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "card",
+   "label": "Чтение"
+  },
+  "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.40.12-1-1024x683.jpg": {
+   "src": "/media/directions/podgotovka-k-shkole-photo-4.webp",
+   "width": 1554,
+   "height": 1036,
+   "bytes": 108974,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "card",
+   "label": "Окружающий мир"
+  },
+  "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.41.09.png.webp": {
+   "src": "/media/directions/podgotovka-k-shkole-photo-5.webp",
+   "width": 1536,
+   "height": 1035,
+   "bytes": 63158,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "card",
+   "label": "Творчество"
+  },
+  "/wp-content/uploads/2026/02/snimok-ekrana-2026-04-14-v-16.42.04.png.webp": {
+   "src": "/media/directions/podgotovka-k-shkole-photo-6.webp",
+   "width": 1024,
+   "height": 670,
+   "bytes": 55906,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "card",
+   "label": "Проектная деятельность"
+  },
+  "/wp-content/uploads/2026/02/1627977035_ayti-1-1024x683.jpg": {
+   "src": "/media/directions/robototehnika-photo-1.jpg",
+   "width": 1200,
+   "height": 800,
+   "bytes": 220271,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "card",
+   "label": "Raspberry Pi"
+  },
+  "/wp-content/uploads/2026/02/image_2023-08-11_170-1024x576.jpg": {
+   "src": "/media/directions/robototehnika-photo-2.jpg",
+   "width": 1280,
+   "height": 720,
+   "bytes": 169230,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "card",
+   "label": "C++"
+  },
+  "/wp-content/uploads/2026/02/kursy-programmirovaniya-dlya-detej-python-foto-1024x472.jpg": {
+   "src": "/media/directions/robototehnika-photo-3.jpg",
+   "width": 1150,
+   "height": 530,
+   "bytes": 127699,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "card",
+   "label": "Python"
+  },
+  "/wp-content/uploads/2026/02/robot-1-1024x576.jpg": {
+   "src": "/media/directions/robototehnika-photo-4.jpg",
+   "width": 1536,
+   "height": 864,
+   "bytes": 172169,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "card",
+   "label": "Arduino"
+  },
+  "/wp-content/uploads/2026/02/robotech.jpg": {
+   "src": "/media/directions/robototehnika-photo-5.jpg",
+   "width": 600,
+   "height": 356,
+   "bytes": 29388,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "card",
+   "label": "Scratch"
+  },
+  "/wp-content/uploads/2026/02/robototekhnika-dlya-doshkolnikov.jpg.webp": {
+   "src": "/media/directions/robototehnika-photo-6.webp",
+   "width": 900,
+   "height": 601,
+   "bytes": 88852,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "card",
+   "label": "LEGO Mindstorms"
+  },
+  "/wp-content/uploads/2026/02/img_9764.jpg": {
+   "src": "/media/directions/shahmaty-photo-1.jpg",
+   "width": 735,
+   "height": 1168,
+   "bytes": 117236,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "card",
+   "label": "Отвлечение"
+  },
+  "/wp-content/uploads/2026/02/img_9765.jpg": {
+   "src": "/media/directions/shahmaty-photo-2.jpg",
+   "width": 720,
+   "height": 1279,
+   "bytes": 123218,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "card",
+   "label": "Цейтнот"
+  },
+  "/wp-content/uploads/2026/02/img_9767.jpg": {
+   "src": "/media/directions/shahmaty-photo-3.jpg",
+   "width": 1000,
+   "height": 667,
+   "bytes": 116043,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "card",
+   "label": "Перегрузка фигуры"
+  },
+  "/wp-content/uploads/2026/02/img_9768.jpg": {
+   "src": "/media/directions/shahmaty-photo-4.jpg",
+   "width": 1000,
+   "height": 1500,
+   "bytes": 161187,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "card",
+   "label": "Вилка"
+  },
+  "/wp-content/uploads/2026/02/young-kids-playing-chess-together-2-1024x683.jpg": {
+   "src": "/media/directions/shahmaty-photo-5.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 110419,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "card",
+   "label": "Шах"
+  },
+  "/wp-content/uploads/2026/02/young-kids-playing-chess-together-1024x683.jpg": {
+   "src": "/media/directions/shahmaty-photo-6.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 119787,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "card",
+   "label": "Связка"
+  },
+  "/wp-content/uploads/2026/01/children-love-face-painting-games-1024x683.jpg": {
+   "src": "/media/directions/teatr-photo-1.jpg",
+   "width": 1536,
+   "height": 1025,
+   "bytes": 172852,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "card",
+   "label": "Сценическая речь"
+  },
+  "/wp-content/uploads/2026/01/kids-performing-play-stage-word-theatre-day-1024x1024.jpg": {
+   "src": "/media/directions/teatr-photo-2.jpg",
+   "width": 1536,
+   "height": 1536,
+   "bytes": 233568,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "card",
+   "label": "Работа с текстом"
+  },
+  "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-2-1024x1024.jpg": {
+   "src": "/media/directions/teatr-photo-3.jpg",
+   "width": 1536,
+   "height": 1536,
+   "bytes": 240882,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "card",
+   "label": "Актерское мастерство"
+  },
+  "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-3-1024x1024.jpg": {
+   "src": "/media/directions/teatr-photo-4.jpg",
+   "width": 1536,
+   "height": 1536,
+   "bytes": 214040,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "card",
+   "label": "Сценическое движение"
+  },
+  "/wp-content/uploads/2026/01/young-kids-performing-play-theatre-stage-celebrate-world-theatre-day-1024x1024.jpg": {
+   "src": "/media/directions/teatr-photo-5.jpg",
+   "width": 1536,
+   "height": 1536,
+   "bytes": 216660,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "card",
+   "label": "Постановка спектаклей"
+  },
+  "/wp-content/uploads/2026/01/young-kids-rehearsing-play-perform-theatre-stage-1024x1024.jpg": {
+   "src": "/media/directions/teatr-photo-6.jpg",
+   "width": 1536,
+   "height": 1536,
+   "bytes": 180671,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "card",
+   "label": "Публичные выступления"
+  },
+  "/wp-content/uploads/2026/01/art-composition-with-paint-brush-1.png.webp": {
+   "src": "/media/directions/risovanie-photo-1.webp",
+   "width": 1044,
+   "height": 696,
+   "bytes": 104694,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "card",
+   "label": "Различные техники"
+  },
+  "/wp-content/uploads/2026/01/close-up-little-girl-with-apron-painting-1.png.webp": {
+   "src": "/media/directions/risovanie-photo-2.webp",
+   "width": 910,
+   "height": 607,
+   "bytes": 63616,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "card",
+   "label": "Работа  с различными материалами"
+  },
+  "/wp-content/uploads/2026/01/close-up-portrait-little-white-skinned-girl-with-blonde-hair-freckles-focused-painting-picture-1.png.webp": {
+   "src": "/media/directions/risovanie-photo-3.webp",
+   "width": 850,
+   "height": 567,
+   "bytes": 69522,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "card",
+   "label": "Выставки"
+  },
+  "/wp-content/uploads/2026/01/happy-kid-home-diy-pot-painting-hobby-1.png.webp": {
+   "src": "/media/directions/risovanie-photo-4.webp",
+   "width": 946,
+   "height": 632,
+   "bytes": 79242,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "card",
+   "label": "От простого к сложному"
+  },
+  "/wp-content/uploads/2026/01/high-angle-artist-painting-using-brush-watercolor-1024x768.jpg": {
+   "src": "/media/directions/risovanie-photo-5.jpg",
+   "width": 1536,
+   "height": 1152,
+   "bytes": 141595,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "card",
+   "label": "Композиция"
+  },
+  "/wp-content/uploads/2026/01/high-angle-little-girl-painting-1024x683.jpg": {
+   "src": "/media/directions/risovanie-photo-6.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 79078,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "card",
+   "label": "Работа с цветом"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-17.jpg": {
+   "src": "/media/directions/vokal-photo-1.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 146083,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "card",
+   "label": "Разработка сценического имиджа  в вокале"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-18.jpg": {
+   "src": "/media/directions/vokal-photo-2.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 240675,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "card",
+   "label": "Студийная запись"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-19.jpg": {
+   "src": "/media/directions/vokal-photo-3.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 142484,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "card",
+   "label": "Работа с микрофоном в вокале"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-20.jpg": {
+   "src": "/media/directions/vokal-photo-4.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 116913,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "card",
+   "label": "Правильная постановка звукоизвлечения в вокале"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-49-1.jpg": {
+   "src": "/media/directions/vokal-photo-5.webp",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 55236,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "card",
+   "label": "Подбор репертуара"
+  },
+  "/wp-content/uploads/2026/01/transparent6789-photoroom.jpg": {
+   "src": "/media/directions/vokal-photo-6.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 143347,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "card",
+   "label": "Расширение вокального диапазона"
+  },
+  "/wp-content/uploads/2026/01/brejk.jpg": {
+   "src": "/media/directions/tancy-photo-1.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 131140,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "card",
+   "label": "Брейк-данс"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-11.jpg": {
+   "src": "/media/directions/tancy-photo-2.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 141348,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "card",
+   "label": "Контемп"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-13.jpg": {
+   "src": "/media/directions/tancy-photo-3.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 133002,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "card",
+   "label": "Baby dance"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-14.jpg": {
+   "src": "/media/directions/tancy-photo-4.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 140132,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "card",
+   "label": "Хип-хоп"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-15.jpg": {
+   "src": "/media/directions/tancy-photo-5.jpg",
+   "width": 1536,
+   "height": 996,
+   "bytes": 52756,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "card",
+   "label": "Джаз-фанк"
+  },
+  "/wp-content/uploads/2026/01/transparent-photoroom-16.jpg": {
+   "src": "/media/directions/tancy-photo-6.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 149970,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "card",
+   "label": "K-pop"
+  },
+  "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-10.png.webp": {
+   "src": "/media/directions/shkola-modeley-photo-1.webp",
+   "width": 291,
+   "height": 282,
+   "bytes": 27290,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "card",
+   "label": "Дефиле"
+  },
+  "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-11.png.webp": {
+   "src": "/media/directions/shkola-modeley-photo-2.webp",
+   "width": 287,
+   "height": 283,
+   "bytes": 26808,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "card",
+   "label": "Актерское  мастерство"
+  },
+  "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-12.png.webp": {
+   "src": "/media/directions/shkola-modeley-photo-3.webp",
+   "width": 287,
+   "height": 285,
+   "bytes": 33944,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "card",
+   "label": "Стилистика"
+  },
+  "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-7.png.webp": {
+   "src": "/media/directions/shkola-modeley-photo-4.webp",
+   "width": 291,
+   "height": 281,
+   "bytes": 29232,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "card",
+   "label": "Этикет"
+  },
+  "/wp-content/uploads/2026/01/b_nuzhen_takoj_zhe_forma-9.png.webp": {
+   "src": "/media/directions/shkola-modeley-photo-5.webp",
+   "width": 292,
+   "height": 279,
+   "bytes": 30812,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "card",
+   "label": "Фототренинг"
+  },
+  "/wp-content/uploads/2026/01/gemini_generated_image_i4h96li4h96li4h9-1-1.png.webp": {
+   "src": "/media/directions/shkola-modeley-photo-6.webp",
+   "width": 600,
+   "height": 600,
+   "bytes": 85588,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "card",
+   "label": "Танец"
+  },
+  "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-0-1.png.webp": {
+   "src": "/media/directions/prodlenka-photo-1.webp",
+   "width": 387,
+   "height": 341,
+   "bytes": 59978,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "card",
+   "label": "Праздники вместе"
+  },
+  "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-1-1.png.webp": {
+   "src": "/media/directions/prodlenka-photo-2.webp",
+   "width": 413,
+   "height": 350,
+   "bytes": 66424,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "card",
+   "label": "Развитие и общение"
+  },
+  "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-2-1.png.webp": {
+   "src": "/media/directions/prodlenka-photo-3.webp",
+   "width": 387,
+   "height": 348,
+   "bytes": 43928,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "card",
+   "label": "Уютное пространство"
+  },
+  "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-3-1.png.webp": {
+   "src": "/media/directions/prodlenka-photo-4.webp",
+   "width": 413,
+   "height": 345,
+   "bytes": 67694,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "card",
+   "label": "Научные эксперименты"
+  },
+  "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-4-1.png.webp": {
+   "src": "/media/directions/prodlenka-photo-5.webp",
+   "width": 386,
+   "height": 345,
+   "bytes": 38324,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "card",
+   "label": "Изучаем мир"
+  },
+  "/wp-content/uploads/2026/01/izobrazhenie-jpeg-4a16-80d0-b3-5-1.png.webp": {
+   "src": "/media/directions/prodlenka-photo-6.webp",
+   "width": 395,
+   "height": 350,
+   "bytes": 47278,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "card",
+   "label": "Театральная студия"
+  },
+  "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-1.png.webp": {
+   "src": "/media/directions/semejnaya-shkola-photo-1.webp",
+   "width": 309,
+   "height": 292,
+   "bytes": 27228,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "card",
+   "label": "Полезное питание"
+  },
+  "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-2.png.webp": {
+   "src": "/media/directions/semejnaya-shkola-photo-2.webp",
+   "width": 309,
+   "height": 292,
+   "bytes": 40614,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "card",
+   "label": "Индивидуальный подход"
+  },
+  "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-3.png.webp": {
+   "src": "/media/directions/semejnaya-shkola-photo-3.webp",
+   "width": 309,
+   "height": 292,
+   "bytes": 27192,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "card",
+   "label": "Команда педагогов"
+  },
+  "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-4.png.webp": {
+   "src": "/media/directions/semejnaya-shkola-photo-4.webp",
+   "width": 309,
+   "height": 292,
+   "bytes": 32124,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "card",
+   "label": "Обеденные перерывы"
+  },
+  "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-5.png.webp": {
+   "src": "/media/directions/semejnaya-shkola-photo-5.webp",
+   "width": 309,
+   "height": 292,
+   "bytes": 30248,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "card",
+   "label": "Творческое развитие"
+  },
+  "/wp-content/uploads/2026/01/chatgpt-image-24-fevr.-2026-g.-15_45_29-6.png.webp": {
+   "src": "/media/directions/semejnaya-shkola-photo-6.webp",
+   "width": 309,
+   "height": 292,
+   "bytes": 30862,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "card",
+   "label": "Интеллектуальные клубы"
+  },
+  "/wp-content/uploads/2026/08/persona-adult-art.jpg": {
+   "src": "/media/directions/individualnye-zanyatiya-dlya-vzroslyh-photo-1.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 268417,
+   "apiAlt": "",
+   "page": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Живопись и декор"
+  },
+  "/wp-content/uploads/2026/08/persona-adult-dance.jpg": {
+   "src": "/media/directions/individualnye-zanyatiya-dlya-vzroslyh-photo-2.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 209210,
+   "apiAlt": "",
+   "page": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Танец"
+  },
+  "/wp-content/uploads/2026/08/persona-adult-lang.jpg": {
+   "src": "/media/directions/individualnye-zanyatiya-dlya-vzroslyh-photo-3.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 236647,
+   "apiAlt": "",
+   "page": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Языковые курсы"
+  },
+  "/wp-content/uploads/2026/08/persona-adult-speech.jpg": {
+   "src": "/media/directions/individualnye-zanyatiya-dlya-vzroslyh-photo-4.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 250289,
+   "apiAlt": "",
+   "page": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Выступления"
+  },
+  "/wp-content/uploads/2026/08/persona-adult-strength.jpg": {
+   "src": "/media/directions/individualnye-zanyatiya-dlya-vzroslyh-photo-5.jpg",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 179970,
+   "apiAlt": "",
+   "page": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Силовые тренировки"
+  },
+  "/wp-content/uploads/2026/08/persona-adult-vocal-mid.jpg": {
+   "src": "/media/directions/individualnye-zanyatiya-dlya-vzroslyh-photo-6.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 125661,
+   "apiAlt": "",
+   "page": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Вокал"
+  },
+  "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-1.png.webp": {
+   "src": "/media/directions/dlya-vzroslyh-photo-1.webp",
+   "width": 271,
+   "height": 368,
+   "bytes": 15872,
+   "apiAlt": "",
+   "page": "/napravleniya/dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Вокал"
+  },
+  "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-2.png.webp": {
+   "src": "/media/directions/dlya-vzroslyh-photo-2.webp",
+   "width": 272,
+   "height": 368,
+   "bytes": 18938,
+   "apiAlt": "",
+   "page": "/napravleniya/dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Живопись"
+  },
+  "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-3.png.webp": {
+   "src": "/media/directions/dlya-vzroslyh-photo-3.webp",
+   "width": 275,
+   "height": 368,
+   "bytes": 19794,
+   "apiAlt": "",
+   "page": "/napravleniya/dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Танец"
+  },
+  "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-5.png.webp": {
+   "src": "/media/directions/dlya-vzroslyh-photo-4.webp",
+   "width": 271,
+   "height": 389,
+   "bytes": 16932,
+   "apiAlt": "",
+   "page": "/napravleniya/dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Ораторское искусство"
+  },
+  "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-6.png.webp": {
+   "src": "/media/directions/dlya-vzroslyh-photo-5.webp",
+   "width": 273,
+   "height": 389,
+   "bytes": 14442,
+   "apiAlt": "",
+   "page": "/napravleniya/dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Йога и фитнес"
+  },
+  "/wp-content/uploads/2026/02/gemini_generated_image_ay4rt2ay4rt2ay4r-7.png.webp": {
+   "src": "/media/directions/dlya-vzroslyh-photo-6.webp",
+   "width": 272,
+   "height": 389,
+   "bytes": 18534,
+   "apiAlt": "",
+   "page": "/napravleniya/dlya-vzroslyh/",
+   "kind": "card",
+   "label": "Языки"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-2.png.webp": {
+   "src": "/media/events/sobytiya-photo-1.webp",
+   "width": 328,
+   "height": 310,
+   "bytes": 35034,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "card",
+   "label": "Праздник под ключ"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-3.png.webp": {
+   "src": "/media/events/sobytiya-photo-2.webp",
+   "width": 328,
+   "height": 310,
+   "bytes": 34686,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "card",
+   "label": "Профессиональные аниматоры"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-4.png.webp": {
+   "src": "/media/events/sobytiya-photo-3.webp",
+   "width": 328,
+   "height": 310,
+   "bytes": 29130,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "card",
+   "label": "Яркие эмоции"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-5.png.webp": {
+   "src": "/media/events/sobytiya-photo-4.webp",
+   "width": 328,
+   "height": 310,
+   "bytes": 34342,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "card",
+   "label": "Безопасность детей"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-6.png.webp": {
+   "src": "/media/events/sobytiya-photo-5.webp",
+   "width": 328,
+   "height": 310,
+   "bytes": 36814,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "card",
+   "label": "Индивидуальный сценарий"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-01_02_12-7.png.webp": {
+   "src": "/media/events/sobytiya-photo-6.webp",
+   "width": 328,
+   "height": 310,
+   "bytes": 31342,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "card",
+   "label": "Комфорт родителей"
+  },
+  "/wp-content/uploads/2026/01/a_mne_nuzhno_eto_izobra-1.png.webp": {
+   "src": "/media/events/sobytiya-hero.webp",
+   "width": 1472,
+   "height": 576,
+   "bytes": 181672,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "hero"
+  },
+  "/wp-content/uploads/2026/01/b_nuzhna_kartinka_bez_t-1.png.webp": {
+   "src": "/media/festivals/festivali-hero.png",
+   "width": 1536,
+   "height": 565,
+   "bytes": 480338,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "hero"
+  },
+  "/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg": {
+   "src": "/media/posters/persona-vist-0d4f460.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 215938,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "poster",
+   "label": "0d4f460"
+  },
+  "/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg": {
+   "src": "/media/posters/persona-vist-1b6ba76.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 166947,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "poster",
+   "label": "1b6ba76"
+  },
+  "/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg": {
+   "src": "/media/posters/persona-vist-3dd579a.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 152833,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "poster",
+   "label": "3dd579a"
+  },
+  "/wp-content/uploads/2026/08/persona-vist-56c053b.jpg": {
+   "src": "/media/posters/persona-vist-56c053b.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 289111,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "poster",
+   "label": "56c053b"
+  },
+  "/wp-content/uploads/2026/08/persona-vist-b73727f.jpg": {
+   "src": "/media/posters/persona-vist-b73727f.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 442085,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "poster",
+   "label": "b73727f"
+  },
+  "/wp-content/uploads/2026/08/persona-vist-bffc365.jpg": {
+   "src": "/media/posters/persona-vist-bffc365.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 144472,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "poster",
+   "label": "bffc365"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-2.png": {
+   "src": "/media/festivals/festivali-photo-1.png",
+   "width": 339,
+   "height": 329,
+   "bytes": 180024,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-3.png": {
+   "src": "/media/festivals/festivali-photo-2.png",
+   "width": 339,
+   "height": 329,
+   "bytes": 168193,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-4.png": {
+   "src": "/media/festivals/festivali-photo-3.png",
+   "width": 339,
+   "height": 329,
+   "bytes": 174027,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-5.png": {
+   "src": "/media/festivals/festivali-photo-4.png",
+   "width": 339,
+   "height": 329,
+   "bytes": 139949,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-6.png": {
+   "src": "/media/festivals/festivali-photo-5.png",
+   "width": 339,
+   "height": 329,
+   "bytes": 178922,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/03/chatgpt-image-20-yanv.-2026-g.-00_54_43-7.png": {
+   "src": "/media/festivals/festivali-photo-6.png",
+   "width": 339,
+   "height": 329,
+   "bytes": 208949,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p804-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p804-4ac.jpg",
+   "width": 464,
+   "height": 848,
+   "bytes": 56725,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p804-d63.jpg": {
+   "src": "/media/posters/persona-hcg-p804-d63.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 83363,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-mega-01.jpg": {
+   "src": "/media/posters/persona-hcg-mega-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 96842,
+   "apiAlt": "",
+   "page": "/napravleniya/megavolt/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p1877-bb6.jpg",
+   "width": 480,
+   "height": 848,
+   "bytes": 19386,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p1877-4ac.jpg",
+   "width": 480,
+   "height": 848,
+   "bytes": 45457,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg": {
+   "src": "/media/posters/persona-hcg-bachata-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 58831,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p813-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p813-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 54574,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p813-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p813-4ac.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 90383,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-barre-01.jpg": {
+   "src": "/media/posters/persona-hcg-barre-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 54021,
+   "apiAlt": "",
+   "page": "/napravleniya/barre-fitnes/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1899-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p1899-bb6.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 80224,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1899-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p1899-4ac.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 91734,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-pilates-01.jpg": {
+   "src": "/media/posters/persona-hcg-pilates-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 93796,
+   "apiAlt": "",
+   "page": "/napravleniya/pilates/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p805-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p805-bb6.jpg",
+   "width": 720,
+   "height": 1272,
+   "bytes": 71723,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-art-01.jpg": {
+   "src": "/media/posters/persona-hcg-art-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 98649,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-art-02.jpg": {
+   "src": "/media/posters/persona-hcg-art-02.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 65081,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-art-03.jpg": {
+   "src": "/media/posters/persona-hcg-art-03.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 93693,
+   "apiAlt": "",
+   "page": "/napravleniya/art-masterskaya/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p808-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p808-4ac.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 38633,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p808-d63.jpg": {
+   "src": "/media/posters/persona-hcg-p808-d63.jpg",
+   "width": 752,
+   "height": 1280,
+   "bytes": 55399,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-music-01.jpg": {
+   "src": "/media/posters/persona-hcg-music-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 142446,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-music-02.jpg": {
+   "src": "/media/posters/persona-hcg-music-02.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 63409,
+   "apiAlt": "",
+   "page": "/napravleniya/muzykalnye-instrumenty/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p801-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p801-bb6.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 94756,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p801-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p801-4ac.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 70464,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-logoped-01.jpg": {
+   "src": "/media/posters/persona-hcg-logoped-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 98216,
+   "apiAlt": "",
+   "page": "/napravleniya/logoped/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-lang-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-lang-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 84250,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-lang-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-lang-4ac.jpg",
+   "width": 848,
+   "height": 476,
+   "bytes": 33377,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-lang-d63.jpg": {
+   "src": "/media/posters/persona-hcg-lang-d63.webp",
+   "width": 1600,
+   "height": 900,
+   "bytes": 52138,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-lang-01.jpg": {
+   "src": "/media/posters/persona-hcg-lang-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 78285,
+   "apiAlt": "",
+   "page": "/napravleniya/yazykovaya-shkola/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p800-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p800-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 65824,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-yoga-01.jpg": {
+   "src": "/media/posters/persona-hcg-yoga-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 42861,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-yoga-02.jpg": {
+   "src": "/media/posters/persona-hcg-yoga-02.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 66161,
+   "apiAlt": "",
+   "page": "/napravleniya/joga/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1652-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p1652-bb6.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 96557,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1652-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p1652-4ac.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 108551,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-prep-01.jpg": {
+   "src": "/media/posters/persona-hcg-prep-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 119098,
+   "apiAlt": "",
+   "page": "/napravleniya/podgotovka-k-shkole/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-robot-01.jpg": {
+   "src": "/media/posters/persona-hcg-robot-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 73837,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-robot-02.jpg": {
+   "src": "/media/posters/persona-hcg-robot-02.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 95590,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-robot-03.jpg": {
+   "src": "/media/posters/persona-hcg-robot-03.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 92139,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-robot-04.jpg": {
+   "src": "/media/posters/persona-hcg-robot-04.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 192211,
+   "apiAlt": "",
+   "page": "/napravleniya/robototehnika/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1642-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p1642-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 95007,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1642-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p1642-4ac.jpg",
+   "width": 478,
+   "height": 850,
+   "bytes": 36803,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-chess-01.jpg": {
+   "src": "/media/posters/persona-hcg-chess-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 94569,
+   "apiAlt": "",
+   "page": "/napravleniya/shahmaty/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-teatr-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-teatr-bb6.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 51171,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-teatr-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-teatr-4ac.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 86621,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-teatr-01.jpg": {
+   "src": "/media/posters/persona-hcg-teatr-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 41862,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-teatr-02.jpg": {
+   "src": "/media/posters/persona-hcg-teatr-02.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 183519,
+   "apiAlt": "",
+   "page": "/napravleniya/teatr/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-draw-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-draw-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 100559,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-draw-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-draw-4ac.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 114197,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-draw-d63.jpg": {
+   "src": "/media/posters/persona-hcg-draw-d63.jpg",
+   "width": 720,
+   "height": 1272,
+   "bytes": 71392,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-draw-01.jpg": {
+   "src": "/media/posters/persona-hcg-draw-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 124239,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-draw-02.jpg": {
+   "src": "/media/posters/persona-hcg-draw-02.jpg",
+   "width": 752,
+   "height": 1280,
+   "bytes": 64150,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-draw-03.jpg": {
+   "src": "/media/posters/persona-hcg-draw-03.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 75306,
+   "apiAlt": "",
+   "page": "/napravleniya/risovanie/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-vokal-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 164219,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-vokal-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-vokal-4ac.jpg",
+   "width": 480,
+   "height": 848,
+   "bytes": 62160,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-vokal-d63.jpg": {
+   "src": "/media/posters/persona-hcg-vokal-d63.jpg",
+   "width": 1072,
+   "height": 1920,
+   "bytes": 135353,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-vokal-01.jpg": {
+   "src": "/media/posters/persona-hcg-vokal-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 124496,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-vid-vokal-01-poster.jpg": {
+   "src": "/media/posters/persona-vid-vokal-01-poster.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 147263,
+   "apiAlt": "",
+   "page": "/napravleniya/vokal/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-dance-stretch.jpg": {
+   "src": "/media/posters/persona-hcg-dance-stretch.jpg",
+   "width": 1072,
+   "height": 1920,
+   "bytes": 230425,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-dance-break.jpg": {
+   "src": "/media/posters/persona-hcg-dance-break.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 151326,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-dance-choreo.jpg": {
+   "src": "/media/posters/persona-hcg-dance-choreo.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 84839,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-dance-kpop.jpg": {
+   "src": "/media/posters/persona-hcg-dance-kpop.jpg",
+   "width": 478,
+   "height": 850,
+   "bytes": 95439,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.jpg": {
+   "src": "/media/posters/persona-hcg-dance-breakdans.jpg",
+   "width": 478,
+   "height": 850,
+   "bytes": 48291,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-dance-contemp.jpg": {
+   "src": "/media/posters/persona-hcg-dance-contemp.jpg",
+   "width": 848,
+   "height": 478,
+   "bytes": 63496,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-dance-class.jpg": {
+   "src": "/media/posters/persona-hcg-dance-class.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 80060,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.jpg": {
+   "src": "/media/posters/persona-hcg-dance-hiphop.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 114476,
+   "apiAlt": "",
+   "page": "/napravleniya/tancy/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-school-defile.jpg": {
+   "src": "/media/posters/persona-hcg-school-defile.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 69803,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-school-etiket.jpg": {
+   "src": "/media/posters/persona-hcg-school-etiket.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 284209,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-school-pose.jpg": {
+   "src": "/media/posters/persona-hcg-school-pose.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 178032,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-school-objects.jpg": {
+   "src": "/media/posters/persona-hcg-school-objects.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 199959,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-school-camera.jpg": {
+   "src": "/media/posters/persona-hcg-school-camera.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 46532,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-school-rehearse.jpg": {
+   "src": "/media/posters/persona-hcg-school-rehearse.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 224535,
+   "apiAlt": "",
+   "page": "/napravleniya/shkola-modeley/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p811-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p811-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 67597,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p811-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p811-4ac.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 95533,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.jpg": {
+   "src": "/media/posters/persona-hcg-prodlenka-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 276791,
+   "apiAlt": "",
+   "page": "/napravleniya/prodlenka/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p812-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p812-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 67597,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p812-4ac.jpg": {
+   "src": "/media/posters/persona-hcg-p812-4ac.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 76525,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-family-01.jpg": {
+   "src": "/media/posters/persona-hcg-family-01.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 106955,
+   "apiAlt": "",
+   "page": "/napravleniya/semejnaya-shkola/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-hcg-p1865-bb6.jpg": {
+   "src": "/media/posters/persona-hcg-p1865-bb6.jpg",
+   "width": 720,
+   "height": 1280,
+   "bytes": 54574,
+   "apiAlt": "",
+   "page": "/napravleniya/dlya-vzroslyh/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-evt-dr-01.jpg": {
+   "src": "/media/posters/persona-evt-dr-01.jpg",
+   "width": 480,
+   "height": 848,
+   "bytes": 57931,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-evt-dr-02.jpg": {
+   "src": "/media/posters/persona-evt-dr-02.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 196165,
+   "apiAlt": "",
+   "page": "/sobytiya/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-01.jpg": {
+   "src": "/media/posters/persona-fest-01.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 74336,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-02.jpg": {
+   "src": "/media/posters/persona-fest-02.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 146297,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-03.jpg": {
+   "src": "/media/posters/persona-fest-03.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 88523,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-04.jpg": {
+   "src": "/media/posters/persona-fest-04.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 102081,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-05.jpg": {
+   "src": "/media/posters/persona-fest-05.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 188829,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-06.jpg": {
+   "src": "/media/posters/persona-fest-06.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 32106,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-07.jpg": {
+   "src": "/media/posters/persona-fest-07.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 56687,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-08.jpg": {
+   "src": "/media/posters/persona-fest-08.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 43243,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-09.jpg": {
+   "src": "/media/posters/persona-fest-09.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 82249,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/08/persona-fest-10.jpg": {
+   "src": "/media/posters/persona-fest-10.jpg",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 115704,
+   "apiAlt": "",
+   "page": "/festivali/",
+   "kind": "poster"
+  },
+  "/wp-content/uploads/2026/01/advant-1.webp": {
+   "src": "/media/home/advantages-1.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 73412,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/01/advant-2.webp": {
+   "src": "/media/home/advantages-2.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 52282,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/01/advant-3.webp": {
+   "src": "/media/home/advantages-3.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 40202,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/01/advant-4.webp": {
+   "src": "/media/home/advantages-4.webp",
+   "width": 1280,
+   "height": 732,
+   "bytes": 33544,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/01/advant-5.webp": {
+   "src": "/media/home/advantages-5.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 44320,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/01/advant-6.webp": {
+   "src": "/media/home/advantages-6.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 43068,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "card"
+  },
+  "/wp-content/uploads/2026/01/form_bg.webp": {
+   "src": "/media/home/consultation-bg.webp",
+   "width": 1536,
+   "height": 1024,
+   "bytes": 111810,
+   "apiAlt": "",
+   "page": "/",
+   "kind": "background"
+  },
+  "/wp-content/uploads/2026/01/salsa.webp": {
+   "src": "/media/directions/bachata-card-poster.webp",
+   "width": 1080,
+   "height": 1920,
+   "bytes": 107246,
+   "apiAlt": "",
+   "page": "/napravleniya/bachata/",
+   "kind": "card"
+  }
+ },
+ "videos": {
+  "https://personamodel.ru/wp-content/uploads/2026/01/720p.mov": {
+   "sizeBytes": 109869980,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/defile.mov": {
+   "sizeBytes": 41846952,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/rabota-s-obrazom.mov": {
+   "sizeBytes": 9361321,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/1250186077650215229-1.mov": {
+   "sizeBytes": 11537789,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/img_7094.mov": {
+   "sizeBytes": 50287299,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/k-pop.mp4": {
+   "sizeBytes": 3473351,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/1250186077650215229.mov": {
+   "sizeBytes": 9772529,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/2843407930191225344.mp4": {
+   "sizeBytes": 2442498,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/2392762218775935365.mp4": {
+   "sizeBytes": 32771736,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/teatralnaya-studiya.mov": {
+   "sizeBytes": 145551814,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/instories_1fc19827-5bf0-4c1b-90a8-fc40e065f07c.mov": {
+   "sizeBytes": 84762035,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/4849947142627962169-1.mov": {
+   "sizeBytes": 8891635,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/instories_41df2394-d585-4609-9dd2-d2d143e828b6-1.mov": {
+   "sizeBytes": 49429900,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/3938763585112194147-1.mp4": {
+   "sizeBytes": 27197176,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/3938763585112194147.mp4": {
+   "sizeBytes": 27197176,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/4849947142627962169.mov": {
+   "sizeBytes": 8891635,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/instories_41df2394-d585-4609-9dd2-d2d143e828b6.mov": {
+   "sizeBytes": 49429900,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/img_5851.mov": {
+   "sizeBytes": 13278612,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/8990161844577810641.mp4": {
+   "sizeBytes": 2199238,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/7990165600560498056.mp4": {
+   "sizeBytes": 17017866,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/5006337398039019154.mp4": {
+   "sizeBytes": 3269646,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/885264135780496943.mp4": {
+   "sizeBytes": 4358890,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/7990165600560498056.mp4": {
+   "sizeBytes": 17017866,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/885264135780496943.mp4": {
+   "sizeBytes": 4358890,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/5006337398039019154.mp4": {
+   "sizeBytes": 3269646,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_2796ec94-afbc-4be3-9ecc-f8336de6be0b.mov": {
+   "sizeBytes": 144719558,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_7f1273a3-169c-4fd1-a670-b4b0e35469a1.mov": {
+   "sizeBytes": 44047346,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/5055029821446897070.mp4": {
+   "sizeBytes": 26079614,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/5419428247571083656-1.mp4": {
+   "sizeBytes": 10406835,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/7256386817469383054.mp4": {
+   "sizeBytes": 212471934,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/video-output-e05e3134-aeb2-495e-82d8-7ad5f0947a0b.mov": {
+   "sizeBytes": 108082169,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/instories_77fca057-8b2d-4660-846c-2f5d8b53a577.mov": {
+   "sizeBytes": 126427337,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/8454610018312626833-1.mp4": {
+   "sizeBytes": 34407978,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/8454610018312626833.mp4": {
+   "sizeBytes": 34407978,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/612546145999366579.mp4": {
+   "sizeBytes": 2907418,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/1805810670392923783-1.mp4": {
+   "sizeBytes": 10756831,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_bafb1f33-42ac-4341-bb9e-58e203c7e434.mov": {
+   "sizeBytes": 52877088,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_d49971d6-f151-43fb-b607-1b5bd1b9deac.mov": {
+   "sizeBytes": 85421041,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/6659854732978055179.mp4": {
+   "sizeBytes": 9879006,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/1805810670392923783.mp4": {
+   "sizeBytes": 10756831,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/instories_03753a92-1826-42bd-a65b-aacd305b3e62.mov": {
+   "sizeBytes": 20067820,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/video-2024-09-12-11-47-55.mp4": {
+   "sizeBytes": 13425692,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/video-2024-09-12-12-16-48.mp4": {
+   "sizeBytes": 2306930,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/5803771640908589424-1.mp4": {
+   "sizeBytes": 2501859,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/8235047103093535273.mp4": {
+   "sizeBytes": 7366205,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/5803771640908589424.mp4": {
+   "sizeBytes": 2501859,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/instories_0a32a839-4a69-4e13-bdf2-0c6106aa3b07.mov": {
+   "sizeBytes": 10970986,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_0dd7ce77-4721-4c9d-9804-13656f6da633.mov": {
+   "sizeBytes": 145796413,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/3132911871239949869-1-1.mp4": {
+   "sizeBytes": 6359326,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/437034809785243464.mp4": {
+   "sizeBytes": 38897704,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_921b05ed-c484-47fe-a63f-0ac5eca61d1f.mov": {
+   "sizeBytes": 187289906,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_a09d9aae-147a-4109-8663-3242d2bc33b2-1.mov": {
+   "sizeBytes": 56518853,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/instories_result_c74ac2d5-5ac8-4e85-a0e6-ba2c5a65fc4f-v2.mp4": {
+   "sizeBytes": 3907780,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_4792d113-99c6-4138-97a8-cea4dc49d001.mov": {
+   "sizeBytes": 17433285,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_058c1676-2835-4184-87f2-d1caa34be924.mov": {
+   "sizeBytes": 16257602,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/02/instories_e8990abe-ac55-485a-a873-406e1d628856.mov": {
+   "sizeBytes": 17836804,
+   "mimeType": "video/quicktime"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-01.mp4": {
+   "sizeBytes": 2191768,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-02.mp4": {
+   "sizeBytes": 1689760,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-03.mp4": {
+   "sizeBytes": 9270094,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-04.mp4": {
+   "sizeBytes": 3529313,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-05.mp4": {
+   "sizeBytes": 2465151,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-06.mp4": {
+   "sizeBytes": 5126024,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-01.mp4": {
+   "sizeBytes": 9210493,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02.mp4": {
+   "sizeBytes": 40066935,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03.mp4": {
+   "sizeBytes": 13708863,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04.mp4": {
+   "sizeBytes": 17803546,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05.mp4": {
+   "sizeBytes": 2958956,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06.mp4": {
+   "sizeBytes": 41735867,
+   "mimeType": "video/mp4"
+  },
+  "https://personamodel.ru/wp-content/uploads/2026/01/instories_9d7cddc3-24d8-4d2b-81d1-5c1d84ea2197.mov": {
+   "sizeBytes": 82680785,
+   "mimeType": "video/quicktime"
+  }
+ },
+ "docs": {
+  "/wp-content/uploads/2026/01/abonentskij-dogovor.pdf": {
+   "src": "/docs/abonentskij-dogovor.pdf",
+   "bytes": 1733025,
+   "present": true
+  },
+  "/wp-content/uploads/2026/01/pravila-povedeniya.pdf": {
+   "src": "/docs/pravila-povedeniya.pdf",
+   "bytes": 898125,
+   "present": true
+  },
+  "/wp-content/uploads/2026/01/politika-personalnyh-dannyh.pdf": {
+   "src": "/docs/politika-personalnyh-dannyh.pdf",
+   "bytes": 5829845,
+   "present": false
+  },
+  "/wp-content/uploads/2026/08/stars_international_2026_polozhenie.pdf": {
+   "src": "/docs/festivals/stars-international-2026-polozhenie.pdf",
+   "bytes": 0,
+   "present": false
+  },
+  "/wp-content/uploads/2026/03/malenkie_miss_i_mister_rossiya_2026.pdf": {
+   "src": "/docs/festivals/malenkie-miss-i-mister-rossiya-2026.pdf",
+   "bytes": 9854943,
+   "present": false
+  },
+  "/wp-content/uploads/2026/03/fashion-kitchen.pdf": {
+   "src": "/docs/festivals/fashion-kitchen-2026.pdf",
+   "bytes": 7451091,
+   "present": false
+  }
+ }
+}

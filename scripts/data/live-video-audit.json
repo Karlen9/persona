@@ -1,0 +1,2793 @@
+{
+ "method": "headless Chrome (puppeteer-core), 1440x900, scrolled through, 3s+ settle, tabs clicked, sliders stepped; see scripts/live_audit.mjs",
+ "generatedBy": "scripts/live_audit_report.py",
+ "summary": {
+  "after": {
+   "pagesCovered": 37,
+   "pagesMismatching": 0,
+   "liveVideosTotal": 117
+  },
+  "before": {
+   "pagesCovered": 37,
+   "pagesMismatching": 24,
+   "liveVideosTotal": 117
+  }
+ },
+ "pages": [
+  {
+   "id": "01",
+   "oldUrl": "https://personamodel.ru/areas/inzhenernyj-klub-megavolt/",
+   "newPath": "/napravleniya/megavolt/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/5006337398039019154.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p804-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p804-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p804-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p804-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-28.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 2,
+       "widgetId": "d6310a9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/885264135780496943.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p804-d63.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p804-d63.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p804-d63.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p804-d63.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-29.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 3,
+       "widgetId": "a81meg1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-mega-01.mp4?v=32x",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-mega-01.jpg?v=32x",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-mega-01.jpg?v=32x",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-mega-01.jpg?v=32x",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-mega-01.jpg?v=32x",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-27-2.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/5006337398039019154.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/885264135780496943.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-mega-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "02",
+   "oldUrl": "https://personamodel.ru/areas/bachata/",
+   "newPath": "/napravleniya/bachata/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/video-2024-09-12-11-47-55.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-07.32.20.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/video-2024-09-12-12-16-48.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-07.32.55.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81bac1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.mp4?v=33m",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-07.32.20.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/02/video-2024-09-12-11-47-55.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/02/video-2024-09-12-12-16-48.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "03",
+   "oldUrl": "https://personamodel.ru/areas/barre-fitnes/",
+   "newPath": "/napravleniya/barre-fitnes/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/1805810670392923783.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p813-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p813-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p813-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p813-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.18.05.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/instories_03753a92-1826-42bd-a65b-aacd305b3e62.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p813-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p813-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p813-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p813-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.18.33.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81bar1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-barre-01.mp4?v=33p",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-barre-01.jpg?v=33p",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-barre-01.jpg?v=33p",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-barre-01.jpg?v=33p",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-barre-01.jpg?v=33p",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.18.05.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/1805810670392923783.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/instories_03753a92-1826-42bd-a65b-aacd305b3e62.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-barre-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "04",
+   "oldUrl": "https://personamodel.ru/areas/pilates/",
+   "newPath": "/napravleniya/pilates/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_bafb1f33-42ac-4341-bb9e-58e203c7e434.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1899-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1899-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1899-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1899-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-06.53.35.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_d49971d6-f151-43fb-b607-1b5bd1b9deac.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1899-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1899-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1899-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1899-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-06.54.06.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81pil1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-pilates-01.mp4?v=33k",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-pilates-01.jpg?v=33k",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-pilates-01.jpg?v=33k",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-pilates-01.jpg?v=33k",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-pilates-01.jpg?v=33k",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-04-28-v-06.53.35.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_bafb1f33-42ac-4341-bb9e-58e203c7e434.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_d49971d6-f151-43fb-b607-1b5bd1b9deac.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-pilates-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "05",
+   "oldUrl": "https://personamodel.ru/areas/art-masterskaya/",
+   "newPath": "/napravleniya/art-masterskaya/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 4,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/3938763585112194147.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p805-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p805-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p805-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p805-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-23.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "a81art1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-01.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-01.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-01.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-01.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-01.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-23.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81art2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-02.mp4?v=32v",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-02.jpg?v=32v",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-02.jpg?v=32v",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-02.jpg?v=32v",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-02.jpg?v=32v",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-23.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81art3",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-03.mp4?v=32v",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-03.jpg?v=32v",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-03.jpg?v=32v",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-03.jpg?v=32v",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-03.jpg?v=32v",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-23.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 4,
+   "rebuildCount": 4,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/3938763585112194147.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-02.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-art-03.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "06",
+   "oldUrl": "https://personamodel.ru/areas/igra-na-muzykalnyh-instrumentah/",
+   "newPath": "/napravleniya/muzykalnye-instrumenty/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 4,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/8454610018312626833.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p808-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p808-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p808-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p808-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.08.04.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "d6310a9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/612546145999366579.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p808-d63.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p808-d63.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p808-d63.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p808-d63.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.08.48.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81mus1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-01.mp4?v=33j",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-01.jpg?v=33j",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-01.jpg?v=33j",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-01.jpg?v=33j",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-01.jpg?v=33j",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.07.05.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81mus2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-02.mp4?v=33n",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-02.jpg?v=33n",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-02.jpg?v=33n",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-02.jpg?v=33n",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-02.jpg?v=33n",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.07.05.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 4,
+   "rebuildCount": 4,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/8454610018312626833.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/612546145999366579.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-music-02.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "07",
+   "oldUrl": "https://personamodel.ru/areas/logoped/",
+   "newPath": "/napravleniya/logoped/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/video-output-e05e3134-aeb2-495e-82d8-7ad5f0947a0b.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p801-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p801-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p801-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p801-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.03.29.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/instories_77fca057-8b2d-4660-846c-2f5d8b53a577.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p801-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p801-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p801-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p801-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.05.04.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81log1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-logoped-01.mp4?v=33a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-logoped-01.jpg?v=33a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-logoped-01.jpg?v=33a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-logoped-01.jpg?v=33a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-logoped-01.jpg?v=33a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.03.29.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/video-output-e05e3134-aeb2-495e-82d8-7ad5f0947a0b.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/01/instories_77fca057-8b2d-4660-846c-2f5d8b53a577.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-logoped-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "08",
+   "oldUrl": "https://personamodel.ru/studios/yazykovaya-shkola/",
+   "newPath": "/napravleniya/yazykovaya-shkola/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 4,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/5055029821446897070.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.59.32.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/5419428247571083656-1.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.59.57.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "d6310a9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/7256386817469383054.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-d63.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-d63.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-d63.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-d63.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.00.21-1024x667.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81lng1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-01.mp4?v=32z",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-01.jpg?v=32z",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-01.jpg?v=32z",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-01.jpg?v=32z",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-01.jpg?v=32z",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.59.32.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 4,
+   "rebuildCount": 4,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/5055029821446897070.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/5419428247571083656-1.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/7256386817469383054.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-lang-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "09",
+   "oldUrl": "https://personamodel.ru/areas/joga/",
+   "newPath": "/napravleniya/joga/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/6659854732978055179.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p800-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p800-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p800-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p800-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.50.53.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "a81yog1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-01.mp4?v=33l",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-01.jpg?v=33l",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-01.jpg?v=33l",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-01.jpg?v=33l",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-01.jpg?v=33l",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.50.53.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81yog2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-02.mp4?v=33l",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-02.jpg?v=33l",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-02.jpg?v=33l",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-02.jpg?v=33l",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-02.jpg?v=33l",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.50.53.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/6659854732978055179.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-yoga-02.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "10",
+   "oldUrl": "https://personamodel.ru/areas/podgotovka-k-shkole/",
+   "newPath": "/napravleniya/podgotovka-k-shkole/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_2796ec94-afbc-4be3-9ecc-f8336de6be0b.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1652-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1652-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1652-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1652-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-34.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_7f1273a3-169c-4fd1-a670-b4b0e35469a1.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1652-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1652-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1652-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1652-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-35.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81prp1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prep-01.mp4?v=32y",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prep-01.jpg?v=32y",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prep-01.jpg?v=32y",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prep-01.jpg?v=32y",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prep-01.jpg?v=32y",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-34.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_2796ec94-afbc-4be3-9ecc-f8336de6be0b.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_7f1273a3-169c-4fd1-a670-b4b0e35469a1.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prep-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "11",
+   "oldUrl": "https://personamodel.ru/areas/robototehnika/",
+   "newPath": "/napravleniya/robototehnika/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 4,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-01.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-01.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-01.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-01.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-01.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-31.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-02.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-02.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-02.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-02.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-02.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-32.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "d6310a9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-03.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-03.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-03.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-03.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-03.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-33.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81rob1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-04.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-04.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-04.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-04.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-04.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-31.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 4,
+   "rebuildCount": 4,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-02.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-03.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-robot-04.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "12",
+   "oldUrl": "https://personamodel.ru/areas/shahmaty/",
+   "newPath": "/napravleniya/shahmaty/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/img_5851.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1642-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1642-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1642-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1642-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-25-3.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/8990161844577810641.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1642-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1642-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1642-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1642-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-26.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81chs1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-chess-01.mp4?v=32s",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-chess-01.jpg?v=32s",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-chess-01.jpg?v=32s",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-chess-01.jpg?v=32s",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-chess-01.jpg?v=32s",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-25-3.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/02/img_5851.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/02/8990161844577810641.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-chess-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "13",
+   "oldUrl": "https://personamodel.ru/studios/teatralynaya_studiya/",
+   "newPath": "/napravleniya/teatr/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 4,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/teatralnaya-studiya.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-18.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/instories_1fc19827-5bf0-4c1b-90a8-fc40e065f07c.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-17.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81tea1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-01.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-01.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-01.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-01.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-01.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-18.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81tea2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-02.mp4?v=32r",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-02.jpg?v=32r",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-02.jpg?v=32r",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-02.jpg?v=32r",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-02.jpg?v=32r",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-18.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 4,
+   "rebuildCount": 4,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/teatralnaya-studiya.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/01/instories_1fc19827-5bf0-4c1b-90a8-fc40e065f07c.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-teatr-02.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "14",
+   "oldUrl": "https://personamodel.ru/areas/risovanie/",
+   "newPath": "/napravleniya/risovanie/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 6,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/4849947142627962169-1.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-19.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/instories_41df2394-d585-4609-9dd2-d2d143e828b6-1.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-20-2-1.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "d6310a9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/3938763585112194147-1.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-d63.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-d63.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-d63.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-d63.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-21-5.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81drw1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-01.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-01.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-01.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-01.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-01.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-19.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 5,
+       "widgetId": "a81drw2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-02.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-02.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-02.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-02.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-02.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-19.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 6,
+       "widgetId": "a81drw3",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-03.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-03.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-03.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-03.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-03.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-19.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 6,
+   "rebuildCount": 6,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/4849947142627962169-1.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/01/instories_41df2394-d585-4609-9dd2-d2d143e828b6-1.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/01/3938763585112194147-1.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-02.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-draw-03.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "15",
+   "oldUrl": "https://personamodel.ru/studios/vokalynaya_studiya/",
+   "newPath": "/napravleniya/vokal/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 5,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.mp4?v=32p",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.jpg?v=32p",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.jpg?v=32p",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.jpg?v=32p",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.jpg?v=32p",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-13-6.jpg.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/2843407930191225344.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-14-2.jpg.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "d6310a9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/2392762218775935365.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-d63.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-d63.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-d63.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-d63.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-15.jpg.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81vok1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-01.mp4?v=32q",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-01.jpg?v=32q",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-01.jpg?v=32q",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-01.jpg?v=32q",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-01.jpg?v=32q",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-13-6.jpg.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 5,
+       "widgetId": "a81vok2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-vokal-01.mp4?v=31a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-vokal-01-poster.jpg?v=29g",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-vokal-01-poster.jpg?v=29g",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-vokal-01-poster.jpg?v=29g",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-vokal-01-poster.jpg?v=29g",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-13-6.jpg.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 5,
+   "rebuildCount": 5,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-bb6.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/2843407930191225344.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/2392762218775935365.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-vokal-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-vokal-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "16",
+   "oldUrl": "https://personamodel.ru/studios/teatr_tanca/",
+   "newPath": "/napravleniya/tancy/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 8,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-stretch.mp4?v=32o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-stretch.jpg?v=32o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-stretch.jpg?v=32o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-stretch.jpg?v=32o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-stretch.jpg?v=32o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-9.jpg"
+       },
+       "caption": "Разминка, растяжка",
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-break.mp4?v=32o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-break.jpg?v=32o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-break.jpg?v=32o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-break.jpg?v=32o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-break.jpg?v=32o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-10.jpg"
+       },
+       "caption": "Брейк",
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "d6310a9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-choreo.mp4?v=32o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-choreo.jpg?v=32o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-choreo.jpg?v=32o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-choreo.jpg?v=32o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-choreo.jpg?v=32o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-11.jpg"
+       },
+       "caption": "Современная хореография",
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81dnc1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-kpop.mp4?v=32o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-kpop.jpg?v=32o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-kpop.jpg?v=32o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-kpop.jpg?v=32o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-kpop.jpg?v=32o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-9.jpg"
+       },
+       "caption": "K-pop",
+       "posterLoaded": true
+      },
+      {
+       "order": 5,
+       "widgetId": "a81dnc2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.mp4?v=32o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.jpg?v=32o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.jpg?v=32o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.jpg?v=32o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.jpg?v=32o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-9.jpg"
+       },
+       "caption": "Брейк-данс",
+       "posterLoaded": true
+      },
+      {
+       "order": 6,
+       "widgetId": "a81dnc3",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-contemp.mp4?v=32o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-contemp.jpg?v=32o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-contemp.jpg?v=32o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-contemp.jpg?v=32o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-contemp.jpg?v=32o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-9.jpg"
+       },
+       "caption": "Контемп",
+       "posterLoaded": false
+      },
+      {
+       "order": 7,
+       "widgetId": "a81dnc4",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-class.mp4?v=32o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-class.jpg?v=32o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-class.jpg?v=32o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-class.jpg?v=32o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-class.jpg?v=32o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-9.jpg"
+       },
+       "caption": "Современная хореография",
+       "posterLoaded": false
+      },
+      {
+       "order": 8,
+       "widgetId": "a81dnc5",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.mp4?v=32o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.jpg?v=32o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.jpg?v=32o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.jpg?v=32o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.jpg?v=32o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-9.jpg"
+       },
+       "caption": "Хип-хоп",
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 8,
+   "rebuildCount": 8,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-stretch.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-break.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-choreo.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-kpop.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-breakdans.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-contemp.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-class.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-dance-hiphop.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "17",
+   "oldUrl": "https://personamodel.ru/studios/shkola_modeley/",
+   "newPath": "/napravleniya/shkola-modeley/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 6,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "a81sch3",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-defile.mp4?v=33o",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-defile.jpg?v=33o",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-defile.jpg?v=33o",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-defile.jpg?v=33o",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-defile.jpg?v=33o",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/shkola-modelej-1.png.webp"
+       },
+       "caption": "Дефиле",
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "d6310a9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-etiket.mp4?v=31u",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-etiket.jpg?v=31u",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-etiket.jpg?v=31u",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-etiket.jpg?v=31u",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-etiket.jpg?v=31u",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-247.png.webp"
+       },
+       "caption": "Этикет",
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "c7e4b91",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-pose.mp4?v=31u",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-pose.jpg?v=31u",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-pose.jpg?v=31u",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-pose.jpg?v=31u",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-pose.jpg?v=31u",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/shkola-modelej-1.png.webp"
+       },
+       "caption": "Фотопозирование",
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "a81sch1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-objects.mp4?v=31u",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-objects.jpg?v=31u",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-objects.jpg?v=31u",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-objects.jpg?v=31u",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-objects.jpg?v=31u",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/shkola-modelej-1.png.webp"
+       },
+       "caption": "Работа с предметами",
+       "posterLoaded": true
+      },
+      {
+       "order": 5,
+       "widgetId": "a81sch2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-camera.mp4?v=33i",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-camera.jpg?v=33i",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-camera.jpg?v=33i",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-camera.jpg?v=33i",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-camera.jpg?v=33i",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/shkola-modelej-1.png.webp"
+       },
+       "caption": "Работа на камеру",
+       "posterLoaded": true
+      },
+      {
+       "order": 6,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-rehearse.mp4?v=31u",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-rehearse.jpg?v=31u",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-rehearse.jpg?v=31u",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-rehearse.jpg?v=31u",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-rehearse.jpg?v=31u",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-246-1.png.webp"
+       },
+       "caption": "Репетиция",
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 6,
+   "rebuildCount": 6,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-defile.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-etiket.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-pose.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-objects.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-camera.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-school-rehearse.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "18",
+   "oldUrl": "https://personamodel.ru/areas/prodlenka/",
+   "newPath": "/napravleniya/prodlenka/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/5803771640908589424.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p811-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p811-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p811-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p811-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-6-2-1.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/instories_0a32a839-4a69-4e13-bdf2-0c6106aa3b07.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p811-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p811-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p811-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p811-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-8.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81prd1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.mp4?v=34d",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.jpg?v=34d",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.jpg?v=34d",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.jpg?v=34d",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.jpg?v=34d",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-6-2-1.jpg"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/5803771640908589424.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/instories_0a32a839-4a69-4e13-bdf2-0c6106aa3b07.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-prodlenka-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "19",
+   "oldUrl": "https://personamodel.ru/%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%8B/%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/",
+   "newPath": "/napravleniya/semejnaya-shkola/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/5803771640908589424-1.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p812-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p812-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p812-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p812-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-6-2.jpg.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/8235047103093535273.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p812-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p812-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p812-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p812-4ac.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-7.jpg.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81fam1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-family-01.mp4?v=34c",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-family-01.jpg?v=34c",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-family-01.jpg?v=34c",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-family-01.jpg?v=34c",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-family-01.jpg?v=34c",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-6-2.jpg.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/01/5803771640908589424-1.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/01/8235047103093535273.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-family-01.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "20",
+   "oldUrl": "https://personamodel.ru/areas/individualnye-zanyati-dlya-vzroslyh/",
+   "newPath": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "21",
+   "oldUrl": "https://personamodel.ru/areas/dlya-vzroslyh/",
+   "newPath": "/napravleniya/dlya-vzroslyh/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 1,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/1805810670392923783-1.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1865-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1865-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1865-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1865-bb6.jpg?v=31a",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/group-228.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 1,
+   "rebuildCount": 1,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/02/1805810670392923783-1.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "22",
+   "oldUrl": "https://personamodel.ru/areas/salsa-i-bachata/",
+   "newPath": "/napravleniya/bachata/",
+   "liveSections": [
+    {
+     "section": "Как проходят занятия?",
+     "count": 3,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "a81bac1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.mp4?v=33m",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "bb6cd2a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/video-2024-09-12-11-47-55.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "4ac4ae8",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/01/video-2024-09-12-12-16-48.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/02/video-2024-09-12-11-47-55.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/02/video-2024-09-12-12-16-48.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.mp4"
+   ],
+   "matchesRebuild": false,
+   "sameVideosDifferentOrderOrUploadFolder": true
+  },
+  {
+   "id": "23",
+   "oldUrl": "https://personamodel.ru/",
+   "newPath": "/",
+   "liveSections": [
+    {
+     "section": "Наши выступления",
+     "count": 6,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "56c053b",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_921b05ed-c484-47fe-a63f-0ac5eca61d1f.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-56c053b.jpg?v=28e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-56c053b.jpg?v=28e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-56c053b.jpg?v=28e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-56c053b.jpg?v=28e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/video-1.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "3dd579a",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_a09d9aae-147a-4109-8663-3242d2bc33b2-1.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg?v=28e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg?v=28e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg?v=28e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg?v=28e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/video-1.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "bffc365",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-bffc365.mp4?v=32k",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-bffc365.jpg?v=32k",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-bffc365.jpg?v=32k",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-bffc365.jpg?v=32k",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-bffc365.jpg?v=32k",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "b73727f",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_0dd7ce77-4721-4c9d-9804-13656f6da633.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-b73727f.jpg?v=28e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-b73727f.jpg?v=28e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-b73727f.jpg?v=28e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-b73727f.jpg?v=28e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/video-1.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 5,
+       "widgetId": "0d4f460",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/3132911871239949869-1-1.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg?v=28e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg?v=28e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg?v=28e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg?v=28e",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 6,
+       "widgetId": "1b6ba76",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/437034809785243464.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg?v=28e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg?v=28e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg?v=28e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg?v=28e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/video-3.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      }
+     ],
+     "notPresented": []
+    },
+    {
+     "section": "Жизнь нашего творческого центра в кадрах / Фотопроекты",
+     "count": 9,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "b4697fc",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_4792d113-99c6-4138-97a8-cea4dc49d001.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "1e6767f",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_058c1676-2835-4184-87f2-d1caa34be924.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "6e516e9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/02/instories_e8990abe-ac55-485a-a873-406e1d628856.mov",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 4,
+       "widgetId": "ada79a2",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-01.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 5,
+       "widgetId": "02cfd25",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-02.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 6,
+       "widgetId": "820305b",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-03.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 7,
+       "widgetId": "be129bf",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-04.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 8,
+       "widgetId": "9128a19",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-05.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 9,
+       "widgetId": "1afe41d",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-06.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    },
+    {
+     "section": "Жизнь нашего творческого центра в кадрах / Праздники",
+     "count": 6,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "e5fc3c7",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-01.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 2,
+       "widgetId": "d38c785",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 3,
+       "widgetId": "ab03fa9",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 4,
+       "widgetId": "1502c44",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 5,
+       "widgetId": "bbd4a91",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 6,
+       "widgetId": "c87bc38",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06.mp4",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg"
+       },
+       "caption": null,
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 21,
+   "rebuildCount": 21,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_921b05ed-c484-47fe-a63f-0ac5eca61d1f.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_a09d9aae-147a-4109-8663-3242d2bc33b2-1.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vist-bffc365.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_0dd7ce77-4721-4c9d-9804-13656f6da633.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/3132911871239949869-1-1.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/02/437034809785243464.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_4792d113-99c6-4138-97a8-cea4dc49d001.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_058c1676-2835-4184-87f2-d1caa34be924.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/02/instories_e8990abe-ac55-485a-a873-406e1d628856.mov",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-02.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-03.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-04.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-05.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-foto-06.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "24",
+   "oldUrl": "https://personamodel.ru/privacy-policy/",
+   "newPath": "/politika-konfidencialnosti/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "25",
+   "oldUrl": "https://personamodel.ru/content/organizaciya-prazdnikov/",
+   "newPath": "/sobytiya/",
+   "liveSections": [
+    {
+     "section": "Почему выбирают нас",
+     "count": 7,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "b97e9cc",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-01.mp4?v=32e",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-01.jpg?v=32e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-01.jpg?v=32e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-01.jpg?v=32e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-01.jpg?v=32e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-60-1024x470.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "evtDr02",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-02.mp4?v=32e",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-02.jpg?v=32e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-02.jpg?v=32e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-02.jpg?v=32e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-02.jpg?v=32e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-60-1024x470.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "evtPz02",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02.mp4?v=32e",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg?v=32e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg?v=32e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg?v=32e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg?v=32e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-60-1024x470.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 4,
+       "widgetId": "evtPz03",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03.mp4?v=32e",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg?v=32e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg?v=32e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg?v=32e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg?v=32e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-60-1024x470.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 5,
+       "widgetId": "evtPz04",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04.mp4?v=32e",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg?v=32e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg?v=32e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg?v=32e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg?v=32e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-60-1024x470.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 6,
+       "widgetId": "evtPz05",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05.mp4?v=32e",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg?v=32e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg?v=32e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg?v=32e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg?v=32e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-60-1024x470.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 7,
+       "widgetId": "evtPz06",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06.mp4?v=32e",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg?v=32e",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg?v=32e",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg?v=32e",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg?v=32e",
+        "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-60-1024x470.png.webp"
+       },
+       "caption": null,
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 7,
+   "rebuildCount": 7,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-evt-dr-02.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-02.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-03.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-04.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-05.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-vid-prazd-06.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "26",
+   "oldUrl": "https://personamodel.ru/content/festivalnoe-dvizhenie/",
+   "newPath": "/festivali/",
+   "liveSections": [
+    {
+     "section": "Более 20 лет на сцене",
+     "count": 10,
+     "videos": [
+      {
+       "order": 1,
+       "widgetId": "festVid01",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-01.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-01.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-01.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-01.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 2,
+       "widgetId": "festVid02",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-02.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-02.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-02.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-02.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "festVid03",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-03.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-03.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-03.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-03.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 4,
+       "widgetId": "festVid04",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-04.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-04.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-04.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-04.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 5,
+       "widgetId": "festVid05",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-05.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-05.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-05.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-05.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 6,
+       "widgetId": "festVid06",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-06.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-06.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-06.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-06.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 7,
+       "widgetId": "festVid07",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-07.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-07.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-07.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-07.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 8,
+       "widgetId": "festVid08",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-08.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-08.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-08.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-08.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 9,
+       "widgetId": "festVid09",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-09.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-09.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-09.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-09.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": false
+      },
+      {
+       "order": 10,
+       "widgetId": "festVid10",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-10.mp4?v=32a",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-10.jpg?v=32a",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-10.jpg?v=32a",
+        "overlayBackground": null,
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-10.jpg?v=32a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": false
+      }
+     ],
+     "notPresented": []
+    }
+   ],
+   "liveCount": 10,
+   "rebuildCount": 10,
+   "rebuildSrcs": [
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-01.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-02.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-03.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-04.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-05.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-06.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-07.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-08.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-09.mp4",
+    "https://personamodel.ru/wp-content/uploads/2026/08/persona-fest-10.mp4"
+   ],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "27",
+   "oldUrl": "https://personamodel.ru/o-nas/",
+   "newPath": "/o-nas/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "28",
+   "oldUrl": "https://personamodel.ru/content/studiya-profsoyuznaya/",
+   "newPath": "/studii/profsoyuznaya/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "29",
+   "oldUrl": "https://personamodel.ru/content/nashi-pedagogi/",
+   "newPath": "/komanda/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "30",
+   "oldUrl": "https://personamodel.ru/news/",
+   "newPath": "/novosti/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "31",
+   "oldUrl": "https://personamodel.ru/otzyvy/",
+   "newPath": "/otzyvy/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "32",
+   "oldUrl": "https://personamodel.ru/tarify/",
+   "newPath": "/tarify/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "33",
+   "oldUrl": "https://personamodel.ru/brunches/",
+   "newPath": "/napravleniya/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "34",
+   "oldUrl": "https://personamodel.ru/content/raspisanie/",
+   "newPath": "/raspisanie/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "35",
+   "oldUrl": "https://personamodel.ru/content/studiya-solntsevo/",
+   "newPath": "/studii/solntsevo/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "36",
+   "oldUrl": "https://personamodel.ru/content/studiya-michurinskiy/",
+   "newPath": "/studii/michurinskiy-prospekt/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  },
+  {
+   "id": "37",
+   "oldUrl": "https://personamodel.ru/content/studiya-slavyan/",
+   "newPath": "/studii/slavyanskiy-bulvar/",
+   "liveSections": [],
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "rebuildSrcs": [],
+   "matchesRebuild": true,
+   "sameVideosDifferentOrderOrUploadFolder": false
+  }
+ ],
+ "summaryBefore": {
+  "pagesCovered": 37,
+  "pagesMismatching": 24,
+  "liveVideosTotal": 117
+ },
+ "pagesBefore": [
+  {
+   "id": "01",
+   "newPath": "/napravleniya/megavolt/",
+   "liveCount": 3,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "02",
+   "newPath": "/napravleniya/bachata/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "03",
+   "newPath": "/napravleniya/barre-fitnes/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "04",
+   "newPath": "/napravleniya/pilates/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "05",
+   "newPath": "/napravleniya/art-masterskaya/",
+   "liveCount": 4,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "06",
+   "newPath": "/napravleniya/muzykalnye-instrumenty/",
+   "liveCount": 4,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "07",
+   "newPath": "/napravleniya/logoped/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "08",
+   "newPath": "/napravleniya/yazykovaya-shkola/",
+   "liveCount": 4,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "09",
+   "newPath": "/napravleniya/joga/",
+   "liveCount": 3,
+   "rebuildCount": 1,
+   "matchesRebuild": false
+  },
+  {
+   "id": "10",
+   "newPath": "/napravleniya/podgotovka-k-shkole/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "11",
+   "newPath": "/napravleniya/robototehnika/",
+   "liveCount": 4,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "12",
+   "newPath": "/napravleniya/shahmaty/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "13",
+   "newPath": "/napravleniya/teatr/",
+   "liveCount": 4,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "14",
+   "newPath": "/napravleniya/risovanie/",
+   "liveCount": 6,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "15",
+   "newPath": "/napravleniya/vokal/",
+   "liveCount": 5,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "16",
+   "newPath": "/napravleniya/tancy/",
+   "liveCount": 8,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "17",
+   "newPath": "/napravleniya/shkola-modeley/",
+   "liveCount": 6,
+   "rebuildCount": 3,
+   "matchesRebuild": false
+  },
+  {
+   "id": "18",
+   "newPath": "/napravleniya/prodlenka/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "19",
+   "newPath": "/napravleniya/semejnaya-shkola/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "20",
+   "newPath": "/napravleniya/individualnye-zanyatiya-dlya-vzroslyh/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "21",
+   "newPath": "/napravleniya/dlya-vzroslyh/",
+   "liveCount": 1,
+   "rebuildCount": 1,
+   "matchesRebuild": false
+  },
+  {
+   "id": "22",
+   "newPath": "/napravleniya/bachata/",
+   "liveCount": 3,
+   "rebuildCount": 2,
+   "matchesRebuild": false
+  },
+  {
+   "id": "23",
+   "newPath": "/",
+   "liveCount": 21,
+   "rebuildCount": 21,
+   "matchesRebuild": false
+  },
+  {
+   "id": "24",
+   "newPath": "/politika-konfidencialnosti/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "25",
+   "newPath": "/sobytiya/",
+   "liveCount": 7,
+   "rebuildCount": 1,
+   "matchesRebuild": false
+  },
+  {
+   "id": "26",
+   "newPath": "/festivali/",
+   "liveCount": 10,
+   "rebuildCount": 0,
+   "matchesRebuild": false
+  },
+  {
+   "id": "27",
+   "newPath": "/o-nas/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "28",
+   "newPath": "/studii/profsoyuznaya/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "29",
+   "newPath": "/komanda/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "30",
+   "newPath": "/novosti/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "31",
+   "newPath": "/otzyvy/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "32",
+   "newPath": "/tarify/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "33",
+   "newPath": "/napravleniya/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "34",
+   "newPath": "/raspisanie/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "35",
+   "newPath": "/studii/solntsevo/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "36",
+   "newPath": "/studii/michurinskiy-prospekt/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  },
+  {
+   "id": "37",
+   "newPath": "/studii/slavyanskiy-bulvar/",
+   "liveCount": 0,
+   "rebuildCount": 0,
+   "matchesRebuild": true
+  }
+ ]
+}
