@@ -13,6 +13,11 @@
    "missingTotal": 100
   }
  },
+ "acceptedExceptions": [
+  "Old home hero img_6233-1: the logo is baked into the photo; the rebuild uses a gallery photo.",
+  "Footer banner resized_1200x800-1.jpg (footer is outside the audited page body).",
+  "Decorative frames / ellipses / rectangles / vectors (frame-NN, ellipse-NN ...), default-skin.png and emoji SVGs (persona-emoji/*.svg)."
+ ],
  "pages": [
   {
    "id": "01",
@@ -802,8 +807,8 @@
    "id": "23",
    "oldUrl": "https://personamodel.ru/",
    "newPath": "/",
-   "shownLiveCount": 79,
-   "presentInRebuildCount": 78,
+   "shownLiveCount": 91,
+   "presentInRebuildCount": 90,
    "missingCount": 0,
    "shownLive": [
     "/wp-content/uploads/2026/01/advant-1.webp",
@@ -857,6 +862,7 @@
     "/wp-content/uploads/2026/02/img_9631.webp",
     "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp",
     "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp",
+    "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp",
     "/wp-content/uploads/2026/08/persona-gal-dostizheniya-1-1024x683.jpg",
     "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-49-01-1024x800.jpg",
     "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-55-32-1024x766.jpg",
@@ -877,7 +883,18 @@
     "/wp-content/uploads/2026/08/persona-gal-tancy-a1603-1024x682.jpg",
     "/wp-content/uploads/2026/08/persona-gal-tancy-img-4296-1024x683.jpg",
     "/wp-content/uploads/2026/08/persona-learn.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg",
     "/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg",
     "/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg",
     "/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg",
     "/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg",
@@ -938,6 +955,7 @@
     "/wp-content/uploads/2026/02/img_9631.webp",
     "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010302548.png.webp",
     "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010317303.png.webp",
+    "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp",
     "/wp-content/uploads/2026/08/persona-gal-dostizheniya-1-1024x683.jpg",
     "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-49-01-1024x800.jpg",
     "/wp-content/uploads/2026/08/persona-gal-dostizheniya-2026-08-23-14-55-32-1024x766.jpg",
@@ -958,7 +976,18 @@
     "/wp-content/uploads/2026/08/persona-gal-tancy-a1603-1024x682.jpg",
     "/wp-content/uploads/2026/08/persona-gal-tancy-img-4296-1024x683.jpg",
     "/wp-content/uploads/2026/08/persona-learn.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg",
     "/wp-content/uploads/2026/08/persona-vid-prazd-01-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-02-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-03-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-04-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-05-poster.jpg",
+    "/wp-content/uploads/2026/08/persona-vid-prazd-06-poster.jpg",
     "/wp-content/uploads/2026/08/persona-vist-0d4f460.jpg",
     "/wp-content/uploads/2026/08/persona-vist-1b6ba76.jpg",
     "/wp-content/uploads/2026/08/persona-vist-3dd579a.jpg",
@@ -975,7 +1004,7 @@
    ],
    "inDomButHiddenLive": [
     {
-     "image": "/wp-content/uploads/2026/02/img_4032-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_4032-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -983,7 +1012,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_4038-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_4038-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -991,7 +1020,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_4040-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_4040-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -999,7 +1028,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_4049-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_4049-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1007,7 +1036,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_4050-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_4050-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1015,7 +1044,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_4291-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_4291-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1023,7 +1052,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_4769-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_4769-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1055,7 +1084,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_5495-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_5495-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1063,7 +1092,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_5503-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_5503-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1071,7 +1100,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/02/img_5504-1024x683.webp",
+     "image": "/wp-content/uploads/2026/02/img_5504-scaled.webp",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1135,7 +1164,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp",
+     "image": "/wp-content/uploads/2026/08/persona-gal-teatr-a1674.jpg",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1143,7 +1172,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/08/persona-gal-teatr-a1674-1024x682.jpg",
+     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1490.jpg",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1151,7 +1180,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1490-1024x682.jpg",
+     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1567.jpg",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1159,63 +1188,7 @@
      "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
     },
     {
-     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1567-1024x682.jpg",
-     "labels": [
-      "Жизнь нашего творческого центра в кадрах"
-     ],
-     "inRebuild": true,
-     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
-    },
-    {
-     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1601-1024x682.jpg",
-     "labels": [
-      "Жизнь нашего творческого центра в кадрах"
-     ],
-     "inRebuild": true,
-     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
-    },
-    {
-     "image": "/wp-content/uploads/2026/08/persona-vid-foto-01-poster.jpg",
-     "labels": [
-      "Жизнь нашего творческого центра в кадрах"
-     ],
-     "inRebuild": true,
-     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
-    },
-    {
-     "image": "/wp-content/uploads/2026/08/persona-vid-foto-02-poster.jpg",
-     "labels": [
-      "Жизнь нашего творческого центра в кадрах"
-     ],
-     "inRebuild": true,
-     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
-    },
-    {
-     "image": "/wp-content/uploads/2026/08/persona-vid-foto-03-poster.jpg",
-     "labels": [
-      "Жизнь нашего творческого центра в кадрах"
-     ],
-     "inRebuild": true,
-     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
-    },
-    {
-     "image": "/wp-content/uploads/2026/08/persona-vid-foto-04-poster.jpg",
-     "labels": [
-      "Жизнь нашего творческого центра в кадрах"
-     ],
-     "inRebuild": true,
-     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
-    },
-    {
-     "image": "/wp-content/uploads/2026/08/persona-vid-foto-05-poster.jpg",
-     "labels": [
-      "Жизнь нашего творческого центра в кадрах"
-     ],
-     "inRebuild": true,
-     "reason": "in the DOM but display:none / zero-size on the live page at 1440px"
-    },
-    {
-     "image": "/wp-content/uploads/2026/08/persona-vid-foto-06-poster.jpg",
+     "image": "/wp-content/uploads/2026/08/persona-gal-vokal-a1601.jpg",
      "labels": [
       "Жизнь нашего творческого центра в кадрах"
      ],
@@ -1333,8 +1306,8 @@
    "id": "26",
    "oldUrl": "https://personamodel.ru/content/festivalnoe-dvizhenie/",
    "newPath": "/festivali/",
-   "shownLiveCount": 12,
-   "presentInRebuildCount": 12,
+   "shownLiveCount": 17,
+   "presentInRebuildCount": 17,
    "missingCount": 0,
    "shownLive": [
     "/wp-content/uploads/2026/01/b_nuzhna_kartinka_bez_t-1.png.webp",
@@ -1343,6 +1316,11 @@
     "/wp-content/uploads/2026/08/persona-fest-03.jpg",
     "/wp-content/uploads/2026/08/persona-fest-04.jpg",
     "/wp-content/uploads/2026/08/persona-fest-05.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-06.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-07.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-08.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-09.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-10.jpg",
     "/wp-content/uploads/2026/08/persona-fest-afisha-abroad.jpg",
     "/wp-content/uploads/2026/08/persona-fest-afisha-brics.jpg",
     "/wp-content/uploads/2026/08/persona-fest-afisha-couture.jpg",
@@ -1357,6 +1335,11 @@
     "/wp-content/uploads/2026/08/persona-fest-03.jpg",
     "/wp-content/uploads/2026/08/persona-fest-04.jpg",
     "/wp-content/uploads/2026/08/persona-fest-05.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-06.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-07.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-08.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-09.jpg",
+    "/wp-content/uploads/2026/08/persona-fest-10.jpg",
     "/wp-content/uploads/2026/08/persona-fest-afisha-abroad.jpg",
     "/wp-content/uploads/2026/08/persona-fest-afisha-brics.jpg",
     "/wp-content/uploads/2026/08/persona-fest-afisha-couture.jpg",
@@ -1447,8 +1430,8 @@
    "id": "29",
    "oldUrl": "https://personamodel.ru/content/nashi-pedagogi/",
    "newPath": "/komanda/",
-   "shownLiveCount": 19,
-   "presentInRebuildCount": 19,
+   "shownLiveCount": 26,
+   "presentInRebuildCount": 26,
    "missingCount": 0,
    "shownLive": [
     "/wp-content/uploads/2026/01/4-3-1.png.webp",
@@ -1465,9 +1448,16 @@
     "/wp-content/uploads/2026/02/amiroslanova-kristina.jpg.webp",
     "/wp-content/uploads/2026/02/armenakyan-mihail.jpg.webp",
     "/wp-content/uploads/2026/02/brusnika-ekaterina.jpg.webp",
+    "/wp-content/uploads/2026/02/koteneva-anastasiya.jpg.webp",
+    "/wp-content/uploads/2026/02/kulakova-elizaveta.jpg.webp",
     "/wp-content/uploads/2026/02/markovichev_aleksandr.jpg",
+    "/wp-content/uploads/2026/02/melkumova-marina.jpg.webp",
     "/wp-content/uploads/2026/02/merkulov-anatolij-1.jpg.webp",
+    "/wp-content/uploads/2026/02/polyakova-kristina.jpg.webp",
     "/wp-content/uploads/2026/02/rosnovskaya_nataliya.jpg.webp",
+    "/wp-content/uploads/2026/02/suslova-evgeniya.jpg.webp",
+    "/wp-content/uploads/2026/02/tkacheva-viktoriya.jpg.webp",
+    "/wp-content/uploads/2026/02/tyurina-irina.jpg.webp",
     "/wp-content/uploads/2026/02/vazmgatova-azaliya.jpg.webp",
     "/wp-content/uploads/2026/02/vohmyanin-nikita.jpg.webp"
    ],
@@ -1486,9 +1476,16 @@
     "/wp-content/uploads/2026/02/amiroslanova-kristina.jpg.webp",
     "/wp-content/uploads/2026/02/armenakyan-mihail.jpg.webp",
     "/wp-content/uploads/2026/02/brusnika-ekaterina.jpg.webp",
+    "/wp-content/uploads/2026/02/koteneva-anastasiya.jpg.webp",
+    "/wp-content/uploads/2026/02/kulakova-elizaveta.jpg.webp",
     "/wp-content/uploads/2026/02/markovichev_aleksandr.jpg",
+    "/wp-content/uploads/2026/02/melkumova-marina.jpg.webp",
     "/wp-content/uploads/2026/02/merkulov-anatolij-1.jpg.webp",
+    "/wp-content/uploads/2026/02/polyakova-kristina.jpg.webp",
     "/wp-content/uploads/2026/02/rosnovskaya_nataliya.jpg.webp",
+    "/wp-content/uploads/2026/02/suslova-evgeniya.jpg.webp",
+    "/wp-content/uploads/2026/02/tkacheva-viktoriya.jpg.webp",
+    "/wp-content/uploads/2026/02/tyurina-irina.jpg.webp",
     "/wp-content/uploads/2026/02/vazmgatova-azaliya.jpg.webp",
     "/wp-content/uploads/2026/02/vohmyanin-nikita.jpg.webp"
    ],
@@ -1543,14 +1540,15 @@
    "id": "33",
    "oldUrl": "https://personamodel.ru/brunches/",
    "newPath": "/napravleniya/",
-   "shownLiveCount": 16,
-   "presentInRebuildCount": 16,
+   "shownLiveCount": 17,
+   "presentInRebuildCount": 17,
    "missingCount": 0,
    "shownLive": [
     "/wp-content/uploads/2026/01/art.webp",
     "/wp-content/uploads/2026/01/chess.webp",
     "/wp-content/uploads/2026/01/fitness.webp",
     "/wp-content/uploads/2026/01/joga.webp",
+    "/wp-content/uploads/2026/01/logoped.webp",
     "/wp-content/uploads/2026/01/megavolt.webp",
     "/wp-content/uploads/2026/01/musica.webp",
     "/wp-content/uploads/2026/01/podgotovka.webp",
@@ -1569,6 +1567,7 @@
     "/wp-content/uploads/2026/01/chess.webp",
     "/wp-content/uploads/2026/01/fitness.webp",
     "/wp-content/uploads/2026/01/joga.webp",
+    "/wp-content/uploads/2026/01/logoped.webp",
     "/wp-content/uploads/2026/01/megavolt.webp",
     "/wp-content/uploads/2026/01/musica.webp",
     "/wp-content/uploads/2026/01/podgotovka.webp",

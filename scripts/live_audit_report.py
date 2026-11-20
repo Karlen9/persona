@@ -30,6 +30,12 @@ SHARED_MIN_PAGES = 5  # an image shown on >= 5 old pages and present somewhere i
 DECORATIVE = re.compile(r'(persona-emoji/|\.svg$|default-skin|(^|/)(frame|ellipse|rectangle|vector|union|star|polygon)-?\d*\.(png|webp|svg)$)', re.I)
 
 
+ACCEPTED = [
+    'Old home hero img_6233-1: the logo is baked into the photo; the rebuild uses a gallery photo.',
+    'Footer banner resized_1200x800-1.jpg (footer is outside the audited page body).',
+    'Decorative frames / ellipses / rectangles / vectors (frame-NN, ellipse-NN ...), default-skin.png and emoji SVGs (persona-emoji/*.svg).'
+]
+
 NOTES = {
     '26': 'Flip-box card backgrounds (chatgpt-image ...00_54_43-2..-7): the 6 flip-box widgets are display:none !important on the live page '
     '(rule `body.page-id-1053 .elementor-element-0e8d907 > .elementor-element:not(.persona-fest-tiles)`), replaced by the 6 afisha tiles. '
@@ -258,18 +264,13 @@ def main() -> int:
             'sameVideosDifferentOrderOrUploadFolder': (not ok) and sorted(x.rsplit('/', 1)[-1] for x in live_srcs) == sorted(x.rsplit('/', 1)[-1] for x in re_srcs)
         })
 
-    def merge(path: Path, key: str, body: dict[str, Any]) -> None:
-        old = json.loads(path.read_text()) if path.exists() else {}
-        body['before'] = old.get('before') if args.stage == 'after' else None
-        path.write_text(json.dumps(body, ensure_ascii=False, indent=1) + '\n')
-
     img_summary = {'pagesCovered': len(image_pages), 'pagesWithMissing': sum(1 for p in image_pages if p['missingCount']), 'missingTotal': sum(p['missingCount'] for p in image_pages)}
     vid_summary = {'pagesCovered': len(video_pages), 'pagesMismatching': sum(1 for p in video_pages if p['liveCount'] and not p['matchesRebuild'] and not p['sameVideosDifferentOrderOrUploadFolder']), 'liveVideosTotal': sum(p['liveCount'] for p in video_pages)}
     stage = args.stage
     for fname, key, pages_out, summary in (('live-image-audit.json', 'images', image_pages, img_summary), ('live-video-audit.json', 'videos', video_pages, vid_summary)):
         path = DATA / fname
         old = json.loads(path.read_text()) if path.exists() else {}
-        body: dict[str, Any] = {'method': 'headless Chrome (puppeteer-core), 1440x900, scrolled through, 3s+ settle, tabs clicked, sliders stepped; see scripts/live_audit.mjs', 'generatedBy': 'scripts/live_audit_report.py', 'summary': {stage: summary}, 'pages': pages_out}
+        body: dict[str, Any] = {'method': 'headless Chrome (puppeteer-core), 1440x900, scrolled through, 3s+ settle, tabs clicked, sliders stepped; see scripts/live_audit.mjs', 'generatedBy': 'scripts/live_audit_report.py', 'summary': {stage: summary}, 'acceptedExceptions': ACCEPTED, 'pages': pages_out}
         if 'summary' in old and stage == 'after':
             body['summary']['before'] = old['summary'].get('before')
         if stage == 'before':

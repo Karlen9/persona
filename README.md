@@ -1,26 +1,9 @@
-# Frontend Template
+# PersOna
 
-Frontend template — Next.js 16, React 19, TypeScript, Tailwind CSS v4.
+A rebuild of personamodel.ru: a Russian-language site for a Moscow children's creative centre and model agency (since 2002), with classes for kids and adults, "Mini Miss & Mister" festivals and a family school.
 
-## Usage
+## Theme
 
-Click **"Use this template"** on GitHub, or:
-
-```bash
-gh repo create my-app --template your-org/frontend-template --clone
-cd my-app
-bun install
-bun run dev
-```
-
-## Scripts
-
-| Command                | Description                  |
-| ---------------------- | ---------------------------- |
-| `bun run dev`          | Start dev server (Turbopack) |
-| `bun run build`        | Production build             |
-| `bun run start`        | Start production server      |
-| `bun run lint`         | Run ESLint                   |
-| `bun run lint:fix`     | ESLint with auto-fix         |
-| `bun run format:check` | Check Prettier formatting    |
-| `bun run typecheck`    | TypeScript type checking     |
+- **Mood:** calm, friendly, premium-feeling; clean, airy layouts on light backgrounds.
+- **Colours:** soft teal/mint brand (`#effaf7` to `#063f3a`, main `#5dbaa8`) with a gentle pink accent (`#f7b2c4`); dark slate ink (`#101828`) and muted slate body text (`#475569`).
+- **Typography:** Manrope.

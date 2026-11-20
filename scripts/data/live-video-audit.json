@@ -13,6 +13,11 @@
    "liveVideosTotal": 117
   }
  },
+ "acceptedExceptions": [
+  "Old home hero img_6233-1: the logo is baked into the photo; the rebuild uses a gallery photo.",
+  "Footer banner resized_1200x800-1.jpg (footer is outside the audited page body).",
+  "Decorative frames / ellipses / rectangles / vectors (frame-NN, ellipse-NN ...), default-skin.png and emoji SVGs (persona-emoji/*.svg)."
+ ],
  "pages": [
   {
    "id": "01",
@@ -36,7 +41,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-28.jpg"
        },
        "caption": null,
-       "posterLoaded": false
+       "posterLoaded": true
       },
       {
        "order": 2,
@@ -51,7 +56,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-29.jpg"
        },
        "caption": null,
-       "posterLoaded": false
+       "posterLoaded": true
       },
       {
        "order": 3,
@@ -66,7 +71,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-27-2.jpg"
        },
        "caption": null,
-       "posterLoaded": false
+       "posterLoaded": true
       }
      ],
      "notPresented": []
@@ -202,7 +207,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-07.18.05.png.webp"
        },
        "caption": null,
-       "posterLoaded": false
+       "posterLoaded": true
       }
      ],
      "notPresented": []
@@ -589,7 +594,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/snimok-ekrana-2026-04-28-v-06.59.32.png.webp"
        },
        "caption": null,
-       "posterLoaded": false
+       "posterLoaded": true
       }
      ],
      "notPresented": []
@@ -809,7 +814,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/02/frame-31.jpg"
        },
        "caption": null,
-       "posterLoaded": true
+       "posterLoaded": false
       }
      ],
      "notPresented": []
@@ -1075,7 +1080,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/frame-19.png.webp"
        },
        "caption": null,
-       "posterLoaded": false
+       "posterLoaded": true
       }
      ],
      "notPresented": []
@@ -1652,21 +1657,6 @@
      "videos": [
       {
        "order": 1,
-       "widgetId": "a81bac1",
-       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.mp4?v=33m",
-       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
-       "poster": {
-        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
-        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
-        "videoPosterAttr": null,
-        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
-        "overlaySetting": null
-       },
-       "caption": null,
-       "posterLoaded": true
-      },
-      {
-       "order": 2,
        "widgetId": "bb6cd2a",
        "src": "https://personamodel.ru/wp-content/uploads/2026/01/video-2024-09-12-11-47-55.mp4",
        "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-bb6.jpg?v=31a",
@@ -1681,7 +1671,7 @@
        "posterLoaded": true
       },
       {
-       "order": 3,
+       "order": 2,
        "widgetId": "4ac4ae8",
        "src": "https://personamodel.ru/wp-content/uploads/2026/01/video-2024-09-12-12-16-48.mp4",
        "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
@@ -1690,6 +1680,21 @@
         "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
         "videoPosterAttr": null,
         "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-p1877-4ac.jpg?v=31a",
+        "overlaySetting": null
+       },
+       "caption": null,
+       "posterLoaded": true
+      },
+      {
+       "order": 3,
+       "widgetId": "a81bac1",
+       "src": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.mp4?v=33m",
+       "posterRendered": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+       "poster": {
+        "overlayImg": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+        "overlayBackground": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
+        "videoPosterAttr": null,
+        "lightboxPoster": "https://personamodel.ru/wp-content/uploads/2026/08/persona-hcg-bachata-01.jpg?v=33m",
         "overlaySetting": null
        },
        "caption": null,
@@ -1858,7 +1863,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/03/izobrazhenie_2026-03-01_010334297.png.webp"
        },
        "caption": null,
-       "posterLoaded": false
+       "posterLoaded": true
       },
       {
        "order": 4,
@@ -2157,7 +2162,7 @@
         "overlaySetting": "https://personamodel.ru/wp-content/uploads/2026/01/group-60-1024x470.png.webp"
        },
        "caption": null,
-       "posterLoaded": true
+       "posterLoaded": false
       },
       {
        "order": 5,
@@ -2274,7 +2279,7 @@
         "overlaySetting": null
        },
        "caption": null,
-       "posterLoaded": false
+       "posterLoaded": true
       },
       {
        "order": 4,
@@ -2289,7 +2294,7 @@
         "overlaySetting": null
        },
        "caption": null,
-       "posterLoaded": true
+       "posterLoaded": false
       },
       {
        "order": 5,
