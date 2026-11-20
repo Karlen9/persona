@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
+import {AgencyMap} from '@/components/agency-map/AgencyMap';
 import {CtaBand} from '@/components/blocks/CtaBand';
 import {DirectionCard} from '@/components/blocks/DirectionCard';
 import {GalleryTabs} from '@/components/blocks/GalleryTabs';
-import {HomeHero} from '@/components/blocks/HomeHero';
 import {StudioCard} from '@/components/blocks/StudioCard';
 import {VideoGrid} from '@/components/blocks/VideoGrid';
 import {GisReviewsLink, YandexRatingBadge} from '@/components/integrations/YandexRatingBadge';
@@ -19,8 +20,10 @@ import {JsonLd} from '@/components/ui/JsonLd';
 import {RichText} from '@/components/ui/RichText';
 import {Section} from '@/components/ui/Section';
 import {getDirection, home, homeFaq, studios} from '@/content';
+import {getAgencyMapData} from '@/content/agencyMap';
 import {centreJsonLd} from '@/lib/jsonld';
 import {buildMetadata} from '@/lib/seo';
+import {EMAIL, LEAD_ANCHOR, PHONES, SOCIALS} from '@/lib/site';
 
 import type {ReactNode} from 'react';
 import type {Metadata} from 'next';
@@ -28,6 +31,7 @@ import type {Metadata} from 'next';
 export const metadata: Metadata = buildMetadata({seo: home.seo, path: home.path});
 
 export default function HomePage(): ReactNode {
+	const agencyMap = getAgencyMapData();
 	const highlighted = home.directions.cards.flatMap((card) => {
 		const direction = getDirection(card.slug);
 		return direction ? [{card, direction}] : [];
@@ -39,16 +43,16 @@ export default function HomePage(): ReactNode {
 
 	return (
 		<>
-			<HomeHero
-				title={home.hero.heading}
-				lines={home.hero.headingLines}
-				accent={home.hero.headingAccent}
-				text={home.hero.text}
-				image={home.hero.image}
-				primaryCta={home.hero.cta}
-				secondaryCta={{label: 'Все направления', href: '/napravleniya/'}}
-				socials={home.hero.socials}
-			/>
+			<AgencyMap {...agencyMap} heading={home.hero.heading} />
+			<div
+				aria-hidden
+				className={
+					'flex h-14 items-center justify-center gap-2 bg-white text-sm font-semibold text-muted lg:sr-only'
+				}
+			>
+				{'Листайте вниз'}
+				<Icon name={'chevron-down'} size={18} className={'motion-safe:animate-bounce'} />
+			</div>
 
 			<Section
 				id={'napravleniya'}
@@ -194,6 +198,89 @@ export default function HomePage(): ReactNode {
 					))}
 				</ul>
 				<Gallery images={home.studio.photos} columns={4} aspect={'portrait'} className={'mt-10'} />
+			</Section>
+
+			<Section id={'kontakty'} title={'Контакты'}>
+				<div className={'grid gap-6 lg:grid-cols-[minmax(0,22rem)_1fr] lg:gap-8'}>
+					<Card className={'flex flex-col gap-5 p-6'}>
+						<ul className={'flex flex-col gap-1'}>
+							{PHONES.map((phone) => (
+								<li key={phone.href}>
+									<a
+										href={phone.href}
+										className={
+											'inline-flex min-h-11 items-center gap-3 text-lg font-bold text-ink hover:text-brand-800'
+										}
+									>
+										<Icon name={'phone'} size={20} className={'text-brand-700'} />
+										{phone.label}
+									</a>
+								</li>
+							))}
+							<li>
+								<a
+									href={`mailto:${EMAIL}`}
+									className={
+										'inline-flex min-h-11 items-center gap-3 font-semibold text-ink hover:text-brand-800'
+									}
+								>
+									<Icon name={'mail'} size={20} className={'text-brand-700'} />
+									{EMAIL}
+								</a>
+							</li>
+						</ul>
+						<ul className={'flex gap-2'}>
+							{SOCIALS.map((social) => (
+								<li key={social.id}>
+									<a
+										href={social.href}
+										target={'_blank'}
+										rel={'noopener noreferrer'}
+										aria-label={social.label}
+										className={
+											'grid size-11 place-items-center rounded-full border border-line bg-white text-brand-800 transition-colors hover:bg-brand'
+										}
+									>
+										<Icon name={social.id} size={social.id === 'telegram' ? 20 : 26} />
+									</a>
+								</li>
+							))}
+						</ul>
+						<ButtonLink href={LEAD_ANCHOR} className={'mt-auto'}>
+							{'Записаться'}
+						</ButtonLink>
+					</Card>
+					<ul className={'grid gap-4 sm:grid-cols-2'}>
+						{studios.map((studio) => (
+							<li key={studio.slug}>
+								<Card className={'flex h-full flex-col gap-2 p-5'}>
+									<h3 className={'text-lg leading-snug font-extrabold text-ink'}>
+										<Link href={studio.path} className={'hover:text-brand-800'}>
+											{studio.shortName}
+										</Link>
+									</h3>
+									<p className={'flex items-start gap-2 text-[15px]'}>
+										<Icon name={'map-pin'} size={18} className={'mt-0.5 shrink-0 text-brand-700'} />
+										{studio.address}
+									</p>
+									<p className={'flex items-start gap-2 text-[15px]'}>
+										<Icon name={'metro'} size={18} className={'mt-0.5 shrink-0 text-brand-700'} />
+										{studio.metro.join(', ')}
+									</p>
+									<Link
+										href={studio.path}
+										className={
+											'mt-auto inline-flex min-h-11 items-center gap-1.5 pt-1 font-bold text-brand-800'
+										}
+									>
+										{'О студии'}
+										<Icon name={'arrow-right'} size={18} />
+									</Link>
+								</Card>
+							</li>
+						))}
+					</ul>
+				</div>
 			</Section>
 
 			<Section id={'galereya'} variant={'tinted'} eyebrow={home.gallery.subheading} title={home.gallery.heading}>

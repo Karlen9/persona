@@ -60,6 +60,11 @@ module.exports = {
 	},
 	overrides: [
 		{
+			// react-three-fiber intrinsic elements (mesh, group, ...) use three.js props such as position/castShadow
+			files: ['src/components/agency-map/**/*.tsx'],
+			rules: {'react/no-unknown-property': 'off'}
+		},
+		{
 			files: ['*.js', '*.mjs', '*.cjs'],
 			rules: {'@typescript-eslint/no-require-imports': 'off', '@typescript-eslint/no-var-requires': 'off'}
 		}
