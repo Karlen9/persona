@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import {AgencyMap} from '@/components/agency-map/AgencyMap';
+import {ClassPicker} from '@/components/blocks/ClassPicker';
 import {CtaBand} from '@/components/blocks/CtaBand';
 import {DirectionCard} from '@/components/blocks/DirectionCard';
 import {GalleryTabs} from '@/components/blocks/GalleryTabs';
 import {StudioCard} from '@/components/blocks/StudioCard';
+import {StudioMap} from '@/components/blocks/StudioMap';
 import {VideoGrid} from '@/components/blocks/VideoGrid';
 import {GisReviewsLink, YandexRatingBadge} from '@/components/integrations/YandexRatingBadge';
 import {Accordion, faqJsonLd} from '@/components/ui/Accordion';
@@ -20,7 +21,8 @@ import {JsonLd} from '@/components/ui/JsonLd';
 import {RichText} from '@/components/ui/RichText';
 import {Section} from '@/components/ui/Section';
 import {getDirection, home, homeFaq, studios} from '@/content';
-import {getAgencyMapData} from '@/content/agencyMap';
+import {getClassPickerData} from '@/content/classPicker';
+import {getStudioMapData} from '@/content/studioMap';
 import {centreJsonLd} from '@/lib/jsonld';
 import {buildMetadata} from '@/lib/seo';
 import {EMAIL, LEAD_ANCHOR, PHONES, SOCIALS} from '@/lib/site';
@@ -31,7 +33,7 @@ import type {Metadata} from 'next';
 export const metadata: Metadata = buildMetadata({seo: home.seo, path: home.path});
 
 export default function HomePage(): ReactNode {
-	const agencyMap = getAgencyMapData();
+	const studioMap = getStudioMapData();
 	const highlighted = home.directions.cards.flatMap((card) => {
 		const direction = getDirection(card.slug);
 		return direction ? [{card, direction}] : [];
@@ -43,16 +45,13 @@ export default function HomePage(): ReactNode {
 
 	return (
 		<>
-			<AgencyMap {...agencyMap} heading={home.hero.heading} />
-			<div
-				aria-hidden
-				className={
-					'flex h-14 items-center justify-center gap-2 bg-white text-sm font-semibold text-muted lg:sr-only'
-				}
-			>
-				{'Листайте вниз'}
-				<Icon name={'chevron-down'} size={18} className={'motion-safe:animate-bounce'} />
-			</div>
+			<StudioMap
+				{...studioMap}
+				title={home.hero.heading}
+				lines={home.hero.headingLines}
+				accent={home.hero.headingAccent}
+			/>
+			<ClassPicker {...getClassPickerData()} />
 
 			<Section
 				id={'napravleniya'}

@@ -1,4 +1,5 @@
-// Credits for the glTF models in public/models/. CC-BY items must be credited visibly (see the map's "Все направления" sheet).
+// Credits for the 3D models shown in the studio map picture on the home page (public/media/home/studio-map.webp).
+// CC-BY items must be credited visibly (see the "Авторы 3D-моделей" block under the map).
 
 export type TModelLicence = 'CC0' | 'CC-BY 3.0';
 

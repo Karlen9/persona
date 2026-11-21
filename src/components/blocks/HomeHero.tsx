@@ -24,7 +24,7 @@ type THomeHeroProps = {
 	socials?: TSocial[];
 };
 
-function HeadingLine({line, accent}: {line: string; accent?: string | null}): ReactNode {
+export function HeadingLine({line, accent}: {line: string; accent?: string | null}): ReactNode {
 	const at = accent ? line.indexOf(accent) : -1;
 	if (!accent || at === -1) return line;
 	return (
