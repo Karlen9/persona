@@ -18,7 +18,12 @@ const sourceLabels = {yandex: 'Яндекс Карты', '2gis': '2ГИС', manu
 export default function ReviewsPage(): ReactNode {
 	return (
 		<>
-			<PageHero breadcrumbs={[{label: reviewsPage.h1}]} title={reviewsPage.h1} cta={null}>
+			<PageHero
+				breadcrumbs={[{label: reviewsPage.h1}]}
+				title={reviewsPage.h1}
+				cta={null}
+				transitionName={'tile-clients'}
+			>
 				<div className={'mt-6'}>
 					<RichText blocks={reviewsPage.intro} className={'text-lg sm:text-xl'} />
 				</div>

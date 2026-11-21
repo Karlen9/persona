@@ -43,6 +43,7 @@ export default function DirectionsPage(): ReactNode {
 				breadcrumbs={[{label: 'Направления'}]}
 				title={directionsIndexPage.h1}
 				cta={directionsIndexPage.cta}
+				transitionName={'tile-services'}
 			/>
 			<Section className={'pt-0 md:pt-0'}>
 				<DirectionCatalogue groups={groups} categories={categories} allLabel={'Все'} />

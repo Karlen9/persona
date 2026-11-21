@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({seo: aboutPage.seo, path: about
 export default function AboutPage(): ReactNode {
 	return (
 		<>
-			<PageSections page={aboutPage} breadcrumbs={[{label: aboutPage.h1}]} />
+			<PageSections page={aboutPage} breadcrumbs={[{label: aboutPage.h1}]} transitionName={'tile-about'} />
 			<CtaBand title={home.cta.heading} />
 		</>
 	);

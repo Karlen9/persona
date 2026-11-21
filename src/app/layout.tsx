@@ -2,6 +2,7 @@ import './globals.css';
 
 import {Manrope} from 'next/font/google';
 
+import {PopstateViewTransition} from '@/components/bento/PopstateViewTransition';
 import {CookieConsent} from '@/components/integrations/CookieConsent';
 import {YandexMetrika} from '@/components/integrations/YandexMetrika';
 import {FloatingContacts} from '@/components/layout/FloatingContacts';
@@ -63,6 +64,7 @@ export default function RootLayout({children}: TRootLayoutProps): ReactNode {
 	return (
 		<html lang={'ru'} className={manrope.variable}>
 			<body>
+				<PopstateViewTransition />
 				<SkipLink />
 				<SiteHeader />
 				<main id={'content'} tabIndex={-1} className={'outline-none'}>

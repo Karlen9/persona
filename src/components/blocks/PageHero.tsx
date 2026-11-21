@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {ViewTransition} from 'react';
 
 import {Breadcrumbs} from '@/components/ui/Breadcrumbs';
 import {ButtonLink} from '@/components/ui/ButtonLink';
@@ -22,6 +23,8 @@ type TPageHeroProps = {
 	cta?: TCta | null;
 	secondaryCta?: TCta;
 	children?: ReactNode;
+	/** Shared-element view-transition name: the hero content morphs from/to the matching bento tile. */
+	transitionName?: string;
 };
 
 export function PageHero({
@@ -32,8 +35,49 @@ export function PageHero({
 	image,
 	cta = {label: 'Записаться', href: LEAD_ANCHOR},
 	secondaryCta,
-	children
+	children,
+	transitionName
 }: TPageHeroProps): ReactNode {
+	const layout = (
+		<div
+			className={image ? 'grid items-center gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12' : 'max-w-3xl'}
+			data-tile-vt={transitionName}
+		>
+			<div>
+				{eyebrow ? <Eyebrow className={'mb-4'}>{eyebrow}</Eyebrow> : null}
+				<Heading level={1}>{title}</Heading>
+				{lead ? <p className={'mt-4 max-w-2xl text-lg sm:text-xl'}>{lead}</p> : null}
+				{cta || secondaryCta ? (
+					<div className={'mt-7 flex flex-wrap gap-3'}>
+						{cta ? (
+							<ButtonLink href={cta.href} size={'lg'}>
+								{cta.label}
+							</ButtonLink>
+						) : null}
+						{secondaryCta ? (
+							<ButtonLink href={secondaryCta.href} variant={'secondary'} size={'lg'}>
+								{secondaryCta.label}
+							</ButtonLink>
+						) : null}
+					</div>
+				) : null}
+				{children}
+			</div>
+			{image ? (
+				<div className={'relative aspect-[16/10] overflow-hidden rounded-card shadow-pop'}>
+					<Image
+						src={image.src}
+						alt={image.alt}
+						fill
+						priority
+						sizes={'(min-width: 1200px) 560px, (min-width: 1024px) 45vw, 100vw'}
+						className={'object-cover object-bottom'}
+					/>
+				</div>
+			) : null}
+		</div>
+	);
+
 	return (
 		<section className={'pt-6 pb-section md:pt-8 md:pb-section-lg'}>
 			<Container>
@@ -42,40 +86,13 @@ export function PageHero({
 						<Breadcrumbs items={breadcrumbs} />
 					</div>
 				) : null}
-				<div className={image ? 'grid items-center gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12' : 'max-w-3xl'}>
-					<div>
-						{eyebrow ? <Eyebrow className={'mb-4'}>{eyebrow}</Eyebrow> : null}
-						<Heading level={1}>{title}</Heading>
-						{lead ? <p className={'mt-4 max-w-2xl text-lg sm:text-xl'}>{lead}</p> : null}
-						{cta || secondaryCta ? (
-							<div className={'mt-7 flex flex-wrap gap-3'}>
-								{cta ? (
-									<ButtonLink href={cta.href} size={'lg'}>
-										{cta.label}
-									</ButtonLink>
-								) : null}
-								{secondaryCta ? (
-									<ButtonLink href={secondaryCta.href} variant={'secondary'} size={'lg'}>
-										{secondaryCta.label}
-									</ButtonLink>
-								) : null}
-							</div>
-						) : null}
-						{children}
-					</div>
-					{image ? (
-						<div className={'relative aspect-[16/10] overflow-hidden rounded-card shadow-pop'}>
-							<Image
-								src={image.src}
-								alt={image.alt}
-								fill
-								priority
-								sizes={'(min-width: 1200px) 560px, (min-width: 1024px) 45vw, 100vw'}
-								className={'object-cover object-bottom'}
-							/>
-						</div>
-					) : null}
-				</div>
+				{transitionName ? (
+					<ViewTransition name={transitionName} share={'tile-morph'}>
+						{layout}
+					</ViewTransition>
+				) : (
+					layout
+				)}
 			</Container>
 		</section>
 	);

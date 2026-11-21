@@ -18,6 +18,8 @@ type TPageSectionsProps = {
 	breadcrumbs: TBreadcrumb[];
 	/** Narrow reading column (privacy policy). */
 	narrow?: boolean;
+	/** Shared-element view-transition name for the hero (see `bentoTiles`). */
+	transitionName?: string;
 };
 
 function DownloadList({heading, items}: {heading: string; items: TDownload[]}): ReactNode {
@@ -112,7 +114,7 @@ function renderSection(section: TPageSection, index: number, narrow: boolean): R
 }
 
 /** Renders `TPage.sections`: the hero becomes the `PageHero` (the page's only h1), the rest follow in order. */
-export function PageSections({page, breadcrumbs, narrow = false}: TPageSectionsProps): ReactNode {
+export function PageSections({page, breadcrumbs, narrow = false, transitionName}: TPageSectionsProps): ReactNode {
 	const hero = page.sections.find(
 		(section): section is Extract<TPageSection, {type: 'hero'}> => section.type === 'hero'
 	);
@@ -124,6 +126,7 @@ export function PageSections({page, breadcrumbs, narrow = false}: TPageSectionsP
 				lead={hero?.subheading}
 				image={hero?.image}
 				cta={hero?.cta ? {label: hero.cta.label, href: hero.cta.href} : null}
+				transitionName={transitionName}
 			/>
 			{page.sections.map((section, index) => renderSection(section, index, narrow))}
 		</>

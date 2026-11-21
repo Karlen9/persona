@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({seo: festivalsPage.seo, path: f
 export default function FestivalsPage(): ReactNode {
 	return (
 		<>
-			<PageSections page={festivalsPage} breadcrumbs={[{label: festivalsPage.h1}]} />
+			<PageSections page={festivalsPage} breadcrumbs={[{label: festivalsPage.h1}]} transitionName={'tile-work'} />
 			<CtaBand title={home.cta.heading} />
 		</>
 	);

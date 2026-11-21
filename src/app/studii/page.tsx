@@ -23,7 +23,7 @@ export const metadata: Metadata = buildMetadata({
 export default function StudiosPage(): ReactNode {
 	return (
 		<>
-			<PageHero breadcrumbs={[{label: 'Студии'}]} title={'Студии'} />
+			<PageHero breadcrumbs={[{label: 'Студии'}]} title={'Студии'} transitionName={'tile-contact'} />
 			<Section className={'pt-0 md:pt-0'}>
 				<ul className={'grid gap-5 sm:grid-cols-2'}>
 					{studios.map((studio) => (
