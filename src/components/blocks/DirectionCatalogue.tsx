@@ -103,8 +103,8 @@ export function DirectionCatalogue({groups, categories, allLabel}: TDirectionCat
 										<DirectionCard
 											href={item.href}
 											title={item.title}
-											text={item.excerpt}
 											image={item.image ?? undefined}
+											compact
 										/>
 									</li>
 								))}

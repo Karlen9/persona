@@ -1,11 +1,6 @@
 import {formatPrice} from '@/lib/format';
 
-import {directions} from './directions';
-import {home} from './home';
 import {priceList} from './pricing';
-import {studios} from './studios';
-
-import type {TImage} from './types';
 
 export type TCoverEntryId = 'napravleniya' | 'studii' | 'raspisanie' | 'tarify' | 'o-nas';
 
@@ -19,7 +14,6 @@ export type TCoverEntry = {
 	teaser: string;
 	href: string;
 	page: number;
-	thumb: TImage;
 };
 
 export type TCoverStory = {
@@ -31,14 +25,6 @@ export type TCoverStory = {
 	page: number;
 };
 
-function requireImage(image: TImage | null | undefined, what: string): TImage {
-	if (!image) throw new Error(`cover.ts: no image resolved for ${what}`);
-	return image;
-}
-
-const directionThumb = (directions.find((direction) => direction.slug === 'shkola-modeley')?.cardImage ??
-	directions.find((direction) => direction.cardImage !== null)?.cardImage) as TImage | null | undefined;
-
 export const coverEntries: TCoverEntry[] = [
 	{
 		id: 'napravleniya',
@@ -48,8 +34,7 @@ export const coverEntries: TCoverEntry[] = [
 		headline: '20+ направлений под одной крышей',
 		teaser: 'Подиум, танцы, вокал, театр, шахматы и робототехника — для детей и взрослых',
 		href: '/napravleniya/',
-		page: 12,
-		thumb: requireImage(directionThumb, 'napravleniya')
+		page: 12
 	},
 	{
 		id: 'studii',
@@ -59,8 +44,7 @@ export const coverEntries: TCoverEntry[] = [
 		headline: 'Четыре студии в Москве',
 		teaser: 'Мичуринский проспект, Солнцево, Славянский бульвар и Профсоюзная',
 		href: '/studii/',
-		page: 28,
-		thumb: requireImage(studios[0]?.photos[0], 'studii')
+		page: 28
 	},
 	{
 		id: 'raspisanie',
@@ -70,8 +54,7 @@ export const coverEntries: TCoverEntry[] = [
 		headline: 'Вся неделя на одной странице',
 		teaser: 'Расписание занятий всех студий и направлений',
 		href: '/raspisanie/',
-		page: 36,
-		thumb: requireImage(home.learn.image, 'raspisanie')
+		page: 36
 	},
 	{
 		id: 'tarify',
@@ -81,8 +64,7 @@ export const coverEntries: TCoverEntry[] = [
 		headline: `Пробное занятие — ${formatPrice(priceList.trialLesson.priceRub)}`,
 		teaser: 'Абонементы, разовые и индивидуальные занятия',
 		href: '/tarify/',
-		page: 44,
-		thumb: requireImage(home.advantages.find((advantage) => advantage.image)?.image, 'tarify')
+		page: 44
 	},
 	{
 		id: 'o-nas',
@@ -92,8 +74,7 @@ export const coverEntries: TCoverEntry[] = [
 		headline: 'Более 20 лет раскрываем таланты',
 		teaser: 'Кто мы, чему учим и ответы на частые вопросы родителей',
 		href: '/o-nas/',
-		page: 52,
-		thumb: requireImage(home.hero.image, 'o-nas')
+		page: 52
 	}
 ];
 

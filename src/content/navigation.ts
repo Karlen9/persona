@@ -22,6 +22,8 @@ export type TNavItem = {
 export type TFooterColumn = {
 	title: string;
 	links: TNavLink[];
+	/** Legal links: kept on mobile, where the other footer columns are hidden. */
+	legal?: boolean;
 };
 
 const kids: TNavLink[] = [
@@ -98,6 +100,7 @@ export const footerNav: TFooterColumn[] = [
 	},
 	{
 		title: 'Документы',
+		legal: true,
 		links: [
 			{label: 'Абонентский договор', href: '/docs/abonentskij-dogovor.pdf'},
 			{label: 'Правила поведения', href: '/docs/pravila-povedeniya.pdf'},

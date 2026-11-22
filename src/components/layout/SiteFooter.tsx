@@ -21,7 +21,7 @@ export function SiteFooter(): ReactNode {
 			<footer className={'border-t border-line bg-surface'}>
 				<Container className={'py-12 md:py-16'}>
 					<div className={'grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.25fr_repeat(4,1fr)]'}>
-						<div id={'kontakty'} className={'sm:col-span-2 lg:col-span-1'}>
+						<div className={'sm:col-span-2 lg:col-span-1'}>
 							<Logo />
 							<p className={'mt-4 max-w-xs text-[15px]'}>
 								{
@@ -57,17 +57,17 @@ export function SiteFooter(): ReactNode {
 												'grid size-11 place-items-center rounded-full border border-line bg-white text-brand-800 transition-colors hover:bg-brand'
 											}
 										>
-											<Icon name={social.id} size={social.id === 'telegram' ? 20 : 26} />
+											<Icon name={social.id} size={24} />
 										</a>
 									</li>
 								))}
 							</ul>
 						</div>
-						{footerNav.map((column, index) => (
+						{footerNav.map((column) => (
 							<nav
 								key={column.title}
-								id={index === 0 ? 'karta-sajta' : undefined}
 								aria-label={column.title}
+								className={column.legal ? undefined : 'max-md:is-hidden'}
 							>
 								<p className={'mb-3 font-extrabold text-ink'}>{column.title}</p>
 								<ul className={'flex flex-col'}>

@@ -119,7 +119,7 @@ export function HomeHero({
 												'grid size-11 place-items-center rounded-full border border-line bg-white text-brand-800 shadow-card transition-colors hover:bg-brand-100'
 											}
 										>
-											<Icon name={social.kind} size={social.kind === 'telegram' ? 20 : 26} />
+											<Icon name={social.kind} size={24} />
 										</a>
 									</li>
 								))}

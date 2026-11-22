@@ -192,7 +192,7 @@ export function MobileNav({logo}: TMobileNavProps): ReactNode {
 										'grid size-11 place-items-center rounded-full bg-brand-100 text-brand-800'
 									}
 								>
-									<Icon name={social.id} size={social.id === 'telegram' ? 20 : 26} />
+									<Icon name={social.id} size={24} />
 								</a>
 							</li>
 						))}

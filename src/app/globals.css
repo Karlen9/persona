@@ -130,11 +130,6 @@ details > summary::-webkit-details-marker {
 
 /* ---- Magazine cover (home page) ---------------------------------------------------------------------------------- */
 
-/* The cover replaces the site header on the home page only (no JS). */
-body:has([data-magazine-cover]) #site-header {
-	display: none;
-}
-
 /*
  * One composed poster. Everything inside is absolutely positioned; sizes derive from the cover's own width (cqw) and
  * height. Layers: masthead z-0, cutout z-10, text / strips / scrims z-20.
@@ -143,9 +138,11 @@ body:has([data-magazine-cover]) #site-header {
  */
 .mag-cover {
 	container-type: inline-size;
+	/* Cover height = viewport minus the sticky site header. */
+	--cover-h: max(calc(100svh - var(--spacing-header)), 640px);
 	--m: clamp(1rem, 2.8cqw, 2.5rem);
 	--strip: 2.75rem;
-	--mast: min(calc((100cqw - 2 * var(--m)) / 3.72), 30svh);
+	--mast: min(calc((100cqw - 2 * var(--m)) / 3.72), calc(var(--cover-h) * 0.3));
 	--mast-bottom: calc(var(--strip) + var(--mast) * 0.82);
 	/* Hair top of the cutout: ~45% down the masthead letters, so her head covers their lower part. */
 	--hair: calc(var(--strip) + var(--mast) * 0.44);
@@ -153,20 +150,18 @@ body:has([data-magazine-cover]) #site-header {
 	--story-size: clamp(1.9rem, 8.5cqw, 3rem);
 }
 
-@media (min-width: 48rem) and (min-aspect-ratio: 1/1) {
+@media (min-width: 64rem) {
 	.mag-cover {
-		--mast: min(calc((100cqw - 2 * var(--m)) / 3.72), 46svh);
-		--cx: 56%;
-		--story-size: clamp(2.4rem, min(3.8cqw, 6svh), 3.75rem);
+		--cover-h: max(calc(100svh - var(--spacing-header-lg)), 640px);
 	}
 }
 
-.mag-top {
-	position: absolute;
-	top: 0;
-	right: var(--m);
-	left: var(--m);
-	height: var(--strip);
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) {
+	.mag-cover {
+		--mast: min(calc((100cqw - 2 * var(--m)) / 3.72), calc(var(--cover-h) * 0.46));
+		--cx: 56%;
+		--story-size: clamp(2.4rem, min(3.8cqw, calc(var(--cover-h) * 0.06)), 3.75rem);
+	}
 }
 
 .mag-masthead {
@@ -188,6 +183,13 @@ body:has([data-magazine-cover]) #site-header {
 	width: auto;
 	max-width: none;
 	transform: translateX(-50%);
+}
+
+/* 10% larger on wide screens (after the base rule so it wins the cascade) */
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) {
+	.mag-figure {
+		height: calc((100% - var(--hair)) / 0.95 * 1.1);
+	}
 }
 
 .mag-scrim-bottom {
@@ -266,6 +268,8 @@ body:has([data-magazine-cover]) #site-header {
 }
 
 /* Cover-line teasers (wide layout): one line with an ellipsis; two lines when the cover is tall enough. */
+/* On short covers the cover-line teasers and the featured-story teaser are dropped entirely. */
+/* Height thresholds below include the 72px site header (cover = viewport - header). */
 @media (min-width: 48rem) and (min-aspect-ratio: 1/1) {
 	.mag-teaser-line {
 		display: block;
@@ -276,7 +280,7 @@ body:has([data-magazine-cover]) #site-header {
 	}
 }
 
-@media (min-width: 48rem) and (min-aspect-ratio: 1/1) and (min-height: 820px) {
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) and (min-height: 892px) {
 	.mag-teaser-line {
 		display: -webkit-box;
 		-webkit-box-orient: vertical;
@@ -286,8 +290,9 @@ body:has([data-magazine-cover]) #site-header {
 	}
 }
 
-@media (min-width: 48rem) and (min-aspect-ratio: 1/1) and (max-height: 800px) {
-	.mag-teaser-line {
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) and (max-height: 872px) {
+	.mag-teaser-line,
+	.mag-story-teaser {
 		display: none;
 	}
 }
