@@ -86,7 +86,7 @@ export const directionPageTemplate: TDirectionPageTemplate = {
 		},
 		{
 			label: 'Выступления',
-			href: '/#vistuplenia'
+			href: '/festivali/#vistuplenia'
 		},
 		{
 			label: 'Тарифы',
