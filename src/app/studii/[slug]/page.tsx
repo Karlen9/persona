@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import {notFound} from 'next/navigation';
 
 import {ContactsBlock} from '@/components/blocks/ContactsBlock';
@@ -6,23 +5,19 @@ import {CtaBand} from '@/components/blocks/CtaBand';
 import {PageHero} from '@/components/blocks/PageHero';
 import {YandexMap} from '@/components/integrations/YandexMap';
 import {Gallery} from '@/components/ui/Gallery';
-import {Heading} from '@/components/ui/Heading';
 import {Icon} from '@/components/ui/Icon';
 import {JsonLd} from '@/components/ui/JsonLd';
 import {Section} from '@/components/ui/Section';
-import {audienceLabels, directions, formatPhone, getStudio, home, studios} from '@/content';
+import {formatPhone, getStudio, home, studios} from '@/content';
 import {studioJsonLd} from '@/lib/jsonld';
 import {buildMetadata} from '@/lib/seo';
 
 import type {ReactNode} from 'react';
 import type {Metadata} from 'next';
-import type {TAudience} from '@/content';
 
 type TPageProps = {params: Promise<{slug: string}>};
 
 export const dynamicParams = false;
-
-const audiences: TAudience[] = ['kids', 'adults', 'family'];
 
 export function generateStaticParams(): {slug: string}[] {
 	return studios.map((studio) => ({slug: studio.slug}));
@@ -85,37 +80,6 @@ export default async function StudioPage({params}: TPageProps): Promise<ReactNod
 
 			<Section variant={'tinted'}>
 				<Gallery images={studio.photos} columns={3} />
-			</Section>
-
-			<Section title={'Направления центра'}>
-				<div className={'grid gap-8 md:grid-cols-3'}>
-					{audiences.map((audience) => {
-						const items = directions.filter((direction) => direction.audience === audience);
-						if (items.length === 0) return null;
-						return (
-							<div key={audience}>
-								<Heading level={3} size={'sm'}>
-									{audienceLabels[audience]}
-								</Heading>
-								<ul className={'mt-3 flex flex-col'}>
-									{items.map((direction) => (
-										<li key={direction.slug}>
-											<Link
-												href={direction.path}
-												className={
-													'flex min-h-11 items-center gap-2 font-semibold text-ink hover:text-brand-800'
-												}
-											>
-												<Icon name={'chevron-right'} size={16} className={'text-brand-700'} />
-												{direction.shortTitle}
-											</Link>
-										</li>
-									))}
-								</ul>
-							</div>
-						);
-					})}
-				</div>
 			</Section>
 
 			<CtaBand title={home.cta.heading} />
