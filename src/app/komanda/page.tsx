@@ -15,8 +15,15 @@ function TeacherGrid({items}: {items: TTeacher[]}): ReactNode {
 	return (
 		<ul className={'grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4'}>
 			{items.map((teacher) => (
-				<li key={teacher.id}>
+				<li
+					key={teacher.id}
+					id={teacher.id}
+					className={
+						'scroll-mt-[calc(var(--spacing-header)+1rem)] lg:scroll-mt-[calc(var(--spacing-header-lg)+1rem)]'
+					}
+				>
 					<TeacherCard
+						id={teacher.id}
 						name={teacher.name}
 						role={teacher.role}
 						photo={teacher.cardPhoto}

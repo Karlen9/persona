@@ -9,6 +9,8 @@ import type {ReactNode} from 'react';
 import type {TImage} from '@/components/ui/types';
 
 type TTeacherCardProps = {
+	/** Anchor id: the bio dialog opens when the URL hash is `#id` (search deep links). */
+	id?: string;
 	name: string;
 	/** Omitted when the bio does not state a role. */
 	role?: string | null;
@@ -21,7 +23,7 @@ type TTeacherCardProps = {
 };
 
 /** Photo-only teacher card (name and role are on the photo; the name stays as sr-only text); with a bio it opens a native modal <dialog> (focus trap, Esc to close, focus returns to the card). */
-export function TeacherCard({name, role, photo, dialogPhoto, bio}: TTeacherCardProps): ReactNode {
+export function TeacherCard({id, name, role, photo, dialogPhoto, bio}: TTeacherCardProps): ReactNode {
 	const [open, setOpen] = useState(false);
 	const ref = useRef<HTMLDialogElement>(null);
 
@@ -31,6 +33,18 @@ export function TeacherCard({name, role, photo, dialogPhoto, bio}: TTeacherCardP
 		if (open && !dialog.open) dialog.showModal();
 		if (!open && dialog.open) dialog.close();
 	}, [open]);
+
+	const hasBio = Boolean(bio);
+
+	useEffect(() => {
+		if (!id || !hasBio) return;
+		function openFromHash(): void {
+			if (window.location.hash === `#${id}`) setOpen(true);
+		}
+		openFromHash();
+		window.addEventListener('hashchange', openFromHash);
+		return () => window.removeEventListener('hashchange', openFromHash);
+	}, [id, hasBio]);
 
 	const content = (
 		<>

@@ -103,6 +103,14 @@ export type TSite = {
 	moyklass: {
 		lead: {widgetId: string; mountId: string};
 		schedule: {widgetId: string; mountIds: string[]};
+		/** REST API schedule settings (the API key itself lives in env, never in content). */
+		api: {
+			/** Moyklass filial id -> studio slug. */
+			filialStudio: Record<string, string>;
+			/** Optional allowlists; empty = show everything. */
+			classIds: number[];
+			courseIds: number[];
+		};
 	};
 	metrika: {counterId: string; goals: string[]};
 	yandex: {

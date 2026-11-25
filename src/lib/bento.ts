@@ -6,7 +6,7 @@
  * Rows in a pattern (column spans, `*` = also spans 2 rows):
  *
  *   n=2   4 2
- *   n=3   3* | 3 / 3         (one tall card on the left, two stacked on the right)
+ *   n=3   2 2 2
  *   n=4   4 2 | 2 4
  *   n=5   4 2 | 2 2 2
  *   n=6   4 2 | 2 4 | 3 3
@@ -27,7 +27,7 @@ const s = (col: TSpan['col'], row: TSpan['row'] = 1): TSpan => ({col, row});
 const BENTO: Record<number, TSpan[]> = {
 	1: [s(6)],
 	2: [s(4), s(2)],
-	3: [s(3, 2), s(3), s(3)],
+	3: [s(2), s(2), s(2)],
 	4: [s(4), s(2), s(2), s(4)],
 	5: [s(4), s(2), s(2), s(2), s(2)],
 	6: [s(4), s(2), s(2), s(4), s(3), s(3)],

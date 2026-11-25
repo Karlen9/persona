@@ -52,6 +52,24 @@ export function organizationJsonLd(): TJsonLd {
 	};
 }
 
+/** Site-wide WebSite node with a SearchAction pointing at `/poisk/` (rendered by the root layout). */
+export function websiteJsonLd(): TJsonLd {
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'WebSite',
+		'@id': `${site.url}/#website`,
+		name: site.name,
+		url: site.url,
+		inLanguage: 'ru',
+		publisher: {'@id': ORGANIZATION_ID},
+		potentialAction: {
+			'@type': 'SearchAction',
+			target: {'@type': 'EntryPoint', urlTemplate: `${site.url}/poisk/?q={search_term_string}`},
+			'query-input': 'required name=search_term_string'
+		}
+	};
+}
+
 /** Home page: the centre as a local business with all four studio addresses. */
 export function centreJsonLd(): TJsonLd {
 	return {

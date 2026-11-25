@@ -1,27 +1,17 @@
-import Link from 'next/link';
 import {notFound} from 'next/navigation';
 
 import {CtaBand} from '@/components/blocks/CtaBand';
 import {DirectionCard} from '@/components/blocks/DirectionCard';
 import {PageHero} from '@/components/blocks/PageHero';
-import {PriceGroupTable} from '@/components/blocks/PriceGroupTable';
 import {ProgrammeGrid} from '@/components/blocks/ProgrammeGrid';
 import {TeacherCard} from '@/components/blocks/TeacherCard';
 import {VideoGrid} from '@/components/blocks/VideoGrid';
 import {ButtonLink} from '@/components/ui/ButtonLink';
-import {Icon} from '@/components/ui/Icon';
+import {Carousel} from '@/components/ui/Carousel';
 import {JsonLd} from '@/components/ui/JsonLd';
 import {RichText} from '@/components/ui/RichText';
 import {Section} from '@/components/ui/Section';
-import {
-	directionPageTemplate,
-	directions,
-	getDirection,
-	getPriceRowsForDirection,
-	getTeachersByDirection,
-	home,
-	priceList
-} from '@/content';
+import {directionPageTemplate, directions, getDirection, getTeachersByDirection, home} from '@/content';
 import {courseJsonLd} from '@/lib/jsonld';
 import {buildMetadata} from '@/lib/seo';
 
@@ -49,7 +39,7 @@ function renderSection(section: TDirectionSection, index: number, direction: TDi
 		case 'intro':
 			return (
 				<Section key={index}>
-					<RichText blocks={section.blocks} />
+					<RichText blocks={section.blocks} cardTone={'plain'} leadLayout={'rows'} />
 				</Section>
 			);
 		case 'programme':
@@ -61,7 +51,7 @@ function renderSection(section: TDirectionSection, index: number, direction: TDi
 		case 'article':
 			return (
 				<Section key={index}>
-					<RichText blocks={section.blocks} />
+					<RichText blocks={section.blocks} cardTone={'plain'} leadLayout={'rows'} />
 				</Section>
 			);
 		case 'howClassesGo':
@@ -85,21 +75,12 @@ export default async function DirectionPage({params}: TPageProps): Promise<React
 	if (!direction) notFound();
 
 	const teachers = getTeachersByDirection(direction.slug);
-	const priceRows = getPriceRowsForDirection(direction.slug);
-	const priceGroups = priceList.groups.flatMap((group) => {
-		const rows = priceRows.filter((item) => item.groupId === group.id).map((item) => item.row);
-		return rows.length > 0 ? [{group, rows}] : [];
-	});
-	const related = directionPageTemplate.related.slugs
-		.filter((relatedSlug) => relatedSlug !== direction.slug)
-		.flatMap((relatedSlug) => {
-			const item = getDirection(relatedSlug);
-			return item ? [item] : [];
-		});
+	const others = directions.filter((item) => item.slug !== direction.slug);
 
 	return (
 		<>
 			<PageHero
+				variant={'cover'}
 				breadcrumbs={[{label: 'Направления', href: '/napravleniya/'}, {label: direction.title}]}
 				title={direction.hero.heading}
 				lead={direction.hero.subheading ?? undefined}
@@ -109,18 +90,6 @@ export default async function DirectionPage({params}: TPageProps): Promise<React
 			/>
 
 			{direction.sections.map((section, index) => renderSection(section, index, direction))}
-
-			<nav aria-label={'Разделы центра'} className={'mx-auto w-full max-w-site px-4 pb-section sm:px-6 lg:px-8'}>
-				<ul className={'flex flex-wrap gap-3'}>
-					{directionPageTemplate.navLinks.map((link) => (
-						<li key={link.href}>
-							<ButtonLink href={link.href} variant={'secondary'}>
-								{link.label}
-							</ButtonLink>
-						</li>
-					))}
-				</ul>
-			</nav>
 
 			{teachers.length > 0 ? (
 				<Section
@@ -142,47 +111,29 @@ export default async function DirectionPage({params}: TPageProps): Promise<React
 				</Section>
 			) : null}
 
-			{priceGroups.length > 0 ? (
-				<Section
-					title={'Цены'}
-					action={
-						<Link
-							href={'/tarify/'}
-							className={
-								'inline-flex min-h-11 items-center gap-1.5 font-bold text-brand-800 hover:underline'
-							}
-						>
-							{'Полный прайс-лист'}
-							<Icon name={'arrow-right'} size={18} />
-						</Link>
-					}
-				>
-					<div className={'flex flex-col gap-6'}>
-						{priceGroups.map(({group, rows}) => (
-							<PriceGroupTable key={group.id} group={group} rows={rows} compact />
-						))}
-					</div>
-				</Section>
-			) : null}
-
-			{related.length > 0 ? (
+			{others.length > 0 ? (
 				<Section
 					variant={'tinted'}
 					eyebrow={directionPageTemplate.related.subheading}
 					title={directionPageTemplate.related.heading}
 				>
-					<ul className={'grid gap-5 sm:grid-cols-2 lg:grid-cols-3'}>
-						{related.map((item) => (
-							<li key={item.slug}>
-								<DirectionCard
-									title={item.shortTitle}
-									href={item.path}
-									bullets={item.highlightBullets ?? undefined}
-									text={item.highlightBullets ? undefined : item.excerpt}
-								/>
-							</li>
+					<Carousel
+						id={'related-directions'}
+						label={'Другие направления'}
+						slideClassName={'w-[62%] sm:w-[38%] lg:w-[23.5%]'}
+					>
+						{others.map((item) => (
+							<DirectionCard
+								key={item.slug}
+								variant={'poster'}
+								title={item.shortTitle}
+								href={item.path}
+								image={item.cardImage ?? undefined}
+								text={item.excerpt}
+								imageSizes={'(min-width: 1024px) 280px, (min-width: 640px) 38vw, 62vw'}
+							/>
 						))}
-					</ul>
+					</Carousel>
 				</Section>
 			) : null}
 

@@ -95,6 +95,13 @@ export const site: TSite = {
 		schedule: {
 			widgetId: '38IaRqAF2GUQSoxG3JaEonvxriufNPjJGx',
 			mountIds: ['SiteWidgetMoyklass65961', 'SiteWidgetMoyklass130200']
+		},
+		api: {
+			// TODO(content): fill with real Moyklass filial ids once known, e.g. {'1234': 'solntsevo'}.
+			// Until then studios are matched by address keyword (see src/lib/moyklass/schedule.ts).
+			filialStudio: {},
+			classIds: [],
+			courseIds: []
 		}
 	},
 	metrika: {

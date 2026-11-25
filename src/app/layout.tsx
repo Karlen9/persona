@@ -9,7 +9,8 @@ import {SiteFooter} from '@/components/layout/SiteFooter';
 import {SiteHeader} from '@/components/layout/SiteHeader';
 import {SkipLink} from '@/components/layout/SkipLink';
 import {JsonLd} from '@/components/ui/JsonLd';
-import {organizationJsonLd} from '@/lib/jsonld';
+import {OpenDetailsOnHash} from '@/components/ui/OpenDetailsOnHash';
+import {organizationJsonLd, websiteJsonLd} from '@/lib/jsonld';
 import {site} from '@/content/site';
 import {SITE_DESCRIPTION, SITE_NAME, SITE_URL} from '@/lib/site';
 
@@ -73,6 +74,8 @@ export default function RootLayout({children}: TRootLayoutProps): ReactNode {
 				<CookieConsent {...site.cookieBanner} />
 				<YandexMetrika />
 				<JsonLd data={organizationJsonLd()} />
+				<JsonLd data={websiteJsonLd()} />
+				<OpenDetailsOnHash />
 			</body>
 		</html>
 	);

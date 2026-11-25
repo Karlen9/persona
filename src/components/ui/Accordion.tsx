@@ -6,6 +6,8 @@ import {JsonLd} from './JsonLd';
 import type {ReactNode} from 'react';
 
 export type TAccordionItem = {
+	/** Anchor id (`/page/#id` deep links open and scroll to this item). */
+	id?: string;
 	question: string;
 	/** Rendered inside the panel. */
 	answer: ReactNode;
@@ -44,9 +46,12 @@ export function Accordion({items, openFirst, jsonLd, className}: TAccordionProps
 		<div className={cn('flex flex-col gap-3', className)}>
 			{items.map((item, index) => (
 				<details
+					id={item.id}
 					key={item.question}
 					open={openFirst && index === 0}
-					className={'group rounded-card border border-line bg-white shadow-card open:border-brand-300'}
+					className={
+						'group scroll-mt-[calc(var(--spacing-header)+1rem)] rounded-card border border-line bg-white shadow-card open:border-brand-300 lg:scroll-mt-[calc(var(--spacing-header-lg)+1rem)]'
+					}
 				>
 					<summary
 						className={

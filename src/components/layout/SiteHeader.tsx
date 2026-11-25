@@ -1,6 +1,6 @@
+import {SearchTrigger} from '@/components/search/SearchTrigger';
 import {ButtonLink} from '@/components/ui/ButtonLink';
-import {Icon} from '@/components/ui/Icon';
-import {LEAD_ANCHOR, PHONES} from '@/lib/site';
+import {LEAD_ANCHOR} from '@/lib/site';
 
 import {DesktopNav} from './DesktopNav';
 import {HeaderScroll} from './HeaderScroll';
@@ -10,7 +10,6 @@ import {MobileNav} from './MobileNav';
 import type {ReactNode} from 'react';
 
 export function SiteHeader(): ReactNode {
-	const phone = PHONES[0];
 	return (
 		<>
 			<HeaderScroll />
@@ -29,15 +28,7 @@ export function SiteHeader(): ReactNode {
 					<Logo className={'shrink-0'} priority />
 					<DesktopNav />
 					<div className={'flex items-center gap-1 sm:gap-3'}>
-						<a
-							href={phone.href}
-							className={
-								'flex items-center gap-2 text-[15px] font-bold text-ink hover:text-brand-800 max-xl:hidden'
-							}
-						>
-							<Icon name={'phone'} size={18} className={'text-brand-700'} />
-							{phone.label}
-						</a>
+						<SearchTrigger />
 						<ButtonLink href={LEAD_ANCHOR} size={'sm'}>
 							{'Записаться'}
 						</ButtonLink>

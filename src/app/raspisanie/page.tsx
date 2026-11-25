@@ -3,9 +3,11 @@ import Link from 'next/link';
 import {PageHero} from '@/components/blocks/PageHero';
 import {ContactFallback} from '@/components/integrations/ContactFallback';
 import {ScheduleWidget} from '@/components/integrations/ScheduleWidget';
+import {ScheduleCalendar} from '@/components/schedule/ScheduleCalendar';
 import {Icon} from '@/components/ui/Icon';
 import {Section} from '@/components/ui/Section';
 import {schedulePage, studios} from '@/content';
+import {getSchedule} from '@/lib/moyklass/schedule';
 import {buildMetadata} from '@/lib/seo';
 
 import type {ReactNode} from 'react';
@@ -13,13 +15,17 @@ import type {Metadata} from 'next';
 
 export const metadata: Metadata = buildMetadata({seo: schedulePage.seo, path: schedulePage.path});
 
-export default function SchedulePage(): ReactNode {
+export const revalidate = 600;
+
+export default async function SchedulePage(): Promise<ReactNode> {
+	const schedule = await getSchedule();
+
 	return (
 		<>
 			<PageHero breadcrumbs={[{label: schedulePage.h1}]} title={schedulePage.h1} />
 
 			<Section className={'pt-0 md:pt-0'}>
-				<ScheduleWidget />
+				{schedule ? <ScheduleCalendar schedule={schedule} /> : <ScheduleWidget />}
 			</Section>
 
 			<Section variant={'tinted'} title={'Не нашли подходящее время?'}>

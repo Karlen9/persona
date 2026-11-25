@@ -99,6 +99,7 @@ export function CentreHighlights(): ReactNode {
 				<Accordion
 					openFirst
 					items={homeFaq.items.map((item) => ({
+						id: item.id,
 						question: item.question,
 						answer: <RichText blocks={item.answer} />,
 						answerText: item.answerText

@@ -82,6 +82,10 @@ function StatRow({stats}: {stats: TStat[]}): ReactNode {
 type TRichTextProps = {
 	blocks: readonly TBlock[];
 	className?: string;
+	/** Card background style for icon-card grids. */
+	cardTone?: 'tinted' | 'plain';
+	/** Layout of «Label — description» lists: bento cards (default) or plain rows. */
+	leadLayout?: 'cards' | 'rows';
 };
 
 function renderPlainBlocks(blocks: readonly TBlock[]): ReactNode[] {
@@ -142,7 +146,7 @@ function renderPlainBlocks(blocks: readonly TBlock[]): ReactNode[] {
  * Renders content `TBlock[]`: paragraphs (incl. eyebrow), headings (with emoji icon), lists, stat rows, card grids.
  * Runs of level-3 headings with an emoji icon (and their bodies) are rendered as icon-card grids (`IconCardGrid`).
  */
-export function RichText({blocks, className}: TRichTextProps): ReactNode {
+export function RichText({blocks, className, cardTone, leadLayout}: TRichTextProps): ReactNode {
 	return (
 		<div className={cn('flex flex-col gap-4 text-[17px] leading-relaxed break-words', className)}>
 			{groupIconBlocks(blocks).map((segment, index) =>
@@ -150,7 +154,7 @@ export function RichText({blocks, className}: TRichTextProps): ReactNode {
 					<Fragment key={index}>{renderPlainBlocks(segment.blocks)}</Fragment>
 				) : (
 					<div key={index} className={'my-2'}>
-						<IconCardGrid segment={segment} />
+						<IconCardGrid segment={segment} tone={cardTone} leadLayout={leadLayout} />
 					</div>
 				)
 			)}

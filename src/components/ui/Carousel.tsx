@@ -27,7 +27,7 @@ export function Carousel({
 	return (
 		<div className={cn('relative', className)}>
 			{controls ? (
-				<div className={'mb-4 flex justify-end'}>
+				<div className={'relative z-10 mb-4 flex justify-end'}>
 					<CarouselControls targetId={id} />
 				</div>
 			) : null}
@@ -38,7 +38,7 @@ export function Carousel({
 				aria-label={label}
 				tabIndex={0}
 				className={
-					'no-scrollbar -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth px-4 pb-6 sm:-mx-6 sm:px-6 lg:mx-0 lg:px-0'
+					'no-scrollbar -mx-4 -mt-10 -mb-24 flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto scroll-smooth px-4 pt-10 pb-24 sm:-mx-6 sm:scroll-px-6 sm:px-6 lg:-mx-8 lg:scroll-px-8 lg:px-8'
 				}
 			>
 				{children.map((child, index) => (
