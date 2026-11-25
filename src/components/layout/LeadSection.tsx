@@ -1,6 +1,5 @@
 import {LeadForm} from '@/components/integrations/LeadForm';
 import {Container} from '@/components/ui/Container';
-import {Eyebrow} from '@/components/ui/Eyebrow';
 import {Heading} from '@/components/ui/Heading';
 import {Icon} from '@/components/ui/Icon';
 import {PHONES} from '@/lib/site';
@@ -20,7 +19,6 @@ export function LeadSection(): ReactNode {
 			<Container>
 				<div className={'grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:gap-14'}>
 					<div>
-						<Eyebrow className={'mb-4'}>{'Запись'}</Eyebrow>
 						<Heading id={'zapis-title'} level={2} size={'xl'}>
 							{'Запишитесь на бесплатную консультацию'}
 						</Heading>
