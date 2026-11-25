@@ -38,8 +38,8 @@ export function ProgrammeGrid({items, columns = 3}: TProgrammeGridProps): ReactN
 						/>
 					) : null}
 					<div className={'flex flex-1 flex-col gap-3 p-6'}>
-						<h3 className={'text-lg leading-snug font-extrabold text-ink'}>{item.title}</h3>
-						<p className={'text-[15px]'}>{item.text}</p>
+						<h3 className={'text-xl leading-snug font-extrabold text-ink'}>{item.title}</h3>
+						<p className={'text-base'}>{item.text}</p>
 					</div>
 				</li>
 			))}

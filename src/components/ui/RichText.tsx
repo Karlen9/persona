@@ -54,8 +54,8 @@ function CardGrid({items}: {items: TCard[]}): ReactNode {
 						/>
 					) : null}
 					<div className={'p-5'}>
-						<h3 className={'text-lg leading-snug font-extrabold text-ink'}>{card.title}</h3>
-						<p className={'mt-2 text-[15px]'}>{card.text}</p>
+						<h3 className={'text-xl leading-snug font-extrabold text-ink'}>{card.title}</h3>
+						<p className={'mt-2 text-base'}>{card.text}</p>
 					</div>
 				</li>
 			))}

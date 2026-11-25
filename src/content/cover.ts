@@ -80,7 +80,7 @@ export const coverEntries: TCoverEntry[] = [
 
 export const coverStory: TCoverStory = {
 	kicker: 'Главная тема',
-	titleLines: ['Маленькие мисс', 'и мистер Россия'],
+	titleLines: ['Фестивальное', 'движение'],
 	teaser: 'Всероссийский конкурс с 20-летней историей для детей от 4 до 17 лет',
 	href: '/festivali/',
 	page: 64
