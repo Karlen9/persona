@@ -85,7 +85,7 @@ export async function MagazineCover(): Promise<ReactNode> {
 			</h1>
 
 			<Image
-				src={'/images/cover-cutout.webp'}
+				src={'/images/cover-cutout.png'}
 				alt={
 					'Серьёзная девочка с волнистыми светлыми волосами в оранжевом льняном костюме и белой рубашке держит руки в карманах — как маленький руководитель'
 				}
