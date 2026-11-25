@@ -110,8 +110,9 @@ bun run dev         # or: bun run build && bun run start
 
 `bun run seed`, `bun run check:cms`, `bun run check:search` and the app itself check the migration state when they open
 the database and fail with a message (`Run bun run migrate`) if the schema is missing or migrations are pending. In
-production (`NODE_ENV=production`, i.e. `next start`/`next build`) pending migrations are also applied automatically on
-start (`prodMigrations`). Everything is non-interactive.
+production, `next start` also applies pending migrations automatically on boot (`prodMigrations`). `next build` does
+not: run `bun run migrate` before `bun run build`, otherwise the build fails with `SQLITE_BUSY: database is locked`
+because parallel build workers race on the schema write. Everything is non-interactive.
 
 After changing a collection/global:
 
