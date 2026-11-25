@@ -11,6 +11,8 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+	// Lets phones / tunnels (ngrok, LAN IP) load dev resources so the dev site hydrates there.
+	allowedDevOrigins: ['*.ngrok-free.app', '*.ngrok-free.dev', '*.ngrok.app', '*.ngrok.io', '192.168.*.*'],
 	trailingSlash: true,
 	poweredByHeader: false,
 	reactStrictMode: true,

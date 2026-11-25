@@ -1,3 +1,4 @@
+import {CentreHighlights} from '@/components/blocks/CentreHighlights';
 import {CtaBand} from '@/components/blocks/CtaBand';
 import {PageSections} from '@/components/blocks/PageSections';
 import {aboutPage, home} from '@/content';
@@ -12,6 +13,7 @@ export default function AboutPage(): ReactNode {
 	return (
 		<>
 			<PageSections page={aboutPage} breadcrumbs={[{label: aboutPage.h1}]} />
+			<CentreHighlights />
 			<CtaBand title={home.cta.heading} />
 		</>
 	);

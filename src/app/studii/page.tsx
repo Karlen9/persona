@@ -1,6 +1,7 @@
 import {CtaBand} from '@/components/blocks/CtaBand';
 import {PageHero} from '@/components/blocks/PageHero';
 import {StudioCard} from '@/components/blocks/StudioCard';
+import {Gallery} from '@/components/ui/Gallery';
 import {Section} from '@/components/ui/Section';
 import {formatPhone, home, site, studios} from '@/content';
 import {buildMetadata} from '@/lib/seo';
@@ -44,6 +45,9 @@ export default function StudiosPage(): ReactNode {
 						</li>
 					))}
 				</ul>
+			</Section>
+			<Section title={home.studio.heading} className={'pt-0 md:pt-0'}>
+				<Gallery images={home.studio.photos} columns={4} aspect={'portrait'} />
 			</Section>
 			<CtaBand title={home.cta.heading} />
 		</>

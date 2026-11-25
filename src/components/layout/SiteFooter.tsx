@@ -57,14 +57,18 @@ export function SiteFooter(): ReactNode {
 												'grid size-11 place-items-center rounded-full border border-line bg-white text-brand-800 transition-colors hover:bg-brand'
 											}
 										>
-											<Icon name={social.id} size={social.id === 'telegram' ? 20 : 26} />
+											<Icon name={social.id} size={24} />
 										</a>
 									</li>
 								))}
 							</ul>
 						</div>
 						{footerNav.map((column) => (
-							<nav key={column.title} aria-label={column.title}>
+							<nav
+								key={column.title}
+								aria-label={column.title}
+								className={column.legal ? undefined : 'max-md:is-hidden'}
+							>
 								<p className={'mb-3 font-extrabold text-ink'}>{column.title}</p>
 								<ul className={'flex flex-col'}>
 									{column.links.map((link) => (

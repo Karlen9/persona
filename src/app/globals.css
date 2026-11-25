@@ -1,7 +1,12 @@
 @import 'tailwindcss';
 
+/* Cover poster layouts: wide = landscape-ish screens; tall = phones and portrait tablets (the base). */
+@custom-variant poster-wide (@media (min-width: 48rem) and (min-aspect-ratio: 1/1));
+@custom-variant poster-tall (@media not all and (min-width: 48rem) and (min-aspect-ratio: 1/1));
+
 @theme inline {
 	--font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+	--font-display: var(--font-playfair), ui-serif, Georgia, serif;
 
 	/* Brand: teal scale around #5DBAA8 (400). Never put white text on 300-500. */
 	--color-brand-50: #effaf7;
@@ -121,4 +126,243 @@ details > summary::-webkit-details-marker {
 /* Collision-safe replacement for Tailwind's bare `hidden` (the Moyklass widget CSS defines `.hidden` globally with !important). */
 @utility is-hidden {
 	display: none;
+}
+
+/* ---- Magazine cover (home page) ---------------------------------------------------------------------------------- */
+
+/*
+ * One composed poster. Everything inside is absolutely positioned; sizes derive from the cover's own width (cqw) and
+ * height. Layers: masthead z-0, cutout z-10, text / strips / scrims z-20.
+ * Playfair 400 "PersOna" advances 3.808em, 3.67em with -0.02em tracking; --mast makes it span edge to edge.
+ * The cap tops sit at ~0.11em and the baseline at ~0.82em of the 0.8 line box (--mast-bottom).
+ */
+.mag-cover {
+	container-type: inline-size;
+	/* Cover height = viewport minus the sticky site header. */
+	--cover-h: max(calc(100svh - var(--spacing-header)), 640px);
+	--m: clamp(1rem, 2.8cqw, 2.5rem);
+	--strip: 2.75rem;
+	--mast: min(calc((100cqw - 2 * var(--m)) / 3.72), calc(var(--cover-h) * 0.3));
+	--mast-bottom: calc(var(--strip) + var(--mast) * 0.82);
+	/* Hair top of the cutout: ~45% down the masthead letters, so her head covers their lower part. */
+	--hair: calc(var(--strip) + var(--mast) * 0.44);
+	--cx: 35%;
+	--story-size: clamp(1.9rem, 8.5cqw, 3rem);
+}
+
+@media (min-width: 64rem) {
+	.mag-cover {
+		--cover-h: max(calc(100svh - var(--spacing-header-lg)), 640px);
+	}
+}
+
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) {
+	.mag-cover {
+		--mast: min(calc((100cqw - 2 * var(--m)) / 3.72), calc(var(--cover-h) * 0.46));
+		--cx: 56%;
+		--story-size: clamp(2.4rem, min(3.8cqw, calc(var(--cover-h) * 0.06)), 3.75rem);
+	}
+}
+
+.mag-masthead {
+	position: absolute;
+	top: var(--strip);
+	left: var(--m);
+	font-size: var(--mast);
+	line-height: 0.8;
+	letter-spacing: -0.02em;
+	white-space: nowrap;
+}
+
+/* Bottom edge of the photo (upper thighs) = bottom edge of the cover. Hair top sits at 5% of the image height. */
+.mag-figure {
+	position: absolute;
+	bottom: 0;
+	left: var(--cx);
+	height: calc((100% - var(--hair)) / 0.95);
+	width: auto;
+	max-width: none;
+	transform: translateX(-50%);
+}
+
+/* 10% larger on wide screens (after the base rule so it wins the cascade) */
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) {
+	.mag-figure {
+		height: calc((100% - var(--hair)) / 0.95 * 1.1);
+	}
+}
+
+.mag-scrim-bottom {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 38%;
+	background-image: linear-gradient(
+		to top,
+		var(--color-brand-50),
+		color-mix(in srgb, var(--color-brand-50) 80%, transparent) 45%,
+		transparent
+	);
+}
+
+/* Tall layout: slot 'right' lines in the upper right, on a mint scrim. */
+.mag-right {
+	position: absolute;
+	top: calc(var(--mast-bottom) + 0.75rem);
+	right: var(--m);
+	width: min(15rem, 36cqw);
+	gap: 0;
+}
+
+.mag-right::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	inset: -1.5rem calc(var(--m) * -1) -2rem -3rem;
+	mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+	background-image: linear-gradient(
+		to left,
+		var(--color-brand-50),
+		color-mix(in srgb, var(--color-brand-50) 85%, transparent) 55%,
+		transparent
+	);
+}
+
+.mag-left {
+	position: absolute;
+	bottom: 3.25rem;
+	left: var(--m);
+	width: calc(100cqw - var(--m) - 5rem);
+}
+
+.mag-bottom {
+	position: absolute;
+	right: 5rem;
+	bottom: 0;
+	left: var(--m);
+	height: 3rem;
+}
+
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) {
+	.mag-scrim-bottom,
+	.mag-right::before {
+		display: none;
+	}
+
+	.mag-right {
+		top: calc(var(--mast-bottom) + 1.5rem);
+		right: max(var(--m), 5.5rem);
+		bottom: 4.5rem;
+		width: min(26rem, 22.5cqw);
+	}
+
+	.mag-left {
+		bottom: 3.5rem;
+		width: min(32rem, 34cqw);
+	}
+
+	.mag-bottom {
+		right: max(var(--m), 5.5rem);
+	}
+}
+
+/* Cover-line teasers (wide layout): one line with an ellipsis; two lines when the cover is tall enough. */
+/* On short covers the cover-line teasers and the featured-story teaser are dropped entirely. */
+/* Height thresholds below include the 72px site header (cover = viewport - header). */
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) {
+	.mag-teaser-line {
+		display: block;
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) and (min-height: 892px) {
+	.mag-teaser-line {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		white-space: normal;
+		text-overflow: clip;
+	}
+}
+
+@media (min-width: 48rem) and (min-aspect-ratio: 1/1) and (max-height: 872px) {
+	.mag-teaser-line,
+	.mag-story-teaser {
+		display: none;
+	}
+}
+
+.mag-line {
+	transition: opacity 200ms ease;
+}
+
+.mag-line:focus-visible {
+	outline-offset: 3px;
+	border-radius: 10px;
+}
+
+.mag-headline {
+	background-image: linear-gradient(currentColor, currentColor);
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 2px;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+	transition: background-size 320ms ease;
+}
+
+.mag-line:focus-visible .mag-headline {
+	background-size: 100% 2px;
+}
+
+.mag-cover:has(.mag-line:focus-visible) .mag-line:not(:focus-visible) {
+	opacity: 0.5;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.mag-line:hover .mag-headline {
+		background-size: 100% 2px;
+	}
+
+	.mag-cover:has(.mag-line:hover) .mag-line:not(:hover) {
+		opacity: 0.5;
+	}
+}
+
+/* Page transition from the cover: new page wipes in from the right; reduced motion = short fade. */
+@keyframes cover-wipe-in {
+	from {
+		clip-path: inset(0 0 0 100%);
+	}
+	to {
+		clip-path: inset(0 0 0 0);
+	}
+}
+
+@keyframes cover-fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+html[data-cover-transition='wipe']::view-transition-old(root) {
+	animation: none;
+}
+
+html[data-cover-transition='wipe']::view-transition-new(root) {
+	animation: cover-wipe-in 520ms cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html[data-cover-transition='wipe']::view-transition-new(root) {
+		animation: cover-fade-in 200ms ease both;
+	}
 }

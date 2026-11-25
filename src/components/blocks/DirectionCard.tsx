@@ -25,6 +25,8 @@ type TDirectionCardProps = {
 	imageSizes?: string;
 	/** Set only for the first card of a page when it is the LCP image. */
 	priority?: boolean;
+	/** Catalogue: the poster already shows the name, so only «Подробнее» is shown under it (title stays for screen readers). */
+	compact?: boolean;
 };
 
 const frame =
@@ -39,7 +41,8 @@ export function DirectionCard({
 	bullets,
 	variant = 'default',
 	imageSizes = '(min-width: 1200px) 384px, (min-width: 640px) 45vw, 100vw',
-	priority
+	priority,
+	compact
 }: TDirectionCardProps): ReactNode {
 	if (variant === 'poster' && image) {
 		return (
@@ -79,9 +82,9 @@ export function DirectionCard({
 				</div>
 			) : null}
 			<div className={'flex flex-1 flex-col gap-2 p-5'}>
-				<h3 className={'text-xl leading-snug font-extrabold text-ink'}>{title}</h3>
-				{text ? <p className={'text-[15px]'}>{text}</p> : null}
-				{bullets && bullets.length > 0 ? (
+				<h3 className={compact ? 'sr-only' : 'text-xl leading-snug font-extrabold text-ink'}>{title}</h3>
+				{!compact && text ? <p className={'text-[15px]'}>{text}</p> : null}
+				{!compact && bullets && bullets.length > 0 ? (
 					<ul className={'mt-1 flex flex-col gap-1.5 text-[15px]'}>
 						{bullets.map((bullet) => (
 							<li key={bullet} className={'flex items-start gap-2'}>
