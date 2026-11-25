@@ -32,6 +32,10 @@ function cardTint(tone: TCardTone, index: number): string {
 	return tone === 'plain' ? PLAIN_TINT : CARD_TINTS[index % CARD_TINTS.length];
 }
 
+/** One heading size and one body size for every icon-card section, regardless of card span. */
+const HEADING_CLASS = 'text-xl leading-snug font-extrabold tracking-tight text-balance text-ink';
+const BODY_CLASS = 'text-base leading-relaxed';
+
 const CARD_CLASS = 'flex h-full rounded-[24px] border shadow-card';
 
 /** Column / row classes for one grid item. On `sm` (2 columns) an odd last card takes both columns. */
@@ -43,14 +47,13 @@ function isLarge(span: TSpan): boolean {
 	return span.col >= 4 || span.row === 2;
 }
 
-function CardBody({blocks, large}: {blocks: TBodyBlock[]; large?: boolean}): ReactNode {
-	const textClass = large ? 'text-base leading-relaxed' : 'text-[15px] leading-relaxed';
+function CardBody({blocks}: {blocks: TBodyBlock[]}): ReactNode {
 	return (
 		<>
 			{blocks.map((block, index) => {
 				if (block.type === 'paragraph') {
 					return (
-						<p key={index} className={cn('mt-2 break-words', textClass)}>
+						<p key={index} className={cn('mt-2 break-words', BODY_CLASS)}>
 							<RichInline value={block} />
 						</p>
 					);
@@ -66,7 +69,7 @@ function CardBody({blocks, large}: {blocks: TBodyBlock[]; large?: boolean}): Rea
 						)}
 					>
 						{block.items.map((item, i) => (
-							<li key={i} className={cn('flex items-start gap-2.5 break-words', textClass)}>
+							<li key={i} className={cn('flex items-start gap-2.5 break-words', BODY_CLASS)}>
 								{block.ordered ? null : (
 									<span
 										aria-hidden
@@ -103,15 +106,10 @@ function IconCard({
 	return (
 		<div className={cn(CARD_CLASS, cardTint(tone, index), 'flex-col p-5 sm:p-6', large && 'sm:p-7')}>
 			<div className={'min-w-0 flex-1'}>
-				<h3
-					className={cn(
-						'font-extrabold tracking-tight text-balance text-ink',
-						large ? 'text-xl leading-snug sm:text-2xl' : 'text-lg leading-snug'
-					)}
-				>
+				<h3 className={HEADING_CLASS}>
 					<RichInline value={item.heading} />
 				</h3>
-				<CardBody blocks={item.body} large={large} />
+				<CardBody blocks={item.body} />
 			</div>
 		</div>
 	);
@@ -198,12 +196,12 @@ function LeadListGrid({
 	const spans = leadListPattern(count);
 	return (
 		<div>
-			<h3 className={'text-xl leading-snug font-extrabold tracking-tight text-balance text-ink sm:text-2xl'}>
+			<h3 className={HEADING_CLASS}>
 				<RichInline value={segment.item.heading} />
 			</h3>
 			{segment.intro.length > 0 ? (
 				<div className={'max-w-[72ch]'}>
-					<CardBody blocks={segment.intro} large />
+					<CardBody blocks={segment.intro} />
 				</div>
 			) : null}
 			{layout === 'rows' ? (
@@ -219,7 +217,7 @@ function LeadListGrid({
 			)}
 			{segment.outro.length > 0 ? (
 				<div className={'mt-5 max-w-[72ch]'}>
-					<CardBody blocks={segment.outro} large />
+					<CardBody blocks={segment.outro} />
 				</div>
 			) : null}
 		</div>
@@ -236,11 +234,11 @@ function ClosingCard({segment}: {segment: TClosingSegment}): ReactNode {
 			}
 		>
 			<div className={'min-w-0 flex-1'}>
-				<h3 className={'text-2xl leading-snug font-extrabold tracking-tight text-balance text-ink'}>
+				<h3 className={HEADING_CLASS}>
 					<RichInline value={item.heading} />
 				</h3>
 				<div className={'max-w-[72ch]'}>
-					<CardBody blocks={item.body} large />
+					<CardBody blocks={item.body} />
 				</div>
 			</div>
 		</div>
