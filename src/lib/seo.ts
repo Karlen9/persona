@@ -1,4 +1,6 @@
-import {site} from '@/content/site';
+import 'server-only';
+
+import {getSite} from '@/lib/cms';
 
 import type {Metadata} from 'next';
 import type {TSeo} from '@/content/types';
@@ -11,7 +13,8 @@ type TMetadataInput = {
 };
 
 /** Metadata for a content item: title/description from `seo`, canonical = its path, OG image falls back to the site default. */
-export function buildMetadata({seo, path, noindex}: TMetadataInput): Metadata {
+export async function buildMetadata({seo, path, noindex}: TMetadataInput): Promise<Metadata> {
+	const site = await getSite();
 	const image = seo.ogImage ?? site.defaultOgImage;
 	return {
 		title: {absolute: seo.title},
@@ -29,9 +32,4 @@ export function buildMetadata({seo, path, noindex}: TMetadataInput): Metadata {
 		},
 		twitter: {card: 'summary_large_image', title: seo.title, description: seo.description, images: [image.src]}
 	};
-}
-
-/** Absolute URL for a site path. */
-export function absoluteUrl(path: string): string {
-	return `${site.url}${path}`;
 }

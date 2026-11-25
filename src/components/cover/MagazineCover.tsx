@@ -1,9 +1,8 @@
 import Image from 'next/image';
 
-import {coverEntries, coverStory} from '@/content/cover';
+import {getCover, getSite} from '@/lib/cms';
 import {cn} from '@/lib/cn';
 import {displayFont} from '@/lib/fonts';
-import {SITE_NAME} from '@/lib/site';
 
 import {CoverLink} from './CoverLink';
 
@@ -64,7 +63,8 @@ function CoverLine({entry, align, tallHidden = false}: TCoverLineProps): ReactNo
 	);
 }
 
-export function MagazineCover(): ReactNode {
+export async function MagazineCover(): Promise<ReactNode> {
+	const [{entries: coverEntries, story: coverStory}, site] = await Promise.all([getCover(), getSite()]);
 	const rightEntries = coverEntries.filter((entry) => entry.slot === 'right');
 	const leftEntries = coverEntries.filter((entry) => entry.slot === 'left');
 	// Tall layout: the third right-slot line would cover her face, so it is hidden there.
@@ -80,7 +80,7 @@ export function MagazineCover(): ReactNode {
 			)}
 		>
 			<h1 id={'cover-title'} className={'mag-masthead z-0 font-display font-normal text-brand-800'}>
-				{SITE_NAME}
+				{site.name}
 				<span className={'sr-only'}>{' — творческий центр для детей и взрослых в Москве'}</span>
 			</h1>
 

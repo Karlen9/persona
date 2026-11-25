@@ -3,8 +3,8 @@ import Link from 'next/link';
 import {GisReviewsLink, YandexRatingBadge} from '@/components/integrations/YandexRatingBadge';
 import {Container} from '@/components/ui/Container';
 import {Icon} from '@/components/ui/Icon';
-import {footerNav} from '@/content/navigation';
-import {EMAIL, PHONES, SOCIALS} from '@/lib/site';
+import {getNavigation, getSite} from '@/lib/cms';
+import {getSiteInfo} from '@/lib/siteInfo';
 
 import {Logo} from './Logo';
 import {LeadSection} from './LeadSection';
@@ -13,7 +13,9 @@ import type {ReactNode} from 'react';
 
 const linkClass = 'text-body hover:text-brand-800 py-1 text-[15px] hover:underline underline-offset-4';
 
-export function SiteFooter(): ReactNode {
+export async function SiteFooter(): Promise<ReactNode> {
+	const [{footerNav}, site, info] = await Promise.all([getNavigation(), getSite(), getSiteInfo()]);
+	const {phones, email, socials} = info;
 	const year = new Date().getFullYear();
 	return (
 		<>
@@ -29,7 +31,7 @@ export function SiteFooter(): ReactNode {
 								}
 							</p>
 							<ul className={'mt-5 flex flex-col gap-1'}>
-								{PHONES.map((phone) => (
+								{phones.map((phone) => (
 									<li key={phone.href}>
 										<a href={phone.href} className={'font-bold text-ink hover:text-brand-800'}>
 											{phone.label}
@@ -38,15 +40,15 @@ export function SiteFooter(): ReactNode {
 								))}
 								<li>
 									<a
-										href={`mailto:${EMAIL}`}
+										href={`mailto:${email}`}
 										className={'font-semibold text-ink hover:text-brand-800'}
 									>
-										{EMAIL}
+										{email}
 									</a>
 								</li>
 							</ul>
 							<ul className={'mt-5 flex gap-2'}>
-								{SOCIALS.map((social) => (
+								{socials.map((social) => (
 									<li key={social.id}>
 										<a
 											href={social.href}
@@ -102,8 +104,8 @@ export function SiteFooter(): ReactNode {
 							{`© ${year} PersOna — творческий центр. Все права защищены.`}
 						</p>
 						<div className={'flex flex-wrap items-center gap-4'}>
-							<YandexRatingBadge />
-							<GisReviewsLink />
+							<YandexRatingBadge badgeUrl={site.yandex.ratingBadgeUrl} orgUrl={site.yandex.orgUrl} />
+							<GisReviewsLink url={info.gisReviewsUrl} />
 						</div>
 					</div>
 				</Container>

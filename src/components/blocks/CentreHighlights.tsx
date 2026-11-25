@@ -11,12 +11,14 @@ import {Icon} from '@/components/ui/Icon';
 import {JsonLd} from '@/components/ui/JsonLd';
 import {RichText} from '@/components/ui/RichText';
 import {Section} from '@/components/ui/Section';
-import {home, homeFaq} from '@/content';
+import {getHome, getHomeFaq, getSite} from '@/lib/cms';
+import {getSiteInfo} from '@/lib/siteInfo';
 
 import type {ReactNode} from 'react';
 
 /** Content that used to live on the home page: why PersOna, advantages, gallery, FAQ and ratings. */
-export function CentreHighlights(): ReactNode {
+export async function CentreHighlights(): Promise<ReactNode> {
+	const [home, homeFaq, site, info] = await Promise.all([getHome(), getHomeFaq(), getSite(), getSiteInfo()]);
 	return (
 		<>
 			<Section variant={'tinted'}>
@@ -128,8 +130,8 @@ export function CentreHighlights(): ReactNode {
 							{'Отзывы'}
 						</h2>
 						<div className={'flex flex-wrap items-center gap-4 sm:ml-auto'}>
-							<YandexRatingBadge />
-							<GisReviewsLink />
+							<YandexRatingBadge badgeUrl={site.yandex.ratingBadgeUrl} orgUrl={site.yandex.orgUrl} />
+							<GisReviewsLink url={info.gisReviewsUrl} />
 							<ButtonLink href={'/otzyvy/'} variant={'ghost'} size={'sm'}>
 								{'Все отзывы'}
 							</ButtonLink>

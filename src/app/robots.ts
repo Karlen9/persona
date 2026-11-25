@@ -1,11 +1,16 @@
-import {SITE_URL} from '@/lib/site';
+import {getSiteInfo} from '@/lib/siteInfo';
 
 import type {MetadataRoute} from 'next';
 
-export default function robots(): MetadataRoute.Robots {
+export default async function robots(): Promise<MetadataRoute.Robots> {
+	const {url} = await getSiteInfo();
 	return {
-		rules: {userAgent: '*', allow: '/', disallow: ['/styleguide/', '/search-index/', '/poisk/']},
-		sitemap: `${SITE_URL}/sitemap.xml`,
-		host: SITE_URL
+		rules: {
+			userAgent: '*',
+			allow: '/',
+			disallow: ['/styleguide/', '/search-index/', '/poisk/', '/upravlenie/', '/api/']
+		},
+		sitemap: `${url}/sitemap.xml`,
+		host: url
 	};
 }

@@ -1,14 +1,15 @@
 import {Icon} from '@/components/ui/Icon';
-import {PHONES, SOCIALS} from '@/lib/site';
+import {getSiteInfo} from '@/lib/siteInfo';
 
 import type {ReactNode} from 'react';
 
 const round = 'grid size-12 place-items-center rounded-full shadow-pop transition-transform hover:scale-105';
 
-export function FloatingContacts(): ReactNode {
+export async function FloatingContacts(): Promise<ReactNode> {
+	const {phones, socials} = await getSiteInfo();
 	const items = [
-		{key: 'phone', label: 'Позвонить', href: PHONES[0].href, icon: 'phone' as const, external: false},
-		...SOCIALS.map((s) => ({key: s.id, label: s.label, href: s.href, icon: s.id, external: true}))
+		{key: 'phone', label: 'Позвонить', href: phones[0].href, icon: 'phone' as const, external: false},
+		...socials.map((s) => ({key: s.id, label: s.label, href: s.href, icon: s.id, external: true}))
 	];
 	const list = items.map((item) => (
 		<a

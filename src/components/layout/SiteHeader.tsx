@@ -1,6 +1,8 @@
 import {SearchTrigger} from '@/components/search/SearchTrigger';
 import {ButtonLink} from '@/components/ui/ButtonLink';
+import {getNavigation} from '@/lib/cms';
 import {LEAD_ANCHOR} from '@/lib/site';
+import {getSiteInfo} from '@/lib/siteInfo';
 
 import {DesktopNav} from './DesktopNav';
 import {HeaderScroll} from './HeaderScroll';
@@ -9,7 +11,8 @@ import {MobileNav} from './MobileNav';
 
 import type {ReactNode} from 'react';
 
-export function SiteHeader(): ReactNode {
+export async function SiteHeader(): Promise<ReactNode> {
+	const [{mainNav}, info] = await Promise.all([getNavigation(), getSiteInfo()]);
 	return (
 		<>
 			<HeaderScroll />
@@ -26,13 +29,13 @@ export function SiteHeader(): ReactNode {
 					}
 				>
 					<Logo className={'shrink-0'} priority />
-					<DesktopNav />
+					<DesktopNav mainNav={mainNav} />
 					<div className={'flex items-center gap-1 sm:gap-3'}>
-						<SearchTrigger />
+						<SearchTrigger mainNav={mainNav} phone={info.phones[0]} />
 						<ButtonLink href={LEAD_ANCHOR} size={'sm'}>
 							{'Записаться'}
 						</ButtonLink>
-						<MobileNav logo={<Logo />} />
+						<MobileNav logo={<Logo />} mainNav={mainNav} contacts={info} />
 					</div>
 				</div>
 			</header>

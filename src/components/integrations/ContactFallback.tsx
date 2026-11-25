@@ -1,20 +1,22 @@
 import {Icon} from '@/components/ui/Icon';
-import {EMAIL, PHONES, SOCIALS} from '@/lib/site';
 
 import type {ReactNode} from 'react';
+import type {TContactInfo} from '@/lib/site';
 
 type TContactFallbackProps = {
+	contacts: TContactInfo;
 	message?: string;
 };
 
 export function ContactFallback({
+	contacts,
 	message = 'Не удалось загрузить форму. Позвоните или напишите нам — ответим в ближайшее время.'
 }: TContactFallbackProps): ReactNode {
 	return (
 		<div className={'flex flex-col gap-4 rounded-card bg-surface p-6'} role={'status'}>
 			<p className={'font-semibold text-ink'}>{message}</p>
 			<ul className={'flex flex-col gap-1.5'}>
-				{PHONES.map((phone) => (
+				{contacts.phones.map((phone) => (
 					<li key={phone.href}>
 						<a href={phone.href} className={'inline-flex items-center gap-2 font-bold text-brand-800'}>
 							<Icon name={'phone'} size={18} />
@@ -23,14 +25,17 @@ export function ContactFallback({
 					</li>
 				))}
 				<li>
-					<a href={`mailto:${EMAIL}`} className={'inline-flex items-center gap-2 font-bold text-brand-800'}>
+					<a
+						href={`mailto:${contacts.email}`}
+						className={'inline-flex items-center gap-2 font-bold text-brand-800'}
+					>
 						<Icon name={'mail'} size={18} />
-						{EMAIL}
+						{contacts.email}
 					</a>
 				</li>
 			</ul>
 			<ul className={'flex gap-2'}>
-				{SOCIALS.map((social) => (
+				{contacts.socials.map((social) => (
 					<li key={social.id}>
 						<a
 							href={social.href}

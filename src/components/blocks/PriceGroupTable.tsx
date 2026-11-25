@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import {getDirection} from '@/content';
+import {getDirections} from '@/lib/cms';
 import {formatPrice} from '@/lib/format';
 
 import type {ReactNode} from 'react';
@@ -21,13 +21,14 @@ type TPriceGroupTableProps = {
  * Real <table> for one price group: caption = group title, columns from `group.columns`, one row per direction.
  * It scrolls horizontally inside its own wrapper on narrow screens, so the page itself never overflows.
  */
-export function PriceGroupTable({
+export async function PriceGroupTable({
 	group,
 	rows = group.rows,
 	linkRows,
 	firstColumnLabel = 'Направление',
 	compact
-}: TPriceGroupTableProps): ReactNode {
+}: TPriceGroupTableProps): Promise<ReactNode> {
+	const directions = linkRows ? await getDirections() : [];
 	const cell = compact ? 'px-4 py-3' : 'px-4 py-4 sm:px-6';
 	return (
 		<div
@@ -56,7 +57,7 @@ export function PriceGroupTable({
 					{rows.map((row) => {
 						const direction =
 							linkRows && row.directionSlugs.length === 1
-								? getDirection(row.directionSlugs[0])
+								? directions.find((item) => item.slug === row.directionSlugs[0])
 								: undefined;
 						return (
 							<tr key={row.id} className={'border-t border-line'}>

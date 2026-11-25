@@ -5,7 +5,6 @@ import {usePathname, useRouter} from 'next/navigation';
 import {useDeferredValue, useEffect, useId, useMemo, useRef, useState} from 'react';
 
 import {Icon} from '@/components/ui/Icon';
-import {mainNav} from '@/content/navigation';
 import {groupHits} from '@/lib/search/groups';
 
 import {SearchEmptyState} from './SearchEmptyState';
@@ -15,27 +14,33 @@ import {useSearchEngine} from './useSearchEngine';
 import type {KeyboardEvent, MouseEvent, ReactNode} from 'react';
 import type {TSearchGroup} from '@/lib/search/groups';
 import type {TIconName} from '@/components/ui/Icon';
+import type {TNavItem} from '@/content/navigation';
+import type {TPhone} from '@/lib/site';
 
 const MAX_HITS = 12;
 
 type TQuickLink = {label: string; href: string; icon: TIconName};
 
-const QUICK_LINKS: TQuickLink[] = [
-	...(mainNav[0].columns?.[0]?.links.slice(0, 6) ?? []).map((link) => ({...link, icon: 'sparkles' as const})),
-	{label: 'Студии', href: '/studii/', icon: 'map-pin'},
-	{label: 'Расписание', href: '/raspisanie/', icon: 'calendar'},
-	{label: 'Цены', href: '/tarify/', icon: 'tag'}
-];
+function buildQuickLinks(mainNav: TNavItem[]): TQuickLink[] {
+	return [
+		...(mainNav[0].columns?.[0]?.links.slice(0, 6) ?? []).map((link) => ({...link, icon: 'sparkles' as const})),
+		{label: 'Студии', href: '/studii/', icon: 'map-pin'},
+		{label: 'Расписание', href: '/raspisanie/', icon: 'calendar'},
+		{label: 'Цены', href: '/tarify/', icon: 'tag'}
+	];
+}
 
 type TSearchDialogProps = {
 	open: boolean;
 	onClose: () => void;
+	mainNav: TNavItem[];
+	phone: TPhone;
 };
 
 type TOption = {href: string};
 
 /** Instant-results command palette on a native modal <dialog> (same pattern as MobileNav). */
-export function SearchDialog({open, onClose}: TSearchDialogProps): ReactNode {
+export function SearchDialog({open, onClose, mainNav, phone}: TSearchDialogProps): ReactNode {
 	const pathname = usePathname();
 	const router = useRouter();
 	const uid = useId();
@@ -46,6 +51,7 @@ export function SearchDialog({open, onClose}: TSearchDialogProps): ReactNode {
 	const [active, setActive] = useState(0);
 	const deferredQuery = useDeferredValue(query);
 	const {engine, status, retry} = useSearchEngine(open);
+	const quickLinks = useMemo(() => buildQuickLinks(mainNav), [mainNav]);
 
 	useEffect(() => {
 		const dialog = dialogRef.current;
@@ -75,7 +81,7 @@ export function SearchDialog({open, onClose}: TSearchDialogProps): ReactNode {
 	const flatHits = useMemo(() => groups.flatMap((group) => group.hits), [groups]);
 
 	const isQuickMode = query.trim().length === 0;
-	const options: TOption[] = isQuickMode ? QUICK_LINKS : flatHits.map((hit) => ({href: hit.doc.href}));
+	const options: TOption[] = isQuickMode ? quickLinks : flatHits.map((hit) => ({href: hit.doc.href}));
 	const activeIndex = options.length > 0 ? Math.min(active, options.length - 1) : -1;
 	const optionId = (index: number): string => `${uid}-option-${index}`;
 
@@ -261,7 +267,7 @@ export function SearchDialog({open, onClose}: TSearchDialogProps): ReactNode {
 							{'Популярное'}
 						</p>
 						<ul id={`${uid}-listbox`} role={'listbox'} aria-label={'Популярное'}>
-							{QUICK_LINKS.map((link, index) => (
+							{quickLinks.map((link, index) => (
 								<li
 									key={link.href}
 									id={optionId(index)}
@@ -334,7 +340,7 @@ export function SearchDialog({open, onClose}: TSearchDialogProps): ReactNode {
 							</div>
 						</div>
 					) : (
-						<SearchEmptyState query={deferredQuery.trim()} onNavigate={closeNow} />
+						<SearchEmptyState query={deferredQuery.trim()} phone={phone} onNavigate={closeNow} />
 					)
 				) : null}
 			</div>

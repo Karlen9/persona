@@ -1,31 +1,69 @@
-/** Server only: collects plain text from `@/content`. The client never imports this module. */
+/** Server only: collects plain text from the CMS. The client never imports this module. */
+import 'server-only';
+
+import {audienceLabels, directionCategoryLabels} from '@/content';
 import {
-	aboutPage,
-	audienceLabels,
-	directionCategoryLabels,
-	directions,
-	directionsIndexPage,
-	eventsPage,
-	festivalsPage,
-	formatPhone,
-	home,
-	homeFaq,
-	newsPage,
-	priceList,
-	privacyPage,
-	reviewsPage,
-	schedulePage,
-	site,
-	studios,
-	tariffsPage,
-	teachers,
-	teamPage
-} from '@/content';
-import {mainNav} from '@/content/navigation';
+	formatPhoneFrom,
+	getDirections,
+	getHome,
+	getHomeFaq,
+	getDirectionsIndexPage,
+	getNavigation,
+	getNewsPage,
+	getPriceList,
+	getReviewsPage,
+	getSchedulePage,
+	getSite,
+	getStudios,
+	getTariffsPage,
+	getTeachers,
+	getTeamPage,
+	requirePage
+} from '@/lib/cms';
 import {formatPrice} from '@/lib/format';
 
-import type {TBlock, TPage, TPageSection, TSeo} from '@/content';
+import type {TNavItem} from '@/content/navigation';
+import type {
+	TBlock,
+	TDirection,
+	TDirectionsIndexPage,
+	TFaqSection,
+	THome,
+	TNewsPage,
+	TPage,
+	TPageSection,
+	TPriceList,
+	TReviewsPage,
+	TSchedulePage,
+	TSeo,
+	TSite,
+	TStudio,
+	TTariffsPage,
+	TTeacher,
+	TTeamPage
+} from '@/content/types';
 import type {TSearchDoc} from './types';
+
+type TData = {
+	site: TSite;
+	home: THome;
+	homeFaq: TFaqSection;
+	directions: TDirection[];
+	directionsIndexPage: TDirectionsIndexPage;
+	studios: TStudio[];
+	teachers: TTeacher[];
+	priceList: TPriceList;
+	tariffsPage: TTariffsPage;
+	reviewsPage: TReviewsPage;
+	newsPage: TNewsPage;
+	schedulePage: TSchedulePage;
+	teamPage: TTeamPage;
+	aboutPage: TPage;
+	eventsPage: TPage;
+	festivalsPage: TPage;
+	privacyPage: TPage;
+	mainNav: TNavItem[];
+};
 
 const MAX_BODY = 1200;
 
@@ -84,7 +122,7 @@ function sectionsToText(sections: TPageSection[]): string {
 }
 
 /** Labels the main menu uses for a path (e.g. «Игра на музыкальных инструментах»): good alias keywords. */
-function navLabels(href: string): string[] {
+function navLabels(mainNav: TNavItem[], href: string): string[] {
 	const labels: string[] = [];
 	for (const item of mainNav) {
 		const links = [item, ...(item.children ?? []), ...(item.columns?.flatMap((column) => column.links) ?? [])];
@@ -96,6 +134,7 @@ function navLabels(href: string): string[] {
 }
 
 function pageDoc(input: {
+	mainNav: TNavItem[];
 	id: string;
 	title: string;
 	href: string;
@@ -110,12 +149,14 @@ function pageDoc(input: {
 		title: humanCase(input.title),
 		subtitle: input.subtitle ?? 'Страница',
 		href: input.href,
-		keywords: clean([input.seo?.title ?? '', ...(input.keywords ?? []), ...navLabels(input.href)].join(' ')),
+		keywords: clean(
+			[input.seo?.title ?? '', ...(input.keywords ?? []), ...navLabels(input.mainNav, input.href)].join(' ')
+		),
 		body: truncate([...input.body, input.seo?.description ?? ''].join(' '))
 	};
 }
 
-function directionDocs(): TSearchDoc[] {
+function directionDocs({directions, mainNav}: TData): TSearchDoc[] {
 	return directions.map((direction) => {
 		const programmeTitles = direction.sections.flatMap((section) =>
 			section.type === 'programme' ? section.items.map((item) => item.title) : []
@@ -146,7 +187,7 @@ function directionDocs(): TSearchDoc[] {
 					...(direction.highlightBullets ?? []),
 					...programmeTitles,
 					directionCategoryLabels[direction.category],
-					...navLabels(direction.path)
+					...navLabels(mainNav, direction.path)
 				].join(' ')
 			),
 			body: truncate([direction.excerpt, ...sectionText, direction.seo.description].join(' '))
@@ -154,21 +195,26 @@ function directionDocs(): TSearchDoc[] {
 	});
 }
 
-function studioDocs(): TSearchDoc[] {
+function studioDocs({studios, site, mainNav}: TData): TSearchDoc[] {
 	return studios.map((studio) => ({
 		id: `studio:${studio.slug}`,
 		type: 'studio',
 		title: humanCase(studio.shortName),
 		subtitle: `Студия · ${studio.metro.join(', ')}`,
 		href: studio.path,
-		keywords: clean([studio.name, ...studio.metro, studio.address, ...navLabels(studio.path)].join(' ')),
+		keywords: clean([studio.name, ...studio.metro, studio.address, ...navLabels(mainNav, studio.path)].join(' ')),
 		body: truncate(
-			[studio.address, studio.hours, studio.phones.map(formatPhone).join(' '), studio.seo.description].join(' ')
+			[
+				studio.address,
+				studio.hours,
+				studio.phones.map((phone) => formatPhoneFrom(site.phones, phone)).join(' '),
+				studio.seo.description
+			].join(' ')
 		)
 	}));
 }
 
-function teacherDocs(): TSearchDoc[] {
+function teacherDocs({teachers, directions}: TData): TSearchDoc[] {
 	const titles = new Map(directions.map((direction) => [direction.slug, direction.shortTitle]));
 	return teachers.map((teacher) => {
 		const directionTitles = teacher.directionSlugs.flatMap((slug) => titles.get(slug) ?? []);
@@ -185,7 +231,7 @@ function teacherDocs(): TSearchDoc[] {
 	});
 }
 
-function faqDocs(): TSearchDoc[] {
+function faqDocs({homeFaq}: TData): TSearchDoc[] {
 	return homeFaq.items.map((item) => ({
 		id: `faq:${item.id}`,
 		type: 'faq',
@@ -197,7 +243,7 @@ function faqDocs(): TSearchDoc[] {
 	}));
 }
 
-function priceDocs(): TSearchDoc[] {
+function priceDocs({directions, priceList, tariffsPage}: TData): TSearchDoc[] {
 	const titles = new Map(directions.map((direction) => [direction.slug, direction.shortTitle]));
 	const docs: TSearchDoc[] = [
 		{
@@ -255,9 +301,27 @@ function priceDocs(): TSearchDoc[] {
 	return docs;
 }
 
-function pageDocs(): TSearchDoc[] {
+function pageDocs(data: TData): TSearchDoc[] {
+	const {
+		mainNav,
+		home,
+		directions,
+		directionsIndexPage,
+		aboutPage,
+		eventsPage,
+		festivalsPage,
+		privacyPage,
+		studios,
+		schedulePage,
+		tariffsPage,
+		priceList,
+		reviewsPage,
+		newsPage,
+		teamPage
+	} = data;
 	const simple = (page: TPage, keywords: string[] = []): TSearchDoc =>
 		pageDoc({
+			mainNav,
 			id: page.id,
 			title: page.h1,
 			href: page.path,
@@ -268,6 +332,7 @@ function pageDocs(): TSearchDoc[] {
 
 	return [
 		pageDoc({
+			mainNav,
 			id: 'home',
 			title: 'Главная',
 			href: home.path,
@@ -286,6 +351,7 @@ function pageDocs(): TSearchDoc[] {
 			]
 		}),
 		pageDoc({
+			mainNav,
 			id: 'directions',
 			title: directionsIndexPage.h1,
 			href: directionsIndexPage.path,
@@ -293,6 +359,7 @@ function pageDocs(): TSearchDoc[] {
 			body: [directions.map((direction) => direction.shortTitle).join(' ')]
 		}),
 		pageDoc({
+			mainNav,
 			id: 'about',
 			title: aboutPage.h1,
 			href: aboutPage.path,
@@ -313,6 +380,7 @@ function pageDocs(): TSearchDoc[] {
 		simple(festivalsPage, ['фестивали конкурсы выступления']),
 		simple(privacyPage, ['конфиденциальность персональные данные']),
 		pageDoc({
+			mainNav,
 			id: 'studios',
 			title: 'Студии',
 			href: '/studii/',
@@ -321,6 +389,7 @@ function pageDocs(): TSearchDoc[] {
 			body: [studios.map((studio) => `${studio.address} ${studio.metro.join(' ')}`).join(' ')]
 		}),
 		pageDoc({
+			mainNav,
 			id: 'schedule',
 			title: schedulePage.h1,
 			subtitle: 'Расписание занятий и запись',
@@ -330,6 +399,7 @@ function pageDocs(): TSearchDoc[] {
 			body: []
 		}),
 		pageDoc({
+			mainNav,
 			id: 'tariffs',
 			title: tariffsPage.h1,
 			subtitle: 'Цены и скидки',
@@ -349,6 +419,7 @@ function pageDocs(): TSearchDoc[] {
 			]
 		}),
 		pageDoc({
+			mainNav,
 			id: 'reviews',
 			title: reviewsPage.h1,
 			href: reviewsPage.path,
@@ -356,6 +427,7 @@ function pageDocs(): TSearchDoc[] {
 			body: [blocksToText(reviewsPage.intro)]
 		}),
 		pageDoc({
+			mainNav,
 			id: 'news',
 			title: newsPage.h1,
 			href: newsPage.path,
@@ -363,6 +435,7 @@ function pageDocs(): TSearchDoc[] {
 			body: [blocksToText(newsPage.intro), newsPage.links.map((link) => link.label).join(' ')]
 		}),
 		pageDoc({
+			mainNav,
 			id: 'team',
 			title: teamPage.h1,
 			href: teamPage.path,
@@ -373,7 +446,7 @@ function pageDocs(): TSearchDoc[] {
 	];
 }
 
-function documentDocs(): TSearchDoc[] {
+function documentDocs({site}: TData): TSearchDoc[] {
 	return site.documents.map((document) => ({
 		id: `document:${document.id}`,
 		type: 'document',
@@ -385,17 +458,76 @@ function documentDocs(): TSearchDoc[] {
 	}));
 }
 
-export function buildSearchDocs(): TSearchDoc[] {
+export async function buildSearchDocs(): Promise<TSearchDoc[]> {
+	const [
+		site,
+		home,
+		homeFaq,
+		directions,
+		directionsIndexPage,
+		studios,
+		teachers,
+		priceList,
+		tariffsPage,
+		reviewsPage,
+		newsPage,
+		schedulePage,
+		teamPage,
+		navigation,
+		aboutPage,
+		eventsPage,
+		festivalsPage,
+		privacyPage
+	] = await Promise.all([
+		getSite(),
+		getHome(),
+		getHomeFaq(),
+		getDirections(),
+		getDirectionsIndexPage(),
+		getStudios(),
+		getTeachers(),
+		getPriceList(),
+		getTariffsPage(),
+		getReviewsPage(),
+		getNewsPage(),
+		getSchedulePage(),
+		getTeamPage(),
+		getNavigation(),
+		requirePage('about'),
+		requirePage('events'),
+		requirePage('festivals'),
+		requirePage('privacy')
+	]);
+	const data: TData = {
+		site,
+		home,
+		homeFaq,
+		directions,
+		directionsIndexPage,
+		studios,
+		teachers,
+		priceList,
+		tariffsPage,
+		reviewsPage,
+		newsPage,
+		schedulePage,
+		teamPage,
+		aboutPage,
+		eventsPage,
+		festivalsPage,
+		privacyPage,
+		mainNav: navigation.mainNav
+	};
 	const seen = new Set<string>();
 	const docs: TSearchDoc[] = [];
 	for (const doc of [
-		...directionDocs(),
-		...studioDocs(),
-		...teacherDocs(),
-		...faqDocs(),
-		...priceDocs(),
-		...pageDocs(),
-		...documentDocs()
+		...directionDocs(data),
+		...studioDocs(data),
+		...teacherDocs(data),
+		...faqDocs(data),
+		...priceDocs(data),
+		...pageDocs(data),
+		...documentDocs(data)
 	]) {
 		if (doc.title.trim().length === 0 || seen.has(doc.id)) continue;
 		seen.add(doc.id);

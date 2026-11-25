@@ -7,3 +7,6 @@ file.tsx
 next-env.d.ts
 tsconfig.tsbuildinfo
 scripts/data/
+src/payload-types.ts
+src/app/(payload)/**/importMap.js
+src/migrations/
