@@ -33,6 +33,7 @@ export function VideoGrid({
 							mimeType={video.mimeType}
 							poster={video.poster.src}
 							{...(uniform ? {aspectClassName} : {ratio: video.poster.width / video.poster.height})}
+							modalRatio={video.poster.width / video.poster.height}
 							title={video.caption ? `${label}: ${video.caption}` : `${label}: видео ${index + 1}`}
 							caption={video.caption}
 							sizes={sizes}

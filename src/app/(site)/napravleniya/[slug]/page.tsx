@@ -59,7 +59,7 @@ function renderSection(section: TDirectionSection, index: number, direction: TDi
 					<VideoGrid
 						videos={section.videos}
 						label={`${direction.shortTitle}: как проходят занятия`}
-						columnsClassName={'grid-cols-2 md:grid-cols-3'}
+						columnsClassName={'mx-auto max-w-4xl grid-cols-2 md:grid-cols-3'}
 						sizes={'(min-width: 1200px) 384px, (min-width: 768px) 33vw, 50vw'}
 					/>
 				</Section>
