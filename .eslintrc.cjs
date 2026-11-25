@@ -26,6 +26,7 @@ module.exports = {
 	ignorePatterns: [
 		'node_modules/',
 		'.next/',
+		'.claude/',
 		'docs/',
 		'public/',
 		'file.tsx',

@@ -10,3 +10,4 @@ scripts/data/
 src/payload-types.ts
 src/app/(payload)/**/importMap.js
 src/migrations/
+.claude/
