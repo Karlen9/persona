@@ -14,7 +14,8 @@
 		"jsx": "react-jsx",
 		"incremental": true,
 		"paths": {
-			"@/*": ["./src/*"]
+			"@/*": ["./src/*"],
+			"@payload-config": ["./src/payload.config.ts"]
 		},
 		"plugins": [
 			{
@@ -29,7 +30,7 @@
 		"next-env.d.ts",
 		".next/types/**/*.ts",
 		"next.config.ts",
-		".eslintrc.js",
+		".eslintrc.cjs",
 		"postcss.config.mjs",
 		".next/dev/types/**/*.ts"
 	],

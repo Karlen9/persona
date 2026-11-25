@@ -16,6 +16,13 @@
 - `bun run lint:fix` - Run ESLint with auto-fix
 - `bun run format:check` - Check Prettier formatting
 - `bun run typecheck` - Run TypeScript type checking
+- `bun run seed` - Import `src/content/` and `public/` images into the CMS (idempotent); `bun run seed:reset` wipes content first
+- `bun run check:cms` - Compare every CMS getter with the static content modules (must report 0 differences)
+- `bun run check:search` - Search quality checks (needs a seeded CMS)
+- `bun run generate:types` - Regenerate `src/payload-types.ts` after a schema change
+- `bun run generate:importmap` - Regenerate the Payload admin import map
+- `bun run migrate` - Apply database migrations; required on a fresh clone before `seed`/`dev`/`build` (schema is never pushed, `push: false`)
+- `bun run payload migrate:create <name>` - Create a migration after a schema change (then `bun run migrate`)
 
 ## Code Conventions
 

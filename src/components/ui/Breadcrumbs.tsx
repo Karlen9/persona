@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import {SITE_URL} from '@/lib/site';
+import {getSiteInfo} from '@/lib/siteInfo';
 
 import {Icon} from './Icon';
 import {JsonLd} from './JsonLd';
@@ -17,7 +17,8 @@ type TBreadcrumbsProps = {
 	items: TBreadcrumb[];
 };
 
-export function Breadcrumbs({items}: TBreadcrumbsProps): ReactNode {
+export async function Breadcrumbs({items}: TBreadcrumbsProps): Promise<ReactNode> {
+	const {url} = await getSiteInfo();
 	const all: TBreadcrumb[] = [{label: 'Главная', href: '/'}, ...items];
 	const jsonLd = {
 		'@context': 'https://schema.org',
@@ -26,7 +27,7 @@ export function Breadcrumbs({items}: TBreadcrumbsProps): ReactNode {
 			'@type': 'ListItem',
 			position: index + 1,
 			name: item.label,
-			...(item.href ? {item: `${SITE_URL}${item.href}`} : {})
+			...(item.href ? {item: `${url}${item.href}`} : {})
 		}))
 	};
 

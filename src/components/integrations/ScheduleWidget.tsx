@@ -2,19 +2,22 @@
 
 import {useRef} from 'react';
 
-import {site} from '@/content/site';
-
 import {ContactFallback} from './ContactFallback';
 import {useMoyklassWidget} from './moyklass';
 
 import type {ReactNode} from 'react';
+import type {TContactInfo} from '@/lib/site';
 
-const {widgetId: SCRIPT_ID, mountIds: MOUNT_IDS} = site.moyklass.schedule;
+type TScheduleWidgetProps = {
+	widgetId: string;
+	mountIds: string[];
+	contacts: TContactInfo;
+};
 
 /** Moyklass schedule widgets for the schedule page. */
-export function ScheduleWidget(): ReactNode {
+export function ScheduleWidget({widgetId, mountIds, contacts}: TScheduleWidgetProps): ReactNode {
 	const ref = useRef<HTMLDivElement>(null);
-	const state = useMoyklassWidget(ref, {scriptId: SCRIPT_ID, timeoutMs: 15000});
+	const state = useMoyklassWidget(ref, {scriptId: widgetId, timeoutMs: 15000});
 
 	return (
 		<div
@@ -22,12 +25,13 @@ export function ScheduleWidget(): ReactNode {
 			className={state === 'ready' ? 'relative' : 'relative min-h-[640px]'}
 			aria-busy={state === 'loading'}
 		>
-			{MOUNT_IDS.map((id) => (
+			{mountIds.map((id) => (
 				<div key={id} id={id} />
 			))}
 			{state === 'failed' ? (
 				<div className={'absolute inset-0'}>
 					<ContactFallback
+						contacts={contacts}
 						message={'Не удалось загрузить расписание. Позвоните нам — подскажем свободные группы.'}
 					/>
 				</div>

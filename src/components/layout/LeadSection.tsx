@@ -2,7 +2,8 @@ import {LeadForm} from '@/components/integrations/LeadForm';
 import {Container} from '@/components/ui/Container';
 import {Heading} from '@/components/ui/Heading';
 import {Icon} from '@/components/ui/Icon';
-import {PHONES} from '@/lib/site';
+import {getSite} from '@/lib/cms';
+import {getSiteInfo} from '@/lib/siteInfo';
 
 import type {ReactNode} from 'react';
 
@@ -13,7 +14,9 @@ const perks = [
 ];
 
 /** The single lead-form section of every page. All «Записаться» buttons link to #zapis. */
-export function LeadSection(): ReactNode {
+export async function LeadSection(): Promise<ReactNode> {
+	const [site, info] = await Promise.all([getSite(), getSiteInfo()]);
+	const phone = info.phones[0];
 	return (
 		<section id={'zapis'} aria-labelledby={'zapis-title'} className={'py-section md:py-section-lg'}>
 			<Container>
@@ -39,15 +42,19 @@ export function LeadSection(): ReactNode {
 						<p className={'mt-8'}>
 							{'Или позвоните: '}
 							<a
-								href={PHONES[0].href}
+								href={phone.href}
 								className={'font-extrabold whitespace-nowrap text-ink hover:text-brand-800'}
 							>
-								{PHONES[0].label}
+								{phone.label}
 							</a>
 						</p>
 					</div>
 					<div className={'rounded-card border border-line bg-white p-5 shadow-card sm:p-8'}>
-						<LeadForm />
+						<LeadForm
+							widgetId={site.moyklass.lead.widgetId}
+							mountId={site.moyklass.lead.mountId}
+							contacts={info}
+						/>
 					</div>
 				</div>
 			</Container>

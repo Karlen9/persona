@@ -3,16 +3,19 @@
 import {useEffect, useRef, useState} from 'react';
 
 import {buttonClasses} from '@/components/ui/Button';
-import {site} from '@/content/site';
-import {GIS_REVIEWS_URL} from '@/lib/site';
 
 import type {ReactNode} from 'react';
+
+type TYandexRatingBadgeProps = {
+	badgeUrl: string;
+	orgUrl: string;
+};
 
 /**
  * Yandex rating badge. The iframe is not part of the initial HTML: it is created only when the placeholder
  * scrolls into view. The placeholder has the badge's fixed 150x50 size, so nothing shifts.
  */
-export function YandexRatingBadge(): ReactNode {
+export function YandexRatingBadge({badgeUrl, orgUrl}: TYandexRatingBadgeProps): ReactNode {
 	const ref = useRef<HTMLDivElement>(null);
 	const [visible, setVisible] = useState(false);
 
@@ -37,7 +40,7 @@ export function YandexRatingBadge(): ReactNode {
 		<div ref={ref} className={'h-[50px] w-[150px]'}>
 			{visible ? (
 				<iframe
-					src={site.yandex.ratingBadgeUrl}
+					src={badgeUrl}
 					title={'Рейтинг PersOna на Яндекс Картах'}
 					width={150}
 					height={50}
@@ -46,7 +49,7 @@ export function YandexRatingBadge(): ReactNode {
 				/>
 			) : (
 				<a
-					href={site.yandex.orgUrl}
+					href={orgUrl}
 					target={'_blank'}
 					rel={'noopener noreferrer'}
 					className={
@@ -60,10 +63,14 @@ export function YandexRatingBadge(): ReactNode {
 	);
 }
 
-export function GisReviewsLink(): ReactNode {
+type TGisReviewsLinkProps = {
+	url: string;
+};
+
+export function GisReviewsLink({url}: TGisReviewsLinkProps): ReactNode {
 	return (
 		<a
-			href={GIS_REVIEWS_URL}
+			href={url}
 			target={'_blank'}
 			rel={'noopener noreferrer'}
 			className={buttonClasses({variant: 'secondary', size: 'sm'})}

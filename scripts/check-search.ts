@@ -1,7 +1,7 @@
 /**
- * Search quality + performance check. Run from the repo root:  bun scripts/check-search.ts
+ * Search quality + performance check. Run from the repo root:  bun run check:search (needs a seeded CMS)
  *
- * Builds the search docs and engine directly (no server) and asserts expected top results for realistic queries,
+ * Builds the search docs (from the seeded CMS via the Local API) and engine directly (no server) and asserts expected top results for realistic queries,
  * the highlight helpers and the engine build / query timings. Exits with code 1 on any failure.
  *
  * Tooling only: not imported by the app.
@@ -12,7 +12,7 @@ import {highlightSegments, makeSnippet} from '../src/lib/search/highlight';
 
 import type {TSearchResult} from '../src/lib/search/engine';
 
-const docs = buildSearchDocs();
+const docs = await buildSearchDocs();
 let failures = 0;
 
 function fail(message: string): void {

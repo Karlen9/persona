@@ -1,9 +1,8 @@
 import Link from 'next/link';
 
 import {Container} from '@/components/ui/Container';
-import {getCoverEntry, getNextCoverEntry} from '@/content/cover';
+import {getCover, getSite} from '@/lib/cms';
 import {displayFont} from '@/lib/fonts';
-import {SITE_NAME} from '@/lib/site';
 
 import type {TCoverEntryId} from '@/content/cover';
 import type {ReactNode} from 'react';
@@ -13,9 +12,10 @@ type TSectionFrameProps = {
 	children: ReactNode;
 };
 
-export function SectionFrame({entryId, children}: TSectionFrameProps): ReactNode {
-	const entry = getCoverEntry(entryId);
-	const next = getNextCoverEntry(entryId);
+export async function SectionFrame({entryId, children}: TSectionFrameProps): Promise<ReactNode> {
+	const [cover, site] = await Promise.all([getCover(), getSite()]);
+	const entry = cover.getEntry(entryId);
+	const next = cover.getNextEntry(entryId);
 
 	return (
 		<div className={displayFont.variable}>
@@ -29,7 +29,7 @@ export function SectionFrame({entryId, children}: TSectionFrameProps): ReactNode
 						<span className={'font-display text-ink'}>{entry.label}</span>
 					</p>
 					<Link href={'/'} className={'inline-flex min-h-11 items-center hover:text-ink hover:underline'}>
-						{SITE_NAME}
+						{site.name}
 					</Link>
 				</div>
 			</Container>

@@ -1,12 +1,12 @@
-import {site, studios} from '@/content';
+import 'server-only';
 
-import {absoluteUrl} from './seo';
+import {getSite, getStudios} from '@/lib/cms';
 
-import type {TDirection, TStudio} from '@/content';
+import type {TDirection, TSite, TStudio} from '@/content/types';
 
 type TJsonLd = Record<string, unknown>;
 
-const ORGANIZATION_ID = `${site.url}/#organization`;
+const organizationId = (site: TSite): string => `${site.url}/#organization`;
 
 function postalAddress(studio: TStudio): TJsonLd {
 	return {
@@ -17,7 +17,8 @@ function postalAddress(studio: TStudio): TJsonLd {
 	};
 }
 
-function studioNode(studio: TStudio): TJsonLd {
+function studioNode(site: TSite, studio: TStudio): TJsonLd {
+	const absoluteUrl = (path: string): string => `${site.url}${path}`;
 	return {
 		'@type': ['LocalBusiness', 'EducationalOrganization'],
 		'@id': `${absoluteUrl(studio.path)}#localbusiness`,
@@ -31,20 +32,21 @@ function studioNode(studio: TStudio): TJsonLd {
 		// `hours` is free text on the live site («пн-сб по расписанию»), so it is not forced into openingHoursSpecification.
 		openingHours: studio.hours,
 		hasMap: studio.mapLink,
-		parentOrganization: {'@id': ORGANIZATION_ID}
+		parentOrganization: {'@id': organizationId(site)}
 	};
 }
 
 /** Site-wide organisation node (rendered by the root layout). */
-export function organizationJsonLd(): TJsonLd {
+export async function organizationJsonLd(): Promise<TJsonLd> {
+	const site = await getSite();
 	return {
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
-		'@id': ORGANIZATION_ID,
+		'@id': organizationId(site),
 		name: site.name,
 		legalName: site.legalName,
 		url: site.url,
-		logo: absoluteUrl(site.logo.src),
+		logo: `${site.url}${site.logo.src}`,
 		email: site.email,
 		telephone: site.phones.map((phone) => phone.tel),
 		foundingDate: String(site.foundedYear),
@@ -53,7 +55,8 @@ export function organizationJsonLd(): TJsonLd {
 }
 
 /** Site-wide WebSite node with a SearchAction pointing at `/poisk/` (rendered by the root layout). */
-export function websiteJsonLd(): TJsonLd {
+export async function websiteJsonLd(): Promise<TJsonLd> {
+	const site = await getSite();
 	return {
 		'@context': 'https://schema.org',
 		'@type': 'WebSite',
@@ -61,7 +64,7 @@ export function websiteJsonLd(): TJsonLd {
 		name: site.name,
 		url: site.url,
 		inLanguage: 'ru',
-		publisher: {'@id': ORGANIZATION_ID},
+		publisher: {'@id': organizationId(site)},
 		potentialAction: {
 			'@type': 'SearchAction',
 			target: {'@type': 'EntryPoint', urlTemplate: `${site.url}/poisk/?q={search_term_string}`},
@@ -71,7 +74,9 @@ export function websiteJsonLd(): TJsonLd {
 }
 
 /** Home page: the centre as a local business with all four studio addresses. */
-export function centreJsonLd(): TJsonLd {
+export async function centreJsonLd(): Promise<TJsonLd> {
+	const [site, studios] = await Promise.all([getSite(), getStudios()]);
+	const absoluteUrl = (path: string): string => `${site.url}${path}`;
 	return {
 		'@context': 'https://schema.org',
 		'@type': ['LocalBusiness', 'EducationalOrganization'],
@@ -91,17 +96,19 @@ export function centreJsonLd(): TJsonLd {
 			geo: {'@type': 'GeoCoordinates', latitude: studio.geo.lat, longitude: studio.geo.lon},
 			url: absoluteUrl(studio.path)
 		})),
-		parentOrganization: {'@id': ORGANIZATION_ID}
+		parentOrganization: {'@id': organizationId(site)}
 	};
 }
 
 /** Studio page: that studio as a local business. */
-export function studioJsonLd(studio: TStudio): TJsonLd {
-	return {'@context': 'https://schema.org', ...studioNode(studio)};
+export async function studioJsonLd(studio: TStudio): Promise<TJsonLd> {
+	return {'@context': 'https://schema.org', ...studioNode(await getSite(), studio)};
 }
 
 /** Direction page: a Course offered by the centre. */
-export function courseJsonLd(direction: TDirection): TJsonLd {
+export async function courseJsonLd(direction: TDirection): Promise<TJsonLd> {
+	const site = await getSite();
+	const absoluteUrl = (path: string): string => `${site.url}${path}`;
 	return {
 		'@context': 'https://schema.org',
 		'@type': 'Course',
@@ -109,7 +116,7 @@ export function courseJsonLd(direction: TDirection): TJsonLd {
 		description: direction.seo.description,
 		url: absoluteUrl(direction.path),
 		inLanguage: 'ru',
-		provider: {'@type': 'Organization', '@id': ORGANIZATION_ID, name: site.name, url: site.url},
+		provider: {'@type': 'Organization', '@id': organizationId(site), name: site.name, url: site.url},
 		...(direction.hero.image ? {image: absoluteUrl(direction.hero.image.src)} : {})
 	};
 }

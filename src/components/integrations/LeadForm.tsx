@@ -2,20 +2,24 @@
 
 import {useRef} from 'react';
 
-import {site} from '@/content/site';
 import {LEAD_ANCHOR} from '@/lib/site';
 
 import {ContactFallback} from './ContactFallback';
 import {useMoyklassWidget} from './moyklass';
 
 import type {ReactNode} from 'react';
+import type {TContactInfo} from '@/lib/site';
 
-const {widgetId: SCRIPT_ID, mountId: MOUNT_ID} = site.moyklass.lead;
+type TLeadFormProps = {
+	widgetId: string;
+	mountId: string;
+	contacts: TContactInfo;
+};
 
 /** Moyklass lead form. Mount it once per page (the footer section #zapis does). */
-export function LeadForm(): ReactNode {
+export function LeadForm({widgetId, mountId, contacts}: TLeadFormProps): ReactNode {
 	const ref = useRef<HTMLDivElement>(null);
-	const state = useMoyklassWidget(ref, {scriptId: SCRIPT_ID, ctaHash: LEAD_ANCHOR, trackLead: true});
+	const state = useMoyklassWidget(ref, {scriptId: widgetId, ctaHash: LEAD_ANCHOR, trackLead: true});
 
 	return (
 		<div
@@ -23,10 +27,10 @@ export function LeadForm(): ReactNode {
 			className={state === 'ready' ? 'relative' : 'relative min-h-[460px]'}
 			aria-busy={state === 'loading'}
 		>
-			<div id={MOUNT_ID} />
+			<div id={mountId} />
 			{state === 'failed' ? (
 				<div className={'absolute inset-0'}>
-					<ContactFallback />
+					<ContactFallback contacts={contacts} />
 				</div>
 			) : null}
 			{state !== 'ready' && state !== 'failed' ? (

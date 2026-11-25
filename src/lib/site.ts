@@ -1,10 +1,6 @@
-import {site} from '@/content/site';
+// Static constants only (safe to import from client components). Content-derived values (phones, email, socials,
+// site URL, ...) come from the CMS: server components call `getSiteInfo()` (`@/lib/siteInfo`) and pass them down as props.
 
-// Single source of truth is `@/content` (site settings). This module keeps the short, flat names used by the UI.
-// It imports `@/content/site` directly (not the whole content index) because client components read it too.
-
-export const SITE_URL = site.url;
-export const SITE_NAME = site.name;
 export const SITE_DESCRIPTION =
 	'PersOna — творческий центр для детей и взрослых в Москве: школа моделей, танцы, вокал, театр, рисование, языки и другие направления в 4 студиях.';
 
@@ -15,21 +11,23 @@ export type TPhone = {
 	href: string;
 };
 
-export const PHONES: TPhone[] = site.phones.map((phone) => ({label: phone.display, href: `tel:${phone.tel}`}));
-
-export const EMAIL = site.email;
-
 export type TSocial = {
 	id: 'telegram' | 'vk' | 'max';
 	label: string;
 	href: string;
 };
 
-export const SOCIALS: TSocial[] = site.socials.map((social) => ({
-	id: social.kind,
-	label: social.label,
-	href: social.url
-}));
+/** Serializable contact block shown in the footer, mobile menu, fallbacks and floating buttons. */
+export type TContactInfo = {
+	phones: TPhone[];
+	email: string;
+	socials: TSocial[];
+};
 
-export const GIS_REVIEWS_URL = site.twoGis.reviewsUrl;
-export const YANDEX_METRIKA_ID = Number(site.metrika.counterId);
+/** Site-wide values that come from the CMS site settings. */
+export type TSiteInfo = TContactInfo & {
+	url: string;
+	name: string;
+	gisReviewsUrl: string;
+	metrikaId: number;
+};

@@ -5,7 +5,6 @@ import {usePathname} from 'next/navigation';
 import {useEffect, useId, useRef, useState} from 'react';
 
 import {Icon} from '@/components/ui/Icon';
-import {mainNav} from '@/content/navigation';
 import {cn} from '@/lib/cn';
 
 import type {FocusEvent, ReactNode} from 'react';
@@ -22,7 +21,11 @@ function isActive(item: TNavItem, pathname: string): boolean {
 const triggerClass =
 	'inline-flex h-10 items-center gap-1 rounded-xl px-3 text-[15px] font-bold transition-colors hover:bg-brand-50 hover:text-brand-800';
 
-export function DesktopNav(): ReactNode {
+type TDesktopNavProps = {
+	mainNav: TNavItem[];
+};
+
+export function DesktopNav({mainNav}: TDesktopNavProps): ReactNode {
 	const pathname = usePathname();
 	const uid = useId();
 	const [openIndex, setOpenIndex] = useState<number | null>(null);

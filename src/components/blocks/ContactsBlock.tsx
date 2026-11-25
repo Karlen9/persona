@@ -1,5 +1,5 @@
 import {Icon} from '@/components/ui/Icon';
-import {EMAIL, PHONES, SOCIALS} from '@/lib/site';
+import {getSiteInfo} from '@/lib/siteInfo';
 
 import type {ReactNode} from 'react';
 import type {TPhone} from '@/lib/site';
@@ -14,14 +14,17 @@ type TContactsBlockProps = {
 	showSocials?: boolean;
 };
 
-export function ContactsBlock({
+export async function ContactsBlock({
 	address,
 	metro,
 	hours,
-	phones = PHONES,
-	email = EMAIL,
+	phones: phonesProp,
+	email: emailProp,
 	showSocials = true
-}: TContactsBlockProps): ReactNode {
+}: TContactsBlockProps): Promise<ReactNode> {
+	const info = await getSiteInfo();
+	const phones = phonesProp ?? info.phones;
+	const email = emailProp ?? info.email;
 	const row = 'flex items-start gap-3';
 	const icon = 'text-brand-700 mt-1 shrink-0';
 	return (
@@ -79,7 +82,7 @@ export function ContactsBlock({
 			</p>
 			{showSocials ? (
 				<ul className={'flex gap-2'}>
-					{SOCIALS.map((social) => (
+					{info.socials.map((social) => (
 						<li key={social.id}>
 							<a
 								href={social.href}

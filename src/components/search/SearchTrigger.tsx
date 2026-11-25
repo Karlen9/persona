@@ -9,14 +9,21 @@ import {SearchDialog} from './SearchDialog';
 import {prefetchSearch} from './useSearchEngine';
 
 import type {ReactNode} from 'react';
+import type {TNavItem} from '@/content/navigation';
+import type {TPhone} from '@/lib/site';
 
 function isTypingTarget(target: EventTarget | null): boolean {
 	if (!(target instanceof HTMLElement)) return false;
 	return target.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName);
 }
 
+type TSearchTriggerProps = {
+	mainNav: TNavItem[];
+	phone: TPhone;
+};
+
 /** Header search control: a real link to `/poisk/` (works without JS) that opens the palette instead. */
-export function SearchTrigger(): ReactNode {
+export function SearchTrigger({mainNav, phone}: TSearchTriggerProps): ReactNode {
 	const [open, setOpen] = useState(false);
 	const [shortcut, setShortcut] = useState('⌘K');
 
@@ -73,7 +80,7 @@ export function SearchTrigger(): ReactNode {
 					{shortcut}
 				</kbd>
 			</Link>
-			<SearchDialog open={open} onClose={() => setOpen(false)} />
+			<SearchDialog open={open} onClose={() => setOpen(false)} mainNav={mainNav} phone={phone} />
 		</>
 	);
 }

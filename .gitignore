@@ -31,3 +31,6 @@ yarn-error.log*
 # editor
 .idea
 .vscode
+
+# payload
+data/

@@ -1,18 +1,18 @@
 import Link from 'next/link';
 
-import {PHONES} from '@/lib/site';
-
 import type {ReactNode} from 'react';
+import type {TPhone} from '@/lib/site';
 
 type TSearchEmptyStateProps = {
 	query: string;
+	/** Main phone shown as the way out. */
+	phone: TPhone;
 	/** Closes the palette when one of the links is followed. */
 	onNavigate?: () => void;
 };
 
 /** «Ничего не найдено» with a spelling hint and a way out. */
-export function SearchEmptyState({query, onNavigate}: TSearchEmptyStateProps): ReactNode {
-	const phone = PHONES[0];
+export function SearchEmptyState({query, phone, onNavigate}: TSearchEmptyStateProps): ReactNode {
 	return (
 		<div className={'px-3 py-8 text-center'}>
 			<p className={'text-lg font-bold text-ink'}>{`Ничего не найдено по запросу «${query}»`}</p>

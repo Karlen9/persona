@@ -5,19 +5,22 @@ import {usePathname} from 'next/navigation';
 import {useEffect, useRef, useState} from 'react';
 
 import {Icon} from '@/components/ui/Icon';
-import {mainNav} from '@/content/navigation';
-import {EMAIL, LEAD_ANCHOR, PHONES, SOCIALS} from '@/lib/site';
+import {LEAD_ANCHOR} from '@/lib/site';
 
 import type {ReactNode} from 'react';
+import type {TNavItem} from '@/content/navigation';
+import type {TContactInfo} from '@/lib/site';
 
 const linkClass = 'text-ink block rounded-xl px-3 py-2.5 font-semibold hover:bg-brand-50';
 
 type TMobileNavProps = {
 	/** Server-rendered logo (Logo reads the filesystem, so it cannot be imported here). */
 	logo: ReactNode;
+	mainNav: TNavItem[];
+	contacts: TContactInfo;
 };
 
-export function MobileNav({logo}: TMobileNavProps): ReactNode {
+export function MobileNav({logo, mainNav, contacts}: TMobileNavProps): ReactNode {
 	const pathname = usePathname();
 	const [open, setOpen] = useState(false);
 	const dialogRef = useRef<HTMLDialogElement>(null);
@@ -162,7 +165,7 @@ export function MobileNav({logo}: TMobileNavProps): ReactNode {
 						</ul>
 					</nav>
 					<ul className={'mt-6 flex flex-col gap-1'}>
-						{PHONES.map((phone) => (
+						{contacts.phones.map((phone) => (
 							<li key={phone.href}>
 								<a href={phone.href} className={'flex items-center gap-3 px-3 py-2 font-bold text-ink'}>
 									<Icon name={'phone'} size={18} className={'text-brand-700'} />
@@ -172,16 +175,16 @@ export function MobileNav({logo}: TMobileNavProps): ReactNode {
 						))}
 						<li>
 							<a
-								href={`mailto:${EMAIL}`}
+								href={`mailto:${contacts.email}`}
 								className={'flex items-center gap-3 px-3 py-2 font-semibold text-ink'}
 							>
 								<Icon name={'mail'} size={18} className={'text-brand-700'} />
-								{EMAIL}
+								{contacts.email}
 							</a>
 						</li>
 					</ul>
 					<ul className={'mt-3 flex gap-2 px-3'}>
-						{SOCIALS.map((social) => (
+						{contacts.socials.map((social) => (
 							<li key={social.id}>
 								<a
 									href={social.href}
